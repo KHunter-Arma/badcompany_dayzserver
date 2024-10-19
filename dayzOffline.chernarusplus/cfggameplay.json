@@ -48,10 +48,10 @@
 	},
 	"WorldsData":
 	{
-		"lightingConfig": 1,
+		"lightingConfig": 0,
 		"objectSpawnersArr": [],
-		"environmentMinTemps": [-4.0, -4.0, -2.0, 2.0, 6.0, 15.0, 15.0, 15.0, 12.0, 8.0, 4.0, -2.0],
-		"environmentMaxTemps": [10.0, 10.0, 12.0, 14.0, 18.0, 30.0, 30.0, 30.0, 20.0, 17.0, 15.0, 12.0],
+		"environmentMinTemps": [-4, -4, -2, 2, 6, 15, 15, 15, 12, 8, 4, -2],
+		"environmentMaxTemps": [10, 10, 12, 14, 18, 30, 30, 30, 20, 17, 15, 12],
 		"wetnessWeightModifiers": [1.0, 1.0, 1.33, 1.66, 2.0]
 	},
 	"BaseBuildingData":

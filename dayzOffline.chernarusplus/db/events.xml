@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
+    <event name="AmbientFox">
+        <nominal>0</nominal>
+        <min>0</min>
+        <max>25</max>
+        <lifetime>33</lifetime>
+        <restock>25</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>80</distanceradius>
+        <cleanupradius>120</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="0" min="100" type="Animal_VulpesVulpes"/>
+        </children>
+    </event>
+    <event name="AmbientHare">
+        <nominal>0</nominal>
+        <min>0</min>
+        <max>40</max>
+        <lifetime>33</lifetime>
+        <restock>30</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>20</distanceradius>
+        <cleanupradius>40</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="0" min="100" type="Animal_LepusEuropaeus"/>
+        </children>
+    </event>
     <event name="AmbientHen">
         <nominal>30</nominal>
         <min>1</min>
@@ -427,6 +461,9 @@
             <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbM_CommercialPilotOld_Blue"/>
             <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbM_CommercialPilotOld_Brown"/>
             <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbM_CommercialPilotOld_Olive"/>
+            <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbM_Gamedev_Black"/>
+            <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbM_Gamedev_Blue"/>
+            <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbM_Gamedev_Gray"/>
             <child lootmax="5" lootmin="0" max="0" min="6" type="ZmbM_JournalistSkinny"/>
             <child lootmax="5" lootmin="0" max="0" min="6" type="ZmbM_MotobikerFat_Beige"/>
             <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbM_SkaterYoung_Brown"/>
@@ -906,7 +943,6 @@
         <limit>child</limit>
         <active>0</active>
         <children>
-            <child lootmax="15" lootmin="10" max="3" min="1" type="Wreck_Mi8_Crashed"/>
             <child lootmax="15" lootmin="10" max="3" min="1" type="Wreck_UH1Y"/>
         </children>
     </event>
@@ -1184,7 +1220,26 @@
             <child lootmax="0" lootmin="0" max="200" min="200" type="BushPlant_Acorus"/>
         </children>
     </event>
-	
+		<event name="VehicleBoat">
+        <nominal>20</nominal>
+        <min>20</min>
+        <max>20</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>200</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>20</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="4" min="4" type="Boat_01_Black"/>
+            <child lootmax="0" lootmin="0" max="9" min="9" type="Boat_01_Blue"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Boat_01_Camo"/>
+            <child lootmax="0" lootmin="0" max="6" min="6" type="Boat_01_Orange"/>
+        </children>
+    </event>
     <event name="VehicleOffroad02">
         <nominal>4</nominal>
         <min>4</min>
