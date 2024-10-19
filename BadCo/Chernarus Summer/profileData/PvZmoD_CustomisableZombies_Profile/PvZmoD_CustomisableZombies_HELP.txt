@@ -30,14 +30,13 @@
 		Don't forget .xml extension
 
 	Features_Activation	
-		Disable_All_Features
-			This will disable all feature of the mod
-			Useful if you encounter problems (but it shouldn't happen ;-))
-		Zombies_Health_Activated / Zombies_Resistance_Activated / Zombies_Speed_Activated / Zombies_Vision_Activated...
+		Disable_All_Features / Zombies_Health_Activated / Zombies_Resistance_Activated (DEPRECATED)
+			These features was not working properly
+		Zombies_Speed_Activated / Zombies_Vision_Activated...
 			This disable the feature one by one
 			It is the more efficient way to disable a feature (more that modify characteristics) 
 			All my code will be skipped so no bug or resource consume from a disabled feature that way
-			Note the disable "Bleeding_Chance_Activated" can solve solve some conflict with other mods that make player systematically sick when hit by zombies.
+			Note that disable "Bleeding_Chance_Activated" can solve solve some conflict with other mods that make player systematically sick when hit by zombies.
 			
 		Zombies_Hearing_Doors_Player_Standing_Activated
 			Activate/Deactivate zombies hearing the players opening or closing doors when he is standing.
@@ -469,6 +468,7 @@
 		Chance (%) for the player to bleed when hit by the zombie
 		Note that you can let the vanilla system dealing the bleeding chance by setting the value to -1
 		The vanilla bleeding chance are 10% for all attacks types
+		This feature is deactivated by default in the globals.xml because it conflicts with some medic mods that make player systematically sick when hit by zombies.
 	
 	Damage_Blood :
 		QUANTITY of blood the player loose when hit by the zombie
@@ -492,11 +492,12 @@
 	
 	LightAttack_Blocked
 		Value (ratio or quantity) applied when zombie perform a LIGHT attack and the player BLOCK it
+		If you set a value superior to 0 (whatever it is for Ratio_Damage_Health/_Shock/Bleeding_Chance...) zombies attacks will damage the clothes even if the player is in blocking stand.
 	
-	HeavyAttack_NotBlocked
+	HeavyAttack_NotBlocked - DEPRECATED : DayZ devs had disable heavy attacks.
 		Value (ratio or quantity) applied when zombie perform a HEAVY attack and the player does NOT BLOCK it
 	
-	HeavyAttack_Blocked
+	HeavyAttack_Blocked - DEPRECATED : DayZ devs had disable heavy attacks.
 		Value (ratio or quantity) applied when zombie perform a HEAVY attack and the player BLOCK it
 	
 	NightRatio

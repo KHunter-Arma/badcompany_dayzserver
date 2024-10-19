@@ -3,6 +3,7 @@
     "AllowOpenInventoryWhileResting": 0,
     "StaminaGeneralOptions": {
         "IsActive": 1,
+        "NotificationsType": 2.0,
         "RespawnValuePercent": 100.0,
         "WeightOverloadThresholdKg": 35.0,
         "WeightOverloadMultiplierMax": 10.0,
@@ -53,6 +54,7 @@
     },
     "StaminaSleepOptions": {
         "IsActive": 1,
+        "NotificationsType": 2.0,
         "RespawnValuePercent": 100.0,
         "ReductionOfMaximumSleepWhenDaytimePercent": 30.0,
         "ReductionOfMaximumSleepWhenOutdoorsPercent": 20.0,
@@ -93,6 +95,7 @@
     },
     "InediaMovementOptions": {
         "IsActive": 1,
+        "NotificationsType": 2.0,
         "WeightRestrictionsHandlerIsActive": 1,
         "WeakSlowdownIfLoadGreaterThanKg": 25.0,
         "MediumSlowdownIfLoadGreaterThanKg": 35.0,
@@ -105,6 +108,8 @@
         "MediumSlowdownIfSlopeGreaterThanDegree": 16.0,
         "StrongSlowdownIfSlopeGreaterThanDegree": 24.0,
         "ExtremeSlowdownIfSlopeGreaterThanDegree": 32.0,
+        "ForcedWalkIfSlopeGreaterThanDegree": 50.0,
+        "MovementRestrictionIfSlopeGreaterThanDegree": -1.0,
         "SurfaceRestrictionsHandlerIsActive": 1,
         "SurfaceRoadSpeedReduction": 0,
         "SurfaceGrassSpeedReduction": 0,
@@ -113,6 +118,7 @@
         "SurfaceStoneSpeedReduction": 0,
         "SurfaceSandSpeedReduction": 2,
         "SurfaceWaterSpeedReduction": 2,
+        "SurfaceSnowSpeedReduction": 1,
         "SurfaceFootwearSpeedImpact": {
             "Barefoot": -1
         },

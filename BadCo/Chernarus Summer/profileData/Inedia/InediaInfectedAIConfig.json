@@ -10,13 +10,15 @@
                 "military",
                 "police",
                 "firefighters",
-                "hunters"
+                "hunters",
+                "ZmbM_Gamedev_Base"
             ],
             "highdef": [
                 "military",
                 "police",
                 "firefighters",
-                "hunters"
+                "hunters",
+                "ZmbM_Gamedev_Base"
             ],
             "priests": [
                 "ZmbM_priestPopSkinny_Base"
@@ -429,7 +431,10 @@
             "all": 0.3
         },
         "AttackPlayersUnconscious": {
-            "all": 0
+            "all": 1
+        },
+        "AttackPlayersUnconsciousHitsLimit": {
+            "all": 1.0
         },
         "AttackAnimalsHandlerIsActive": {
             "all": 1
@@ -618,7 +623,8 @@
             "bears": 50.0
         },
         "InjuryHandlerRestoreInjuredLegAfterSeconds": {
-            "all": 0.0
+            "all": 0.0,
+            "AnimalBase": 900.0
         },
         "InjuryHandlerInjuredOneLegSpeedLimit": {
             "all": 2.0999999046325685
@@ -1015,6 +1021,12 @@
             "mediumstr": 15.0,
             "lowstr": 12.5
         },
+        "DisarmToPlayerChancePercent": {
+            "all": 0.0
+        },
+        "DisarmToPlayerInBlockChancePercent": {
+            "all": 0.0
+        },
         "DiseasesToPlayerHandlerIsActive": {
             "all": 0
         },
@@ -1144,6 +1156,12 @@
         "DamageToZombieHandlerIsActive": {
             "all": 1
         },
+        "DamageToZombieHealthPoints": {
+            "all": -1.0
+        },
+        "DamageToZombieHealthPointsLeg": {
+            "all": -1.0
+        },
         "DamageToZombieHeadMeleeMultiplier": {
             "mediumdef": 0.85,
             "all": 1.0,
@@ -1179,6 +1197,9 @@
         },
         "DamageToZombieFromHotItemsHp": {
             "all": 33.5
+        },
+        "DamageToZombieAlwaysKillOnBackstab": {
+            "all": 1
         },
         "DamageToZombieShockToStunHandlerIsActive": {
             "all": 1
@@ -1217,6 +1238,15 @@
         "MeleeAttacksDodgeCooldownSeconds": {
             "all": 5.0
         },
+        "JumpAttackHandlerIsActive": {
+            "all": 1
+        },
+        "JumpAttackChance": {
+            "all": 10.0
+        },
+        "JumpAttackCooldownSeconds": {
+            "all": 60.0
+        },
         "BloodHandlerIsActive": {
             "all": 1
         },
@@ -1234,6 +1264,15 @@
         },
         "BloodOnExplosiveDamageChancePercent": {
             "all": 66.0
+        },
+        "BloodSplatParticlesIsActive": {
+            "all": 1
+        },
+        "BloodTrailParticlesIsActive": {
+            "all": 1
+        },
+        "BloodPoolParticlesIsActive": {
+            "all": 1
         },
         "ResistContaminatedEffectHandlerIsActive": {
             "all": 1
@@ -1492,20 +1531,38 @@
             "land_bunker_door_area04"
         ],
         "DisableVanillaDoorNoiseSystem": 1,
+        "OverrideGetHitComponentChances": 1,
         "PainSystemIsActive": 1,
         "ShowPainBadges": 1,
         "PainHealingRatePerSecondPercent": 0.10000000149011612,
         "HealthDrainWithOverPainedLimbPerSecondPercent": 0.3,
         "BleedingChanceMultiplierWhenOverPainedLimbReceivingHits": 10.0,
-        "DisableVanillaLegsDamageSystem": 1,
         "ShowPainBlur": 1,
+        "LimbsBreakChancesMultiplier": 1.0,
+        "LimbsBreakPainThresholdPercent": 30.0,
+        "HeadBreakDurationSeconds": 900.0,
+        "ArmsBreakDurationSeconds": 900.0,
+        "LegsBreakDurationSeconds": 900.0,
+        "TorsoBreakDurationSeconds": 900.0,
+        "LimbsBreakFromFalls": 1,
+        "LegsBreakFromTraps": 1,
+        "VehicleCrashPainMultiplier": 1.0,
+        "VehicleCollisionsPainMultiplier": 1.0,
+        "FallPainMultiplier": 1.0,
+        "ExplosionsPainMultiplier": 1.0,
+        "UnconsciousWhenHeadBreak": 1,
         "UnconsciousWhenOverPainedHeadReceivingHits": 1,
-        "BreakOverPainedLegsWhenReceivingHits": 1,
-        "BreakOverPainedLegsWhenOtherFactors": 1,
         "CrouchWhenOverPainedTorsoReceivingHits": 1,
         "ArmsLowerWhenAimingWithInjuredArms": 1,
         "ArmsLowerWhenOverPainedArmsReceivingHits": 1,
+        "ArmsPainShockDamageActions": {
+            "all": 2.0,
+            "ActionPushCar": 4.0,
+            "ActionMineRock": 4.0,
+            "ActionMineTree": 4.0
+        },
         "AuditoryHallucinationsWithPainedHead": 1,
+        "VomitWithPainedHead": 1,
         "TinnitusWhenHeadReceivingHits": 1,
         "BlurWhenHeadReceivingHits": 1,
         "SoundAttenuationWhenHeadReceivingHits": 1,
@@ -1513,11 +1570,12 @@
         "PainArmsWhenHitWithoutGloves": 1,
         "ShockIfRunsWithPainedLegs": 1,
         "ShockIfAttackingWithPainedArms": 1,
-        "AllowPainFromGrenades": 1,
         "NoiseMultiplierDay": 1.0,
         "NoiseMultiplierNight": 0.7,
         "NoiseMultiplierCrouchDay": 0.5,
         "NoiseMultiplierCrouchNight": 0.3,
+        "NoiseMultiplierLadderDay": 0.20000000298023225,
+        "NoiseMultiplierLadderNight": 0.20000000298023225,
         "CamoClothingVisibilityMultipliers": {
             "GhillieSuit_ColorBase": 0.56,
             "all": 1.0,
@@ -1549,10 +1607,16 @@
         },
         "CollisionsSpeedReductionMultiplier": {
             "all": 1.0
+        },
+        "CollisionsDamageSpeedThresholdKmH": {
+            "all": 10.0,
+            "Bicycle_Base": 0.0
         }
     },
     "LossInterestToIrritantAfterSeconds": 120.0,
     "LightInHouseMultiplier": 0.33,
     "SoundInHouseMultiplier": 0.5,
+    "BloodParticlesLimit": 1000.0,
+    "BloodParticleDurationSeconds": 600.0,
     "SaveConfigAfterInit": 0
 }
