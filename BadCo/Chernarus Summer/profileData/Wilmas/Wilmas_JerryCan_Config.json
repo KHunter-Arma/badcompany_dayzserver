@@ -1,0 +1,6 @@
+{
+    "ConfigVersion": "1",
+    "Admin_JerryCan_Use_Log_File_1Description": "If Set True/1 Keeps A Log Of Times, PlayerNames And Which Train Is Refueled Using Admin JerryCan",
+    "Admin_JerryCan_Use_Log_File_2Description": "Log File Located At YourProfileFolder\\Wilmas\\Logging\\Admin_Refuel_Train.log",
+    "Admin_JerryCan_Use_Log_File_Enabled": 1
+}

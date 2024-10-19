@@ -4,13 +4,14 @@
 				<default name="group" lootmax="6" />
 				<default name="container" lootmax="4" />
 				<default name="keepInvalidPoints" enabled="yes" />
-				<default name="clusterMatrix" de="TrajectoryApple" width="12" height="12"/>
-				<default name="clusterMatrix" de="TrajectoryStones" width="12" height="12"/>
-				<default name="clusterMatrix" de="TrajectoryConiferous" width="12" height="12"/>
-				<default name="clusterMatrix" de="TrajectoryDeciduous" width="12" height="12"/>
-				<default name="clusterMatrix" de="TrajectoryHumus" width="12" height="12"/>
-				<default name="clusterMatrix" de="TrajectoryPear" width="12" height="12"/>
-				<default name="clusterMatrix" de="TrajectoryPlum" width="12" height="12"/>
+				<default name="clusterMatrix" de="TrajectoryApple" width="75" height="30"/>
+				<default name="clusterMatrix" de="TrajectoryStones" width="75" height="30"/>
+				<default name="clusterMatrix" de="TrajectoryConiferous" width="75" height="30"/>
+				<default name="clusterMatrix" de="TrajectoryDeciduous" width="75" height="30"/>
+				<default name="clusterMatrix" de="TrajectoryHumus" width="125" height="30"/>
+				<default name="clusterMatrix" de="TrajectoryPear" width="75" height="30"/>
+				<default name="clusterMatrix" de="TrajectoryPlum" width="75" height="30"/>
+				<default name="clusterMatrix" de="TrajectoryBoloto" width="75" height="30"/>
 <!--
 				<default name="clusterMatrix" de="TrajectoryStumps" width="12" height="12"/>
 -->
@@ -11252,7 +11253,7 @@
 		</group>
 		<group name="Land_City_Hospital" lootmax="40">
 				<usage name="Medic" />
-				<container name="lootFloor" lootmax="20">
+				<container name="lootFloor" lootmax="40">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -11279,6 +11280,26 @@
 						<point pos="0.411873 -7.347576 -18.891346" range="1.200000" height="2.000000" />
 						<point pos="-2.480643 -7.353249 16.798704" range="1.200000" height="2.000000" />
 						<point pos="-3.589576 -7.353186 13.322013" range="1.200000" height="2.000000" />
+						<point pos="6.425554 2.180218 -15.908813" range="0.488208" height="1.220520" /> 
+						<point pos="3.425554 1.180218 -13.908813" range="0.488208" height="1.220520" />
+						<point pos="7.425554 2.180218 -15.908813" range="0.488208" height="1.220520" />
+						<point pos="8.425554 2.180218 -15.908813" range="0.488208" height="1.220520" />
+						<point pos="9.425554 2.180218 -15.908813" range="0.488208" height="1.220520" />
+						<point pos="10.114185 2.180218 -15.908813" range="0.488208" height="1.220520" />
+						<point pos="11.125554 2.180218 -15.908813" range="0.488208" height="1.220520" />
+						<point pos="12.135554 2.180218 -15.908813" range="0.488208" height="1.220520" />
+						<point pos="-1.145554 2.180218 -15.908813" range="0.488208" height="1.220520" />
+						<point pos="-2.155554 2.180218 -15.908813" range="0.488208" height="1.220520" />
+						<point pos="-3.165554 2.180218 -15.908813" range="0.488208" height="1.220520" />
+						<point pos="-4.175554 2.180218 -15.908813" range="0.488208" height="1.220520" />
+						<point pos="-5.185554 2.180218 -15.908813" range="0.488208" height="1.220520" />
+						<point pos="-6.205554 2.180218 -15.908813" range="0.488208" height="1.220520" />
+						<point pos="-7.215554 2.180218 -15.908813" range="0.488208" height="1.220520" />
+						<point pos="6.625554 2.180218 -15.908813" range="0.488208" height="1.220520" />
+						<point pos="5.725554 2.180218 -15.908813" range="0.488208" height="1.220520" />
+						<point pos="5.825554 2.180218 -15.908813" range="0.488208" height="1.220520" />
+						<point pos="5.925554 2.180218 -15.908813" range="0.488208" height="1.220520" />
+						<point pos="6.725554 2.180218 -15.908813" range="0.488208" height="1.220520" /> 
 				</container>
 				<container name="lootshelves" lootmax="30">
 						<category name="tools" />
@@ -18194,6 +18215,8 @@
 						<point pos="0.878849 -0.900024 -0.231583" range="0.366364" height="0.920135" flags="32" />
 				</container>
 		</group>
+		
+		
 		
 		<!-- NOT INGAME - PREPARATION
 		<group name="Land_Wreck_truck02_aban1_green" >

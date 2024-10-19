@@ -1,2 +1,4 @@
 
 dayzOffline.chernarusplus/build.xml
+*.log
+*.slog

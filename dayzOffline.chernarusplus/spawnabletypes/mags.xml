@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<spawnabletypes>
+	
+	<damage min="0.66" max="0.9" />
+	
+	<type name="Mag_1911_7Rnd" />
+	<type name="Mag_AK101_30Rnd" />
+	<type name="Mag_AK74_30Rnd" />
+	<type name="Mag_AK74_45Rnd" />
+	<type name="Mag_AKM_30Rnd" />
+	<type name="Mag_AKM_Drum75Rnd" />
+	<type name="Mag_AKM_Palm30Rnd" />
+	<type name="Mag_Aug_30Rnd" />
+	<type name="Mag_CMAG_10Rnd" />
+	<type name="Mag_CMAG_20Rnd" />
+	<type name="Mag_CMAG_30Rnd" />
+	<type name="Mag_CMAG_40Rnd" />
+	<type name="Mag_CZ527_5rnd" />
+	<type name="Mag_CZ550_10Rnd" />
+	<type name="Mag_CZ61_20Rnd" />
+	<type name="Mag_CZ75_15Rnd" />
+	<type name="Mag_Deagle_9rnd" />
+	<type name="Mag_FAL_20Rnd" />
+	<type name="Mag_FAMAS_25Rnd" />
+	<type name="Mag_FNX45_15Rnd" />
+	<type name="Mag_Glock_15Rnd" />
+	<type name="Mag_IJ70_8Rnd" />
+	<type name="Mag_M14_10Rnd" />
+	<type name="Mag_M14_20Rnd" />
+	<type name="Mag_MKII_10Rnd" />
+	<type name="Mag_MP5_15Rnd" />
+	<type name="Mag_MP5_30Rnd" />
+	<type name="Mag_P1_8Rnd" />
+	<type name="Mag_PP19_64Rnd" />
+	<type name="Mag_Ruger1022_15Rnd" />
+	<type name="Mag_Ruger1022_30Rnd" />
+	<type name="Mag_SSG82_5rnd" />
+	<type name="Mag_STANAG_30Rnd" />
+	<type name="Mag_STANAG_60Rnd" />
+	<type name="Mag_SV98_10Rnd" />
+	<type name="Mag_SVD_10Rnd" />
+	<type name="Mag_Saiga_5Rnd" />
+	<type name="Mag_Saiga_8Rnd" />
+	<type name="Mag_Saiga_Drum20Rnd" />
+	<type name="Mag_Scout_5Rnd" />
+	<type name="Mag_UMP_25Rnd" />
+	<type name="Mag_VAL_20Rnd" />
+	<type name="Mag_VSS_10Rnd" />
+	<type name="Mag_Vikhr_30Rnd" />
+	
+</spawnabletypes>	

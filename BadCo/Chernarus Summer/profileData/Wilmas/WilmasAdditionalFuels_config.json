@@ -1,0 +1,111 @@
+{
+    "ConfigVersion": "1.02",
+    "Vehicles_You_Want_To_Use_Diesel": [
+        "Offroad_02",
+        "Truck_01_Base",	
+		"Gerph_Zil130",
+		"Gerph_Zil130_Green",
+		"Gerph_Zil130_legacy",
+		"Gerph_Zil130_legacy_Green",		
+		"ZIL133_flatbed",
+		"ZIL133_flatbed_green",
+		"GAZ_33081",
+		"GAZ_33081_camo",
+		"PAZ_672",
+		"PAZ_672_orange",
+		"KAVZ685_RF",
+		"KAVZ685_RF_beige",
+		"KAVZ685_RF_red",
+		"KAVZ685_RF_green",
+		"LIAZ_677RF",
+		"LIAZ_677RF_camo",
+		"KubanG1",
+		"KubanG1_green",
+		"Gaz_53RF",
+		"Gaz_53RF_petrol_truck",
+		"ZIL_130",
+		"ZIL_130_green",
+		"ZIL_130_ac40",
+		"kamaz_4310RUS",
+		"kamaz_4310RUS_blue",
+		"kamaz_4310RUS_orange",
+		"kamaz_4310RUS_kung",
+		"kamaz_4310RUS_kung_oon",
+		"ZIL133_double",
+		"ZIL133_double_green"
+    ],
+    "Allow_Getting_Diesel_From_Fuel_Pumps": 1,
+    "Allow_Diesel_Text_To_Be_Added_To_End_Of_Diesel_Vehicles_Display_Names": 0,
+    "Allow_Getting_AviationFuel_From_Fuel_Pumps": 0,
+    "TF_FuelPump_AdditionalFuels_Settings": "----------Below this is only relevant if you have TF-FuelPump Installed------------",
+    "Diesel_MaxAmount": 5000.0,
+    "Diesel_InitAmount": 2000.0,
+    "Diesel_EnergyConsumptionCoef": 0.2,
+    "Diesel_AdminRefuelAmount": 2000.0,
+    "AviationFuel_MaxAmount": 10000.0,
+    "AviationFuel_InitAmount": 5000.0,
+    "AviationFuel_EnergyConsumptionCoef": 0.2,
+    "AviationFuel_AdminRefuelAmount": 2000.0,
+    "HypeTrain_AdditionalFuels_Settings": "----------Below this is only relevant if you have HypeTrain Installed------------",
+    "Allow_Getting_Diesel_From_HypeTrains_Default_Fuel_Source": 1,
+    "FuelTankSpawnerDescription": "----------Below this is used to spawn fuel tanks with quantity------------",
+    "EnableSpawningFuelTanks": 0,
+    "FuelTankSpawnerList": [
+        {
+            "FuelTankClassname": "Wilmas_AviationFuelTank",
+            "Position": [
+                4702.1201171875,
+                339.0,
+                10357.099609375
+            ],
+            "Orientation": [
+                149.0,
+                0.0,
+                0.0
+            ],
+            "FuelQuantityInLitres_5000Max": 5000
+        },
+        {
+            "FuelTankClassname": "Wilmas_DieselFuelTank",
+            "Position": [
+                4713.43017578125,
+                339.0,
+                10364.2001953125
+            ],
+            "Orientation": [
+                -30.0,
+                0.0,
+                0.0
+            ],
+            "FuelQuantityInLitres_5000Max": 2500
+        },
+        {
+            "FuelTankClassname": "Wilmas_AviationFuelTank",
+            "Position": [
+                11967.900390625,
+                140.0,
+                12514.400390625
+            ],
+            "Orientation": [
+                21.0,
+                0.0,
+                0.0
+            ],
+            "FuelQuantityInLitres_5000Max": 5000
+        },
+        {
+            "FuelTankClassname": "Wilmas_DieselFuelTank",
+            "Position": [
+                11954.2998046875,
+                140.0,
+                12519.7998046875
+            ],
+            "Orientation": [
+                -158.9981231689453,
+                0.0,
+                0.0
+            ],
+            "FuelQuantityInLitres_5000Max": 2500
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+  "m_defaultZone": {
+    "m_id": 0,
+    "m_displayName": "Default Zone",
+    "m_position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "m_radius": 0.0,
+    "m_height": 0.0,
+    "m_enterMessage": "",
+    "m_leaveMessage": "",
+    "m_leaveTime": 0.0,
+    "m_godMode": 0,
+    "m_inverseDammage": 0,
+    "m_blockBuildingMode": 0,
+    "m_blockInteractionWithPlayers": 0,
+    "m_radiation": 0.0,
+    "m_psi": 0.0,
+    "m_gas": 0.0,
+    "m_spawnChance": 1.0
+  },
+  "m_customZones": [
+    {
+      "m_id": 1,
+      "m_displayName": "Ship-Central",
+      "m_position": [
+        13752.0,
+        0.0,
+        11164.0
+      ],
+      "m_radius": 200.0,
+      "m_height": 22.0,
+      "m_enterMessage": "",
+      "m_leaveMessage": "",
+      "m_leaveTime": 0.0,
+      "m_godMode": 0,
+      "m_inverseDammage": 0,
+      "m_blockBuildingMode": 0,
+      "m_blockInteractionWithPlayers": 0,
+      "m_radiation": 0.1,
+      "m_psi": 0.5,
+      "m_gas": 0.0,
+      "m_spawnChance": 1.0
+    },
+    {
+      "m_id": 2,
+      "m_displayName": "Tisy tents",
+      "m_position": [
+        1532.14685,
+        439.0011,
+        13582.2383
+      ],
+      "m_radius": 150.0,
+      "m_height": 22.0,
+      "m_enterMessage": "",
+      "m_leaveMessage": "",
+      "m_leaveTime": 0.0,
+      "m_godMode": 0,
+      "m_inverseDammage": 0,
+      "m_blockBuildingMode": 0,
+      "m_blockInteractionWithPlayers": 0,
+      "m_radiation": 0.3,
+      "m_psi": 0.1,
+      "m_gas": 0.0,
+      "m_spawnChance": 1.0
+    },
+    {
+      "m_id": 3,
+      "m_displayName": "Pavlovo Military Base",
+      "m_position": [
+        2141.27271,
+        88.39466,
+        3316.75
+      ],
+      "m_radius": 200.0,
+      "m_height": 26.0,
+      "m_enterMessage": "",
+      "m_leaveMessage": "",
+      "m_leaveTime": 0.0,
+      "m_godMode": 0,
+      "m_inverseDammage": 0,
+      "m_blockBuildingMode": 0,
+      "m_blockInteractionWithPlayers": 0,
+      "m_radiation": 0.0,
+      "m_psi": 0.0,
+      "m_gas": 1.0,
+      "m_spawnChance": 1.0
+    },
+    {
+      "m_id": 4,
+      "m_displayName": "Kamensk Military Base",
+      "m_position": [
+        7826.91748,
+        347.329,
+        14721.14
+      ],
+      "m_radius": 200.0,
+      "m_height": 26.0,
+      "m_enterMessage": "",
+      "m_leaveMessage": "",
+      "m_leaveTime": 0.0,
+      "m_godMode": 0,
+      "m_inverseDammage": 0,
+      "m_blockBuildingMode": 0,
+      "m_blockInteractionWithPlayers": 0,
+      "m_radiation": 0.0,
+      "m_psi": 0.0,
+      "m_gas": 1.0,
+      "m_spawnChance": 1.0
+    }
+  ]
+}

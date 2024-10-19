@@ -1,0 +1,28 @@
+{
+    "SpawnerDebug": 0,
+    "DeleteLogs": 0,
+    "ShSpObjectLocations": [
+        {
+            "name": "Prison",
+            "objects": [
+                "Animal_Shark"
+            ],
+            "number": 2,
+            "pos": [
+                "2737 0 1602",
+                "2376 0 1509",
+                "3127 0 1200"
+            ]
+        },
+        {
+            "name": "Skalisty",
+            "objects": [
+                "Animal_Shark"
+            ],
+            "number": 1,
+            "pos": [
+                "13200 0 3500"
+            ]
+        }
+    ]
+}

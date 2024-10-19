@@ -17373,4 +17373,51 @@
     <group name="PiceaAbies_2d" pos="15319.363281 218.683243 15242.416016" a="157.997818" />
     <group name="PiceaAbies_stump" pos="15309.484375 212.244003 15256.461914" a="-146.049606" />
     <group name="PiceaAbies_stump" pos="15319.015625 211.747635 15259.078125" a="69.841156" />
+	<group name="Phragmites" pos="9976.980469 63.686798 4162.299805" a="69.841156" />  <!-- вписать координаты спавнов <group в самом низу --> <!-- put the coordinates of the <group spavens at the very bottom -->
+	<group name="Phragmites" pos="9971.870117 64.093300 4221.990234" a="69.841156" />
+	<group name="Phragmites" pos="10043.299805 64.642502 4164.950195" a="69.841156" />
+	<group name="Phragmites" pos="10257.200195 45.982498 3639.959961" a="69.841156" />
+	<group name="Phragmites" pos="10303.200195 45.984402 3778.270020" a="69.841156" />
+	<group name="Phragmites" pos="9204.750000 108.250999 4917.879883" a="69.841156" />
+	<group name="Phragmites" pos="8691.080078 117.783997 4920.970215" a="69.841156" />
+	<group name="Phragmites" pos="7733.509766 48.261200 3946.030029" a="69.841156" />
+	<group name="Phragmites" pos="2653.399902 0.629692 1737.719971" a="69.841156" />
+	<group name="Phragmites" pos="2990.850098 1.136710 1853.020020" a="69.841156" />
+	<group name="Phragmites" pos="2979.729980 0.791454 1734.810059" a="69.841156" />
+	<group name="Phragmites" pos="3115.219971 1.014000 1674.170044" a="69.841156" />
+	<group name="Phragmites" pos="2871.969971 0.821805 1393.109985" a="69.841156" />
+	<group name="Phragmites" pos="3094.830078 1.414080 1353.270020" a="69.841156" />
+	<group name="Phragmites" pos="3235.830078 1.836310 1241.819946" a="69.841156" />
+	<group name="Phragmites" pos="15319.015625 211.747635 15259.078125" a="69.841156" />
+	<group name="Phragmites" pos="15319.015625 211.747635 15259.078125" a="69.841156" />
+	<group name="Phragmites" pos="15319.015625 211.747635 15259.078125" a="69.841156" />
+	<group name="Phragmites" pos="15319.015625 211.747635 15259.078125" a="69.841156" />
+	<group name="Phragmites" pos="15319.015625 211.747635 15259.078125" a="69.841156" />
+	<group name="Phragmites" pos="15319.015625 211.747635 15259.078125" a="69.841156" />
+	<group name="Phragmites" pos="3235.830078 1.836310 1241.819946" a="69.841156" />
+	<group name="Phragmites" pos="2968.929932 1.298360 1180.859985" a="69.841156" />
+	<group name="Phragmites" pos="2807.949951 0.586099 1090.969971" a="69.841156" />
+	<group name="Phragmites" pos="2692.449951 0.724179 1180.300049" a="69.841156" />
+	<group name="Phragmites" pos="2391.169922 2.455860 1596.939941" a="69.841156" />
+	<group name="Phragmites" pos="2458.550049 2.160160 1832.900024" a="69.841156" />
+	<group name="Phragmites" pos="4632.560059 301.903992 5914.169922" a="69.841156" />
+	<group name="Phragmites" pos="7329.490234 383.321991 9271.509766" a="69.841156" />
+	<group name="Phragmites" pos="7471.859863 390.834015 9280.150391" a="69.841156" />
+	<group name="Phragmites" pos="6541.080078 335.730988 9267.570313" a="69.841156" />
+	<group name="Phragmites" pos="5662.229980 319.325989 8564.299805" a="69.841156" />
+	<group name="Phragmites" pos="4259.029785 281.679993 7232.830078" a="69.841156" />
+	<group name="Phragmites" pos="4117.479980 292.816010 7201.689941" a="69.841156" />
+	<group name="Phragmites" pos="3380.000000 345.217010 6465.390137" a="69.841156" />
+	<group name="Phragmites" pos="2595.870117 251.757996 5920.700195" a="69.841156" />
+	<group name="Phragmites" pos="1444.729980 113.961998 3773.919922" a="69.841156" />
+	<group name="Phragmites" pos="972.468994 111.125999 3981.389893" a="69.841156" />
+	<group name="Phragmites" pos="5877.439941 153.401993 12579.000000" a="69.841156" />
+	<group name="Phragmites" pos="8544.709961 197.410995 13865.000000" a="69.841156" />
+	<group name="Phragmites" pos="9944.469727 61.214500 13880.599609" a="69.841156" />
+	<group name="Phragmites" pos="10059.500000 60.254200 13886.200195" a="69.841156" />
+	<group name="Phragmites" pos="10148.900391 53.110298 13974.200195" a="69.841156" />
+	<group name="Phragmites" pos="12002.000000 86.557701 14050.200195" a="69.841156" />
+	<group name="Phragmites" pos="13321.500000 67.134697 12073.599609" a="69.841156" />
+	<group name="Phragmites" pos="13410.799805 67.732002 12072.700195" a="69.841156" />
+	<group name="Phragmites" pos="13430.900391 67.777100 12020.799805" a="69.841156" />
 </map>

@@ -1,0 +1,46 @@
+//	------------------------------------------------------------------------------------------------------------------------------------------------------
+//	[Server_Config_VendingSearch]- 	Auto Generated VendingSearch_Config.txt, Created OnDate=2024/08/25 | Time=16:28:32
+//	<You MUST restart the server TWICE for chances to take effect. VERY IMPORTANT **ONLY CHANGE VARIABLES** >
+
+//Use this to create a NEW config from default
+//Warning: TRUE will create a NEW config file
+
+<NewConfig>	false
+
+//Use this to enable the DebugServerLogs
+//Disabled By Default
+
+<EnableDebugLogs>	false
+
+//Use this to enable the DebugVendingLogs
+//Disabled By Default
+
+<EnableVendingLogs>	false
+
+
+//You can use up to 20 objects, use only class names
+
+<ObjectArray>	Pepsi	// use class names such as SodaCan_Pipsi 
+<ObjectArray>	Cola
+<ObjectArray>	Sprite
+<ObjectArray>	SodaCan_Kvass
+<ObjectArray>	Fanta
+<ObjectArray>	Pepsi2
+<ObjectArray>	Bottle_Cola
+<ObjectArray>	Pepsi_Light
+<ObjectArray>	MonsterEnergy1
+<ObjectArray>	MonsterEnergy2
+<ObjectArray>	MonsterEnergy3
+<ObjectArray>	MonsterEnergy4
+<ObjectArray>	MonsterEnergy5
+<ObjectArray>	MonsterEnergy6
+<ObjectArray>	MonsterEnergy7
+<ObjectArray>	MonsterEnergy8
+<ObjectArray>	Cola_Cherry
+<ObjectArray>	Cola_Light
+<ObjectArray>	MTN_Dew
+<ObjectArray>	MTN_Dew2
+
+<FileEnd>
+//	----------------------------------------------------------------------------------------------------
+

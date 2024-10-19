@@ -1,0 +1,66 @@
+//	------------------------------------------------------------------------------------------------------------------------------------------------------
+//	[Server_Config_GarbageSearch]- 	Auto Generated GarbageSearch_Config.txt, Created OnDate=2024/08/25 | Time=16:28:32
+//	<You MUST restart the server TWICE for chances to take effect. VERY IMPORTANT **ONLY CHANGE VARIABLES** >
+
+//Use this to create a NEW config from default
+//Warning: TRUE will create a NEW config file
+
+<NewConfig>	false
+
+//Use this to enable the DebugServerLogs
+//Disabled By Default
+
+<EnableDebugLogs>	false
+
+//Use this to enable the DebugGarbageLogs
+//Disabled By Default
+
+<EnableGarbageLogs>	false
+
+
+//You can use up to 40 objects, use only class names
+
+<ObjectArray>	ChernarusMap_Open	// use class names such as SodaCan_Pipsi 
+<ObjectArray>	BurlapStrip
+<ObjectArray>	Battery9V
+<ObjectArray>	AntiPestsSpray
+<ObjectArray>	SodaCan_Pipsi_Empty
+<ObjectArray>	SodaCan_Cola_Empty
+<ObjectArray>	SodaCan_Spite_Empty
+<ObjectArray>	SodaCan_Kvass_empty
+<ObjectArray>	CookZ_EmptyBox
+<ObjectArray>	ChickenFeather
+<ObjectArray>	DeadRat_Grey
+<ObjectArray>	CP_CigarettePack_Empty
+<ObjectArray>	CookZ_EmptyCan
+<ObjectArray>	MouthRag
+<ObjectArray>	geb_GrubWorm
+<ObjectArray>	Nail
+<ObjectArray>	SyringeEmpty
+<ObjectArray>	SyringeFull
+<ObjectArray>	UnknownFoodCan_OpenedRotten
+<ObjectArray>	TunaCan_OpenedRotten
+<ObjectArray>	SpaghettiCan_OpenedRotten
+<ObjectArray>	SardinesCan_OpenedRotten
+<ObjectArray>	PorkCan_OpenedRotten
+<ObjectArray>	Netting
+<ObjectArray>	PeachesCan_OpenedRotten
+<ObjectArray>	SmallGuts
+<ObjectArray>	Animal_Rat_Grey
+<ObjectArray>	BakedBeansCan_OpenedRotten
+<ObjectArray>	CatFoodCan_OpenedRotten
+<ObjectArray>	Bone
+<ObjectArray>	PumpkinSeeds
+<ObjectArray>	Pajka_OpenedRotten
+<ObjectArray>	PepperSeeds
+<ObjectArray>	WaterBottle
+<ObjectArray>	Paper
+<ObjectArray>	Hook
+<ObjectArray>	ZucchiniSeeds
+<ObjectArray>	SantasBeard
+<ObjectArray>	Flag_Chernarus
+<ObjectArray>	GiftWrapPaper
+
+<FileEnd>
+//	----------------------------------------------------------------------------------------------------
+
