@@ -5,18 +5,17 @@
 <weather reset="0" enable="1">
     <overcast>
         <!-- Initial conditions of the overcast (target value, time to change, how long will it stay) -->
-        <current actual="0.1" time="120" duration="900" />
+        <current actual="0.1" time="0" duration="900" />
         <!-- What is the range of the overcast value (0..1) -->
-        <limits min="0.0" max="1.0" />
+        <limits min="0.0" max="0.5" />
         <!-- How long does it take to the overcast to change from one value to other (time in seconds) -->
         <timelimits min="1800" max="7200" />
-        <timelimits min="600" max="900" />
         <!-- How much should the overcast change (0..1) -->
-        <changelimits min="0.0" max="0.2" />
+        <changelimits min="0.0" max="0.3" />
     </overcast>
     <fog>
         <!-- Initial conditions of the fog (target value, time to change, how long will it stay) -->
-        <current actual="0.0" time="120" duration="999999" />
+        <current actual="0.0" time="0" duration="999999" />
         <!-- What is the range of the fog value (0..1) -->
         <limits min="0.0" max="0.0" />
         <!-- How long does it take to the fog to change from one value to other (time in seconds) -->
@@ -26,7 +25,7 @@
     </fog>
     <rain>
         <!-- Initial conditions of the rain (target value, time to change, how long will it stay), restricted by thresholds (see below) -->
-        <current actual="0.0" time="120" duration="3600" />
+        <current actual="0.0" time="0" duration="3600" />
         <!-- What is the range of the rain value (0..1) -->
         <limits min="0.0" max="1.0" />
         <!-- How long does it take to the rain to change from one value to other (time in seconds) -->
@@ -36,19 +35,19 @@
         <!-- What range of the overcast value allows the rain to be preset (min, max overcast value, time in seconds it takes for rain to stop if the overcast is outside of the specified range) -->
         <thresholds min="0.4" max="1.0" end="300" />
     </rain>
-		<windMagnitude>
+	<windMagnitude>
         <!-- Initial conditions of the wind magnitude (target value, time to change, how long will it stay), restricted by thresholds (see below) -->
-        <current actual="2.0" time="120" duration="3600" />
+        <current actual="0.5" time="0" duration="1800" />
         <!-- What is the range of the wind magnitude value in m/s -->
-        <limit min="0.0" max="10.0" />
+        <limit min="0.0" max="2.0" />
         <!-- How long does it take to the wind magnitude to change from one value to other (time in seconds) -->
-        <timelimits min="120" max="240" />
+        <timelimits min="1800" max="7200" />
         <!-- How much should the wind change -->
-        <changelimits min="0.0" max="10.0" />
+        <changelimits min="0.0" max="0.5" />
     </windMagnitude>
     <windDirection>
         <!-- Initial conditions of the wind direction(target value, time to change, how long will it stay), restricted by thresholds (see below) -->
-        <current actual="1.136" time="120" duration="28800" />
+        <current actual="1.136" time="0" duration="28800" />
         <!-- What is the range of the wind direction (angle in radians) -->
         <limit min="-2.40" max="2.40" />
         <!-- How long does it take to the wind direction to change from one value to other (time in seconds) -->
