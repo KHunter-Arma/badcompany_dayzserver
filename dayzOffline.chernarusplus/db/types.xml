@@ -23359,7 +23359,7 @@
 	<!-- CJ187-ArmedMines -->
 	<type name="CJ_Armed_LandMineTrap">
     <nominal>0</nominal>
-    <lifetime>28800</lifetime>
+    <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
     <quantmin>-</quantmin>
@@ -23369,7 +23369,7 @@
   </type>
 	<type name="CJ_Land_LandmineSign1">
     <nominal>0</nominal>
-    <lifetime>28800</lifetime>
+    <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
     <quantmin>-</quantmin>
@@ -23379,7 +23379,7 @@
   </type>
 	<type name="CJ_Land_LandmineSign2">
     <nominal>0</nominal>
-    <lifetime>28800</lifetime>
+    <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
     <quantmin>-</quantmin>
@@ -23389,7 +23389,7 @@
   </type>
 	<type name="CJ_Land_LandmineSign3">
     <nominal>0</nominal>
-    <lifetime>28800</lifetime>
+    <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
     <quantmin>-</quantmin>
@@ -23399,7 +23399,7 @@
   </type>
 	<type name="CJ_Land_LandmineSign4">
     <nominal>0</nominal>
-    <lifetime>28800</lifetime>
+    <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>0</min>
     <quantmin>-</quantmin>
