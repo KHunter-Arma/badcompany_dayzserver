@@ -1198,6 +1198,9 @@
         "DamageToZombieFromHotItemsHp": {
             "all": 33.5
         },
+		"DamageToZombieBodyPartsPiercingIsActive": {
+            "all": 1
+        },
         "DamageToZombieAlwaysKillOnBackstab": {
             "all": 1
         },
@@ -1251,7 +1254,10 @@
             "all": 1
         },
         "BloodVolumeMl": {
-            "all": 0.0
+            "all": 0.0,
+            "Horse_Base": 30000.0,
+            "Animal_BosTaurus": 30000.0,
+            "Animal_BosTaurusF": 30000.0
         },
         "BloodLossRateMinMl": {
             "all": 5.0
@@ -1540,6 +1546,8 @@
         "ShowPainBlur": 1,
         "LimbsBreakChancesMultiplier": 1.0,
         "LimbsBreakPainThresholdPercent": 30.0,
+        "LimbsBreakCalciumDurationSeconds": 300.0,
+        "LimbsBreakCalciumHealingMultiplier": 3.0,
         "HeadBreakDurationSeconds": 900.0,
         "ArmsBreakDurationSeconds": 900.0,
         "LegsBreakDurationSeconds": 900.0,
@@ -1556,11 +1564,20 @@
         "ArmsLowerWhenAimingWithInjuredArms": 1,
         "ArmsLowerWhenOverPainedArmsReceivingHits": 1,
         "ArmsPainShockDamageActions": {
+            "ActionUnrestrainSelf": 1.0,
             "all": 2.0,
             "ActionPushCar": 4.0,
             "ActionMineRock": 4.0,
             "ActionMineTree": 4.0
         },
+        "ArmsPainUnrestrainItems": {
+			"all": 1.0,
+			"BarbedWireLocked": 50.0,
+			"MetalWireLocked": 3.0,
+			"DuctTapeLocked": 1.0,
+			"RopeLocked": 1.3,
+			"HandcuffsLocked": 1.8
+		},
         "AuditoryHallucinationsWithPainedHead": 1,
         "VomitWithPainedHead": 1,
         "TinnitusWhenHeadReceivingHits": 1,
@@ -1570,6 +1587,7 @@
         "PainArmsWhenHitWithoutGloves": 1,
         "ShockIfRunsWithPainedLegs": 1,
         "ShockIfAttackingWithPainedArms": 1,
+        "DestroyedDoorNotificationType": 1,
         "NoiseMultiplierDay": 1.0,
         "NoiseMultiplierNight": 0.7,
         "NoiseMultiplierCrouchDay": 0.5,
