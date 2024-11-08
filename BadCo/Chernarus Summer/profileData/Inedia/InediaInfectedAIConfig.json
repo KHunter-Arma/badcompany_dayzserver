@@ -550,7 +550,7 @@
             "all": 1
         },
         "DownJumpHeightMax": {
-            "all": 15.0
+            "all": 10.0
         },
         "StuckJumpHandlerIsActive": {
             "all": 1
@@ -559,13 +559,13 @@
             "all": 1
         },
         "FallHandlerLegBreakHeightMin": {
-            "all": 3.0
+            "all": 6.0
         },
         "FallHandlerLegBreakHeightMax": {
             "all": 15.0
         },
         "FallHandlerDeathHeightMin": {
-            "all": 10.0
+            "all": 13.0
         },
         "FallHandlerDeathHeightMax": {
             "all": 20.0
@@ -1330,7 +1330,7 @@
             "all": 10.0
         },
         "CanBeButchered": {
-            "all": 1
+            "all": 0
         },
         "ButcheringSeconds": {
             "all": 30.0
@@ -1410,10 +1410,10 @@
             "all": 1
         },
         "VisionRangeMultiplierDay": {
-            "all": 1.5
+            "all": 0.0
         },
         "VisionRangeMultiplierNight": {
-            "all": 0.15
+            "all": 0.0
         },
         "SizeHandlerIsActive": {
             "all": 0
@@ -1540,18 +1540,18 @@
         "OverrideGetHitComponentChances": 1,
         "PainSystemIsActive": 1,
         "ShowPainBadges": 1,
-        "PainHealingRatePerSecondPercent": 0.10000000149011612,
-        "HealthDrainWithOverPainedLimbPerSecondPercent": 0.3,
+        "PainHealingRatePerSecondPercent": 0.05,
+        "HealthDrainWithOverPainedLimbPerSecondPercent": 0.1,
         "BleedingChanceMultiplierWhenOverPainedLimbReceivingHits": 10.0,
         "ShowPainBlur": 1,
-        "LimbsBreakChancesMultiplier": 1.0,
-        "LimbsBreakPainThresholdPercent": 30.0,
-        "LimbsBreakCalciumDurationSeconds": 300.0,
-        "LimbsBreakCalciumHealingMultiplier": 3.0,
-        "HeadBreakDurationSeconds": 900.0,
-        "ArmsBreakDurationSeconds": 900.0,
-        "LegsBreakDurationSeconds": 900.0,
-        "TorsoBreakDurationSeconds": 900.0,
+        "LimbsBreakChancesMultiplier": 1.4,
+        "LimbsBreakPainThresholdPercent": 80.0,
+        "LimbsBreakCalciumDurationSeconds": 900.0,
+        "LimbsBreakCalciumHealingMultiplier": 10.0,
+        "HeadBreakDurationSeconds": 7200.0,
+        "ArmsBreakDurationSeconds": 7200.0,
+        "LegsBreakDurationSeconds": 7200.0,
+        "TorsoBreakDurationSeconds": 7200.0,
         "LimbsBreakFromFalls": 1,
         "LegsBreakFromTraps": 1,
         "VehicleCrashPainMultiplier": 1.0,
@@ -1565,10 +1565,10 @@
         "ArmsLowerWhenOverPainedArmsReceivingHits": 1,
         "ArmsPainShockDamageActions": {
             "ActionUnrestrainSelf": 1.0,
-            "all": 2.0,
-            "ActionPushCar": 4.0,
-            "ActionMineRock": 4.0,
-            "ActionMineTree": 4.0
+            "all": 1.0,
+            "ActionPushCar": 3.0,
+            "ActionMineRock": 1.0,
+            "ActionMineTree": 1.0
         },
         "ArmsPainUnrestrainItems": {
 			"all": 1.0,
@@ -1635,6 +1635,6 @@
     "LightInHouseMultiplier": 0.33,
     "SoundInHouseMultiplier": 0.5,
     "BloodParticlesLimit": 1000.0,
-    "BloodParticleDurationSeconds": 600.0,
+    "BloodParticleDurationSeconds": 7200.0,
     "SaveConfigAfterInit": 0
 }
