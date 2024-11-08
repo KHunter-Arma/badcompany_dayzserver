@@ -24445,7 +24445,7 @@
     <nominal>45</nominal>
     <lifetime>691200</lifetime>
     <restock>43200</restock>
-    <min>25</min>
+    <min>30</min>
     <quantmin>20</quantmin>
     <quantmax>100</quantmax>
     <cost>100</cost>
@@ -24461,7 +24461,7 @@
     <nominal>45</nominal>
     <lifetime>691200</lifetime>
     <restock>43200</restock>
-    <min>25</min>
+    <min>30</min>
     <quantmin>20</quantmin>
     <quantmax>100</quantmax>
     <cost>100</cost>
@@ -24477,7 +24477,7 @@
     <nominal>45</nominal>
     <lifetime>691200</lifetime>
     <restock>43200</restock>
-    <min>25</min>
+    <min>30</min>
     <quantmin>20</quantmin>
     <quantmax>100</quantmax>
     <cost>100</cost>
@@ -25446,6 +25446,22 @@
     <tag name="ground" />
     <tag name="shelves" />
   </type>
+	
+	<!-- Inedia AI -->
+	<type name="InediaInfectedAI_Calcium">
+        <nominal>80</nominal>
+        <lifetime>691200</lifetime>
+        <restock>43200</restock>
+        <min>50</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <usage name="Medic"/>
+        <usage name="Town"/>
+				<tag name="shelves" />
+	</type>
     
 	<!-- CookZ -->
 	<type name="CookZ_FriedPotatoesBox">
