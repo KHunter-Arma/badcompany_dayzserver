@@ -29,14 +29,16 @@ class CfgSyberia {
        bleedingKnifehitRemoveBandagedTimeSec = -1;
        bleedingVisceraHealthlosePerSecond = 0.03;
        bleedingHematomaHealthlosePerSecond = 0.001;
-       hematomaPlayerhandsHitChance = 0.33;
-       hematomaZombieHitChance = 0.4;
-       hematomaRegenTimerSec = 900;
+       hematomaPlayerhandsHitChance = 0;
+       hematomaZombieHitChance = 0.05;
+       hematomaRegenTimerSec = 7200;
        hematomaRegenTimeBoostOnSalve = 15;
+       hematomaPainChance = 0.75;
        cuthitRegenTimerSec = 600;
        visceraKnifehitTorsoChance = 0.33;
        visceraBullethitTorsoChance = 0.2;
        concussionRegenTimeSec = 7200;
+       concussionZombieHitChance = 0.02;
        mindstateHealPerSec = 0.01;
        mindstateEmptyDeadtimeSec = 300;
        influenzaIncubatePeriodsSec[] = { 1800, 9000, 10800 };
@@ -54,6 +56,7 @@ class CfgSyberia {
        zombieOpenDoorEnable = 0;
        zombieBloodHandsChanceOnLooting = 0.5;
        zombieAttackPlayersInUnconscious = 0;
+       zombieDetectPlayerVisibilityMultiplier = 1;
     };
     class AnimalsSystem {
        animalsButchingKnifeDamage = 20;
