@@ -50,7 +50,7 @@
         "SyberiaProjectAthleticsImpactFrom": 1.0,
         "SyberiaProjectAthleticsImpactTo": 2.5,
         "SyberiaProjectStrengthImpactFrom": 1.0,
-        "SyberiaProjectStrengthImpactTo": 2.5
+        "SyberiaProjectStrengthImpactTo": 1.75
     },
     "StaminaSleepOptions": {
         "IsActive": 1,
