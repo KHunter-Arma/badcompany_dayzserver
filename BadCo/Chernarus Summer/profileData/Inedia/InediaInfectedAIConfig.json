@@ -1096,16 +1096,16 @@
         "DamageToPlayerInBlockHealthMultiplier": {
             "all": 0.85,
 			"SurvivorBase": 0.5,
-            "highstr": 0.85,
-            "mediumstr": 0.5,
-            "lowstr": 0.3
+            "highstr": 0.0,
+            "mediumstr": 0.0,
+            "lowstr": 0.0
         },
         "DamageToPlayerInBlockShockMultiplier": {
             "all": 1.7,
 			"SurvivorBase": 1.0,
-            "highstr": 1.7,
-            "mediumstr": 1.0,
-            "lowstr": 0.6
+            "highstr": 0.0,
+            "mediumstr": 0.0,
+            "lowstr": 0.0
         },
         "DamageToPlayerInBlockStaminaPercent": {
             "all": 10.0,
@@ -1121,9 +1121,9 @@
         "DamageToPlayerInBlockBleedingChancePercent": {
             "all": 80.0,
             "SurvivorBase": 1.0,
-            "highstr": 3.0,
-            "mediumstr": 1.5,
-            "lowstr": 0.6
+            "highstr": 0.0,
+            "mediumstr": 0.0,
+            "lowstr": 0.0
         },
         "StunToPlayerChancePercent": {
             "all": 10.0,
@@ -1224,7 +1224,7 @@
         "PainToPlayerHeadInBlockMultiplier": {
             "all": 2.0,
 			"SurvivorBase": 1.0,
-            "ZombieBase": 1.0
+            "ZombieBase": 0.0
         },
         "PainToPlayerArmsMultiplier": {
             "all": 1.4,
@@ -1234,7 +1234,7 @@
         "PainToPlayerArmsInBlockMultiplier": {
             "all": 1.4,
 			"SurvivorBase": 0.7,
-            "ZombieBase": 0.7
+            "ZombieBase": 0.0
         },
         "PainToPlayerArmsDisarmMultiplier": {
             "all": 0.4
@@ -1250,7 +1250,7 @@
         "PainToPlayerLegsInBlockMultiplier": {
             "all": 1.4,
 			"SurvivorBase": 0.7,
-            "ZombieBase": 0.7
+            "ZombieBase": 0.0
         },
         "PainToPlayerTorsoMultiplier": {
             "all": 1.0,
@@ -1260,7 +1260,7 @@
         "PainToPlayerTorsoInBlockMultiplier": {
             "all": 1.0,
 			"SurvivorBase": 0.5,
-            "ZombieBase": 0.5
+            "ZombieBase": 0.0
         },
         "DamageToZombieHandlerIsActive": {
             "all": 1
