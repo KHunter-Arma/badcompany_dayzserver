@@ -1343,7 +1343,8 @@
         },
         "DamageToZombieWeaponsMultipliers": {
             "all": {
-                "all": 1.0
+                "all": 1.0,
+                "MeleeDamage": 2.0
             }
         },
         "MeleeAttacksDodgeHandlerIsActive": {
