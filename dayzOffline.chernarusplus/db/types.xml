@@ -42277,7 +42277,27 @@
 		<cost>18</cost>
 		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
 	</type>
+	<type name="CrSk_BMW_525i_E34_Green">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>43200</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>18</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+	</type>
 	<type name="CrSk_BMW_525i_E34_Black">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>43200</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>18</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+	</type>
+	<type name="CrSk_BMW_525i_E34_Beater_Black">
 		<nominal>0</nominal>
 		<lifetime>3888000</lifetime>
 		<restock>43200</restock>
@@ -42307,19 +42327,19 @@
 		<cost>18</cost>
 		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
 	</type>
-    <type name="BMWE34_kapot">
-        <nominal>0</nominal>
-        <lifetime>691200</lifetime>
-        <restock>43200</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>18</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-        <category name="tools"/>		<tag name="floor"/>		<tag name="ground"/>
-        <tag name="floor"/>
-        <usage name="Industrial"/>
-    </type>
+	<type name="BMWE34_kapot">
+		<nominal>0</nominal>
+		<lifetime>691200</lifetime>
+		<restock>43200</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>18</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+		<category name="tools"/>		<tag name="floor"/>		<tag name="ground"/>
+		<tag name="floor"/>
+		<usage name="Industrial"/>
+	</type>
 	<type name="BMWE34_bagazhnik">
         <nominal>0</nominal>
         <lifetime>691200</lifetime>
@@ -42619,6 +42639,96 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
+	<type name="BMWE34_kapot_Beater_Black">
+        <nominal>1</nominal>
+        <lifetime>691200</lifetime>
+        <restock>43200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>18</cost>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <category name="tools"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+	<type name="BMWE34_bagazhnik_Beater_Black">
+        <nominal>1</nominal>
+        <lifetime>691200</lifetime>
+        <restock>43200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>18</cost>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <category name="tools"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="BMWE34_dver_1_1_Beater_Black">
+        <nominal>1</nominal>
+        <lifetime>691200</lifetime>
+        <restock>43200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>18</cost>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <category name="tools"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="BMWE34_dver_1_2_Beater_Black">
+        <nominal>1</nominal>
+        <lifetime>691200</lifetime>
+        <restock>43200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>18</cost>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <category name="tools"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+	<type name="BMWE34_dver_2_1_Beater_Black">
+        <nominal>1</nominal>
+        <lifetime>691200</lifetime>
+        <restock>43200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>18</cost>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <category name="tools"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="BMWE34_dver_2_2_Beater_Black">
+        <nominal>1</nominal>
+        <lifetime>691200</lifetime>
+        <restock>43200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>18</cost>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <category name="tools"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>	
 	<type name="BMWE34_kapot_Purple">
         <nominal>0</nominal>
         <lifetime>691200</lifetime>
@@ -42697,6 +42807,96 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
     </type>
+	<type name="BMWE34_kapot_Green">
+		<nominal>0</nominal>
+        <lifetime>691200</lifetime>
+        <restock>43200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>18</cost>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <category name="tools"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+	<type name="BMWE34_bagazhnik_Green">
+        <nominal>0</nominal>
+        <lifetime>691200</lifetime>
+        <restock>43200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>18</cost>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <category name="tools"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="BMWE34_dver_1_1_Green">
+        <nominal>0</nominal>
+        <lifetime>691200</lifetime>
+        <restock>43200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>18</cost>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <category name="tools"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="BMWE34_dver_2_1_Green">
+        <nominal>0</nominal>
+        <lifetime>691200</lifetime>
+        <restock>43200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>18</cost>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <category name="tools"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+	<type name="BMWE34_dver_1_2_Green">
+        <nominal>0</nominal>
+        <lifetime>691200</lifetime>
+        <restock>43200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>18</cost>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <category name="tools"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="BMWE34_dver_2_2_Green">
+        <nominal>0</nominal>
+        <lifetime>691200</lifetime>
+        <restock>43200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>18</cost>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <category name="tools"/>
+		<tag name="floor"/>
+		<tag name="ground"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>	
 	<type name="BMWE34_koleso_style5">
         <nominal>2</nominal>
         <lifetime>691200</lifetime>

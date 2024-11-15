@@ -10205,7 +10205,55 @@
 		<damage min="0.5" max="0.9" />
 	</type>
 
-		<!-- BMW mod -->
+	<!-- BMW mod -->
+	<type name="CrSk_BMW_525i_E34">
+		<attachments chance="1.00">
+			<item name="BMWE34_koleso_style5" chance="0.6" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="BMWE34_koleso_style5" chance="0.6" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="BMWE34_koleso_style5" chance="0.6" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="BMWE34_koleso_style5" chance="0.6" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.3" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.2" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.2" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.2" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="BMWE34_dver_1_2" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="BMWE34_dver_2_2" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="BMWE34_dver_1_1" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="BMWE34_dver_2_1" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="BMWE34_kapot" chance="0.2" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="BMWE34_bagazhnik" chance="0.2" />
+    </attachments>
+		<damage min="0.66" max="0.95" />
+	</type>	
 	<type name="CrSk_BMW_525i_E34_Red">
 		<attachments chance="1.00">
 			<item name="BMWE34_koleso_style2" chance="0.60" />
@@ -10254,6 +10302,54 @@
         </attachments>
 		<damage min="0.66" max="0.95" />
 	</type>
+	<type name="CrSk_BMW_525i_E34_Green">
+		<attachments chance="1.00">
+			<item name="BMWE34_koleso_style2" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="BMWE34_koleso_style2" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="BMWE34_koleso_style37" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="BMWE34_koleso_style37" chance="0.60" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.20" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.20" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="BMWE34_dver_1_2_Green" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="BMWE34_dver_2_2_Green" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="BMWE34_dver_1_1_Green" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="BMWE34_dver_2_1_Green" chance="0.30" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="BMWE34_kapot_Green" chance="0.2" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="BMWE34_bagazhnik_Green" chance="0.2" />
+        </attachments>
+		<damage min="0.66" max="0.95" />
+	</type>	
 	<type name="CrSk_BMW_525i_E34_Black">
 		<attachments chance="1.00">
 			<item name="BMWE34_koleso_style21" chance="0.60" />
@@ -10350,6 +10446,54 @@
 			</attachments>
 			<damage min="0.66" max="0.95" />
 		</type>
+	<type name="CrSk_BMW_525i_E34_Beater_Black">
+		<attachments chance="1.00">
+				<item name="BMWE34_koleso_shtamp_black" chance="0.60" />
+					</attachments>
+			<attachments chance="1.00">
+				<item name="BMWE34_koleso_shtamp_black" chance="0.60" />
+					</attachments>
+			<attachments chance="1.00">
+				<item name="BMWE34_koleso_shtamp" chance="0.60" />
+					</attachments>
+			<attachments chance="1.00">
+				<item name="BMWE34_koleso_shtamp" chance="0.60" />
+					</attachments>
+			<attachments chance="1.00">
+				<item name="CarRadiator" chance="0.30" />
+					</attachments>
+			<attachments chance="1.00">
+				<item name="CarBattery" chance="0.30" />
+					</attachments>
+			<attachments chance="1.00">
+				<item name="SparkPlug" chance="0.20" />
+					</attachments>
+			<attachments chance="1.00">
+				<item name="HeadlightH7" chance="0.20" />
+					</attachments>
+			<attachments chance="1.00">
+				<item name="HeadlightH7" chance="0.20" />
+					</attachments>
+			<attachments chance="1.00">
+				<item name="BMWE34_dver_1_2_Beater_Black" chance="0.30" />
+					</attachments>
+			<attachments chance="1.00">
+				<item name="BMWE34_dver_2_2_Beater_Black" chance="0.30" />
+					</attachments>
+			<attachments chance="1.00">
+				<item name="BMWE34_dver_1_1_Beater_Black" chance="0.30" />
+					</attachments>
+			<attachments chance="1.00">
+				<item name="BMWE34_dver_2_1_Beater_Black" chance="0.30" />
+					</attachments>
+			<attachments chance="1.00">
+				<item name="BMWE34_kapot_Beater_Black" chance="0.2" />
+					</attachments>
+			<attachments chance="1.00">
+				<item name="BMWE34_bagazhnik_Beater_Black" chance="0.2" />
+			</attachments>
+			<damage min="0.66" max="0.95" />
+		</type>
 	<type name="CrSk_BMW_525i_E34_Purple">
 			<attachments chance="1.00">
 				<item name="BMWE34_koleso_style21_black" chance="0.60" />
@@ -10398,7 +10542,7 @@
 			</attachments>
 			<damage min="0.66" max="0.95" />
 		</type>
-			
+				
 	<!-- CJ187 BMW Expansion mod -->
 	<type name="CrSk_BMW_525i_E34">
 		<attachments chance="0.6">
