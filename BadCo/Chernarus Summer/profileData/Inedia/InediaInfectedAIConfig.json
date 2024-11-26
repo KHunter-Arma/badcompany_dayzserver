@@ -520,7 +520,7 @@
             "all": 1
         },
         "AttackPlayersUnconsciousHitsLimit": {
-            "all": 1.0
+            "all": 2.0
         },
         "AttackAnimalsHandlerIsActive": {
             "all": 1
@@ -1059,18 +1059,18 @@
             "all": 1
         },
         "DamageToPlayerHealthMultiplier": {
-            "all": 0.85,
-			"SurvivorBase": 0.5,
-            "highstr": 0.85,
-            "mediumstr": 0.5,
-            "lowstr": 0.3
+            "all": 0.567,
+			"SurvivorBase": 0.375,
+            "highstr": 0.567,
+            "mediumstr": 0.375,
+            "lowstr": 0.2
         },
         "DamageToPlayerShockMultiplier": {
-            "all": 1.7,
-			"SurvivorBase": 1.0,
-            "highstr": 1.7,
-            "mediumstr": 1.0,
-            "lowstr": 0.6
+            "all": 2.0,
+			"SurvivorBase": 1.5,
+            "highstr": 2.0,
+            "mediumstr": 1.5,
+            "lowstr": 1.0
         },
         "DamageToPlayerStaminaPercent": {
             "all": 5.0,
@@ -1094,15 +1094,15 @@
             "lowstr": 3.0
         },
         "DamageToPlayerInBlockHealthMultiplier": {
-            "all": 0.85,
-			"SurvivorBase": 0.5,
+            "all": 1.0,
+			"SurvivorBase": 0.0,
             "highstr": 0.0,
             "mediumstr": 0.0,
             "lowstr": 0.0
         },
         "DamageToPlayerInBlockShockMultiplier": {
-            "all": 1.7,
-			"SurvivorBase": 1.0,
+            "all": 2.0,
+			"SurvivorBase": 0.0,
             "highstr": 0.0,
             "mediumstr": 0.0,
             "lowstr": 0.0
@@ -1120,7 +1120,7 @@
         },
         "DamageToPlayerInBlockBleedingChancePercent": {
             "all": 80.0,
-            "SurvivorBase": 1.0,
+            "SurvivorBase": 0.0,
             "highstr": 0.0,
             "mediumstr": 0.0,
             "lowstr": 0.0
@@ -1344,7 +1344,7 @@
         "DamageToZombieWeaponsMultipliers": {
             "all": {
                 "all": 1.0,
-                "MeleeDamage": 2.0
+                "MeleeDamage": 3.0
             }
         },
         "MeleeAttacksDodgeHandlerIsActive": {
@@ -1654,11 +1654,11 @@
         "OverrideGetHitComponentChances": 1,
         "PainSystemIsActive": 1,
         "ShowPainBadges": 1,
-        "PainHealingRatePerSecondPercent": 0.025,
-        "HealthDrainWithOverPainedLimbPerSecondPercent": 0.033,
+        "PainHealingRatePerSecondPercent": 0.012,
+        "HealthDrainWithOverPainedLimbPerSecondPercent": 0.1,
         "BleedingChanceMultiplierWhenOverPainedLimbReceivingHits": 3.0,
         "ShowPainBlur": 1,
-        "LimbsBreakChancesMultiplier": 1.5,
+        "LimbsBreakChancesMultiplier": 1.0,
         "LimbsBreakPainThresholdPercent": 50.0,
         "LimbsBreakCalciumDurationSeconds": 900.0,
         "LimbsBreakCalciumHealingMultiplier": 10.0,
@@ -1668,10 +1668,10 @@
         "TorsoBreakDurationSeconds": 7200.0,
         "LimbsBreakFromFalls": 1,
         "LegsBreakFromTraps": 1,
-        "VehicleCrashPainMultiplier": 3.0,
-        "VehicleCollisionsPainMultiplier": 3.0,
+        "VehicleCrashPainMultiplier": 1.0,
+        "VehicleCollisionsPainMultiplier": 1.0,
         "FallPainMultiplier": 1.0,
-        "ExplosionsPainMultiplier": 1.5,
+        "ExplosionsPainMultiplier": 1.0,
         "UnconsciousWhenHeadBreak": 1,
         "UnconsciousWhenOverPainedHeadReceivingHits": 1,
         "CrouchWhenOverPainedTorsoReceivingHits": 1,
@@ -1699,8 +1699,8 @@
         "SoundAttenuationWhenHeadReceivingHits": 1,
         "MovementCoordinationImpairmentWhenHeadReceivingHits": 1,
         "PainArmsWhenHitWithoutGloves": 1,
-        "ShockIfRunsWithPainedLegs": 1,
-        "ShockIfAttackingWithPainedArms": 1,
+        "ShockIfRunsWithPainedLegs": 0,
+        "ShockIfAttackingWithPainedArms": 0,
         "DestroyedDoorNotificationType": 1,
         "NoiseMultiplierDay": 1.0,
         "NoiseMultiplierNight": 0.7,
@@ -1742,7 +1742,7 @@
         },
         "CollisionsDamageSpeedThresholdKmH": {
             "all": 10.0,
-            "Bicycle_Base": 0.0
+            "Bicycle_Base": 5.0
         }
     },
     "LossInterestToIrritantAfterSeconds": 120.0,
