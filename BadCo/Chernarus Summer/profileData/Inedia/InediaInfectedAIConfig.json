@@ -1217,23 +1217,27 @@
             "all": 1
         },
         "PainToPlayerHeadMultiplier": {
-            "all": 2.0,
-			"SurvivorBase": 1.0,
-            "ZombieBase": 1.0
+            "all": 1.0,
+            "ZombieBase": 1.0,
+            "SurvivorBase": 1.0,
+						"AnimalBase": 1.0
         },
         "PainToPlayerHeadInBlockMultiplier": {
-            "all": 2.0,
-			"SurvivorBase": 1.0,
+            "all": 1.0,
+            "AnimalBase": 1.0,
+            "SurvivorBase": 0.0,
             "ZombieBase": 0.0
         },
         "PainToPlayerArmsMultiplier": {
-            "all": 1.4,
-			"SurvivorBase": 0.7,
-            "ZombieBase": 0.7
+            "all": 1.0,
+            "ZombieBase": 1.0,
+            "SurvivorBase": 1.0,
+						"AnimalBase": 1.0
         },
         "PainToPlayerArmsInBlockMultiplier": {
-            "all": 1.4,
-			"SurvivorBase": 0.7,
+            "all": 1.0,
+						"AnimalBase": 1.0,
+						"SurvivorBase": 0.0,
             "ZombieBase": 0.0
         },
         "PainToPlayerArmsDisarmMultiplier": {
@@ -1243,45 +1247,55 @@
             "all": 0.3
         },
         "PainToPlayerLegsMultiplier": {
-            "all": 1.4,
-			"SurvivorBase": 0.7,
-            "ZombieBase": 0.7
+            "all": 1.0,
+            "ZombieBase": 1.0,
+            "SurvivorBase": 1.0,
+						"AnimalBase": 1.0
         },
         "PainToPlayerLegsInBlockMultiplier": {
-            "all": 1.4,
-			"SurvivorBase": 0.7,
+            "all": 1.0,
+						"AnimalBase": 1.0,
+						"SurvivorBase": 0.0,
             "ZombieBase": 0.0
         },
         "PainToPlayerTorsoMultiplier": {
             "all": 1.0,
-			"SurvivorBase": 0.5,
-            "ZombieBase": 0.5
+            "ZombieBase": 1.0,
+            "SurvivorBase": 1.0,
+						"AnimalBase": 1.0
         },
         "PainToPlayerTorsoInBlockMultiplier": {
             "all": 1.0,
-			"SurvivorBase": 0.5,
+						"AnimalBase": 1.0,
+						"SurvivorBase": 0.0,
             "ZombieBase": 0.0
         },
         "DamageToZombieHandlerIsActive": {
             "all": 1
         },
         "DamageToZombieHealthPoints": {
-            "all": -1.0
+            "all": -1.0,
+            "ZombieBase": 100.0,
+            "SurvivorBase": 100.0,
+            "bears": 1000.0,
+            "wolves": 200.0
         },
         "DamageToZombieHealthPointsLeg": {
-            "all": -1.0
+            "all": -1.0,
+						"ZombieBase": 40.0,
+            "SurvivorBase": 100.0,
+            "bears": 400.0,
+            "wolves": 100.0
         },
         "DamageToZombieHeadMeleeMultiplier": {
-            "all": 2.0,
+            "all": 1.0,
             "SurvivorBase": 1.0,
-			"highdef": 0.6,
-			"mediumdef": 1.0,
-            "lowdef": 1.6
+			"highdef": 0.9,
+			"mediumdef": 1.5,
+            "lowdef": 2.4
         },
         "DamageToZombieHeadRangeMultiplier": {
-            "all": 2.0,
-            "SurvivorBase": 1.0,
-			"ZombieBase": 1.0
+            "all": 1.0
         },
         "DamageToZombieBodyMeleeMultiplier": {
             "all": 1.0,
@@ -1303,7 +1317,7 @@
             "lowdef": 0.3
         },
         "DamageToZombieFromExplosionsMultiplier": {
-            "all": 3.0,
+            "all": 1.0,
             "SurvivorBase": 1.0,
 			"ZombieBase": 1.0
         },
@@ -1343,8 +1357,7 @@
         },
         "DamageToZombieWeaponsMultipliers": {
             "all": {
-                "all": 1.0,
-                "MeleeDamage": 3.0
+                "all": 1.0
             }
         },
         "MeleeAttacksDodgeHandlerIsActive": {
@@ -1655,7 +1668,7 @@
         "PainSystemIsActive": 1,
         "ShowPainBadges": 1,
         "PainHealingRatePerSecondPercent": 0.012,
-        "HealthDrainWithOverPainedLimbPerSecondPercent": 0.1,
+        "HealthDrainWithOverPainedLimbPerSecondPercent": 0.01,
         "BleedingChanceMultiplierWhenOverPainedLimbReceivingHits": 3.0,
         "ShowPainBlur": 1,
         "LimbsBreakChancesMultiplier": 1.0,
@@ -1685,12 +1698,12 @@
             "ActionMineTree": 4.0
         },
         "ArmsPainUnrestrainItems": {
-			"all": 16.0,
-			"BarbedWireLocked": 50.0,
-			"MetalWireLocked": 24.0,
-			"DuctTapeLocked": 8.0,
-			"RopeLocked": 12.0,
-			"HandcuffsLocked": 16.0
+			"all": 2.0,
+			"BarbedWireLocked": 6.0,
+			"MetalWireLocked": 3.0,
+			"DuctTapeLocked": 1.0,
+			"RopeLocked": 1.5,
+			"HandcuffsLocked": 2.0
 		},
         "AuditoryHallucinationsWithPainedHead": 1,
         "VomitWithPainedHead": 1,

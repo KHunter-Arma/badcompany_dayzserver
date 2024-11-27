@@ -57,7 +57,7 @@ class CfgSyberia {
        stomatchpoisonChanceDrinkWell = 0.1;
        stomatchpoisonDefaultTimes[] = { 600, 1200, 900 };
        radiationSleepingDec = 1;
-       shockDecrementOnLowHealthAndBlood = 0.05;
+       shockDecrementOnLowHealthAndBlood = 0.55;
        zombieHitDecreaseMind[] = { 0.02, 5 };
        zombieKillDecreaseMind[] = { 0.1, 10 };
     };
