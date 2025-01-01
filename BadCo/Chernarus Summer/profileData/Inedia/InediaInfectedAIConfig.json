@@ -176,6 +176,8 @@
 					"HavingProjectileChancePercent": 25,
 					"ThrowConditionThrowChancePercent": 100,
 					"ThrowConditionAmountOfProjectiles": 1.0,
+					"TargetBreakChanceMultiplier": 0.2,
+					"TargetDeepWoundChanceMultiplier": 0,
 					"TargetArmsPainDisarmMultiplier": 0.8,
                     "TargetStunChancePercent": 75.0,
                     "TargetShockDamage": 30.0,
@@ -197,6 +199,8 @@
 					"HavingProjectileChancePercent": 1,
 					"ThrowConditionThrowChancePercent": 100,
 					"ThrowConditionAmountOfProjectiles": 1.0,
+					"TargetBreakChanceMultiplier": 0,
+					"TargetDeepWoundChanceMultiplier": 0,
 					"TargetArmsPainDisarmMultiplier": 0.4,
                     "TargetStunChancePercent": 10.0,
                     "TargetShockDamage": 15.0,
@@ -248,6 +252,8 @@
                     "HavingProjectileChancePercent": 1,
 					"ThrowConditionThrowChancePercent": 100,
 					"ThrowConditionAmountOfProjectiles": 1.0,
+					"TargetBreakChanceMultiplier": 0,
+					"TargetDeepWoundChanceMultiplier": 0,
 					"TargetArmsPainDisarmMultiplier": 0.4,
                     "TargetStunChancePercent": 10.0,
                     "TargetShockDamage": 15.0,
@@ -271,6 +277,8 @@
 					"HavingProjectileChancePercent": 20,
 					"ThrowConditionThrowChancePercent": 100,
 					"ThrowConditionAmountOfProjectiles": 1.0,
+					"TargetBreakChanceMultiplier": 0.33,
+					"TargetDeepWoundChanceMultiplier": 0,
 					"TargetArmsPainDisarmMultiplier": 0.8,
                     "TargetStunChancePercent": 75.0,
                     "TargetShockDamage": 30.0,
@@ -312,6 +320,8 @@
                     "HavingProjectileChancePercent": 1,
 					"ThrowConditionThrowChancePercent": 100,
 					"ThrowConditionAmountOfProjectiles": 1.0,
+					"TargetBreakChanceMultiplier": 0.1,
+					"TargetDeepWoundChanceMultiplier": 0,
 					"TargetArmsPainDisarmMultiplier": 0.4,
 					"TargetStunChancePercent": 60.0,
                     "TargetShockDamage": 20.0,
@@ -363,6 +373,8 @@
 					"ThrowConditionAllowThrowingForCrawlers": 0,
                     "ThrowConditionZombieTargetVerticalDistanceMin": 0.5,
                     "ThrowConditionGroundTargetDistanceMin": 0.5,
+										"TargetBreakChanceMultiplier": 0.1,
+					"TargetDeepWoundChanceMultiplier": 0,
 					"TargetArmsPainDisarmMultiplier": 0.4,
                     "TargetStunChancePercent": 30.0,
                     "TargetShockDamage": 10.0,
@@ -454,6 +466,8 @@
                     "HavingProjectileChancePercent": 1,
 					"ThrowConditionThrowChancePercent": 100,
 					"ThrowConditionAmountOfProjectiles": 1.0,
+					"TargetBreakChanceMultiplier": 0.1,
+					"TargetDeepWoundChanceMultiplier": 0,
 					"TargetArmsPainDisarmMultiplier": 0.2,
 					"TargetStunChancePercent": 30.0,
                     "TargetShockDamage": 10.0,
@@ -516,7 +530,7 @@
         "BreakingDoorsCrawlersChanceMultiplier": {
             "all": 0.3
         },
-        "AttackPlayersUnconscious": {
+        "AttackPlayersUnconsciousHandlerIsActive": {
             "all": 1
         },
         "AttackPlayersUnconsciousHitsLimit": {
@@ -1270,6 +1284,15 @@
 						"SurvivorBase": 0.0,
             "ZombieBase": 0.0
         },
+				"PainToPlayerLimbsBreakChancesMultiplier": {
+            "all": 1.0,
+						"AnimalBase": 1.0,
+						"SurvivorBase": 0.3,
+            "ZombieBase": 1.0
+        },
+				"PainToPlayerLimbsDeepWoundChancesMultiplier": {
+            "all": 0
+        },
         "DamageToZombieHandlerIsActive": {
             "all": 1
         },
@@ -1669,12 +1692,12 @@
         "ShowPainBadges": 1,
         "PainHealingRatePerSecondPercent": 0.012,
         "HealthDrainWithOverPainedLimbPerSecondPercent": 0.01,
-        "BleedingChanceMultiplierWhenOverPainedLimbReceivingHits": 3.0,
         "ShowPainBlur": 1,
-        "LimbsBreakChancesMultiplier": 1.0,
+        "LimbsBreakSystemIsActive": 1,
         "LimbsBreakPainThresholdPercent": 50.0,
-        "LimbsBreakCalciumDurationSeconds": 900.0,
-        "LimbsBreakCalciumHealingMultiplier": 10.0,
+				"LimbsDeepWoundSystemIsActive": 0,
+				"LimbsBulletSystemIsActive": 0,
+				"InternalBleedingSystemIsActive": 0,
         "HeadBreakDurationSeconds": 7200.0,
         "ArmsBreakDurationSeconds": 7200.0,
         "LegsBreakDurationSeconds": 7200.0,
@@ -1688,14 +1711,22 @@
         "UnconsciousWhenHeadBreak": 1,
         "UnconsciousWhenOverPainedHeadReceivingHits": 1,
         "CrouchWhenOverPainedTorsoReceivingHits": 1,
-        "ArmsLowerWhenAimingWithInjuredArms": 1,
+        "ArmsLowerWhenAimingWithPainedArms": 1,
         "ArmsLowerWhenOverPainedArmsReceivingHits": 1,
         "ArmsPainShockDamageActions": {
             "ActionUnrestrainSelf": 1.0,
             "all": 2.0,
             "ActionPushCar": 8.0,
             "ActionMineRock": 4.0,
-            "ActionMineTree": 4.0
+            "ActionMineTree": 4.0,
+						"ActionForceConsume": 0.0,
+            "ActionConsume": 0.0,
+            "ActionForceConsumeSingle": 0.0,
+            "ActionDisinfectTarget": 0.0,
+            "ActionDisinfectSelf": 0.0,
+            "ActionInjectTarget": 0.0,
+            "ActionInjectSelf": 0.0,
+            "ActionConsumeSingle": 0.0
         },
         "ArmsPainUnrestrainItems": {
 			"all": 2.0,

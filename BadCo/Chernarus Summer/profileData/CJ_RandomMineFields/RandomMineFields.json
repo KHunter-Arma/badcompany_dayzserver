@@ -1,0 +1,503 @@
+{
+    "DebugMode": 0,
+    "ClearLogs": 1,
+    "CanBeDisarmed": 1,
+    "DisarmTime": 60.0,
+    "CanBeReused": 0,
+    "ChanceToFail": 0.1,
+    "MinefieldLocations": [
+        {
+            "Name": "Dynamic Minefield at the Svetlojarsk Roadblock",
+            "Objects": [
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_Land_LandmineSign1",
+                "CJ_Land_LandmineSign2",
+                "CJ_Land_LandmineSign3",
+                "CJ_Land_LandmineSign4",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap"
+            ],
+            "Num_Min": 50,
+            "Num_Max": 150,
+            "PlacingType": "Area",
+            "Area": [
+				"13696.622070 13723.837891",
+				"13676.537109 13695.811523",
+				"13547.525391 13736.875977",
+				"13571.612305 13777.676758"
+            ],
+            "SafeRadius": 40.0,
+            "SafeZone": [
+                "13622.87 13761.88"
+            ],
+            "Position": []
+        },
+        {
+            "Name": "Dynamic Minefield at the Kamensk Military Base",
+            "Objects": [
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_Land_LandmineSign1",
+                "CJ_Land_LandmineSign2",
+                "CJ_Land_LandmineSign3",
+                "CJ_Land_LandmineSign4",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap"
+            ],
+            "Num_Min": 150,
+            "Num_Max": 550,
+            "PlacingType": "Area",
+            "Area": [
+                "7787.814453 14420.188477",
+                "7629.920898 14602.833984",
+                "7534.487793 14847.930664",
+				"7649.210449 14992.728516",
+                "7884.639160 14994.027344",
+                "8086.099121 14836.933594",
+                "8205.773438 14712.331055",
+                "8229.714844 14406.100586"
+            ],
+            "SafeRadius": 215.0,
+            "SafeZone": [
+                "7875.88 14714.53"
+            ],
+            "Position": []
+        },
+		{
+            "Name": "Dynamic Minefield at the Tisy Military Base",
+            "Objects": [
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_Land_LandmineSign1",
+                "CJ_Land_LandmineSign2",
+                "CJ_Land_LandmineSign3",
+                "CJ_Land_LandmineSign4",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap"
+            ],
+            "Num_Min": 500,
+            "Num_Max": 2500,
+            "PlacingType": "Area",
+            "Area": [
+				"2354.206787 14137.377930",
+				"1851.927368 14662.751953",
+				"1202.240112 14619.696289",
+				"1021.507507 14061.860352",
+				"1179.108154 13341.746094",
+				"1587.425781 13150.307617",
+				"1973.983521 13088.895508",
+				"2368.594971 13547.281250"
+            ],
+            "SafeRadius": 520.0,
+            "SafeZone": [
+                "1469.80 14000.05"
+            ],
+            "Position": []
+        },
+		{
+            "Name": "Dynamic Minefield at the NWAF northern Hill",
+            "Objects": [
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_Land_LandmineSign1",
+                "CJ_Land_LandmineSign2",
+                "CJ_Land_LandmineSign3",
+                "CJ_Land_LandmineSign4",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap"
+            ],
+            "Num_Min": 350,
+            "Num_Max": 1000,
+            "PlacingType": "Area",
+            "Area": [
+				"3911.535889 12045.186523",
+				"4153.715820 12044.421875",
+				"4372.205566 11832.418945",
+				"4415.116699 11557.135742",
+				"4412.784180 11394.371094",
+				"3928.543945 11313.421875",
+				"3613.053955 11707.483398",
+				"3679.919189 11776.118164",
+				"3708.222656 11891.536133"
+            ],
+            "SafeRadius": 200.0,
+            "SafeZone": [
+                "4041.95 11735.07"
+            ],
+            "Position": []
+        },
+		{
+            "Name": "Dynamic Minefield at the NWAF southeast Forrest",
+            "Objects": [
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_Land_LandmineSign1",
+                "CJ_Land_LandmineSign2",
+                "CJ_Land_LandmineSign3",
+                "CJ_Land_LandmineSign4",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap"
+            ],
+            "Num_Min": 350,
+            "Num_Max": 1000,
+            "PlacingType": "Area",
+            "Area": [
+				"5602.921875 9502.892578",
+				"5651.695801 9961.385742",
+				"5295.445801 10372.439453",
+				"4931.176758 10177.998047",
+				"5199.839355 9626.702148"
+            ],
+            "SafeRadius": 315.0,
+            "SafeZone": [
+                "5130.69 9911.43"
+            ],
+            "Position": []
+        },
+		{
+            "Name": "Dynamic Minefield at the NWAF western Forrest",
+            "Objects": [
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_Land_LandmineSign1",
+                "CJ_Land_LandmineSign2",
+                "CJ_Land_LandmineSign3",
+                "CJ_Land_LandmineSign4",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap"
+            ],
+            "Num_Min": 350,
+            "Num_Max": 1000,
+            "PlacingType": "Area",
+            "Area": [
+				"3647.51 10619.23",
+				"3898.29 10767.05",
+				"4745.75 9448.72",
+				"4414.26 9261.59"
+
+            ],
+            "SafeRadius": 340.0,
+            "SafeZone": [
+				"4676.73 9693.69"
+			],
+            "Position": []
+        },
+		{
+            "Name": "Dynamic Minefield at the Dichina Military Base",
+            "Objects": [
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_Land_LandmineSign1",
+                "CJ_Land_LandmineSign2",
+                "CJ_Land_LandmineSign3",
+                "CJ_Land_LandmineSign4",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap"
+            ],
+            "Num_Min": 150,
+            "Num_Max": 550,
+            "PlacingType": "Area",
+            "Area": [
+				"4725.305664 8071.026855",
+				"4841.229004 8493.385742",
+				"4342.354492 8556.440430",
+				"4246.360840 8239.659180"
+            ],
+            "SafeRadius": 125.0,
+            "SafeZone": [
+				"4523.62 8281.24"
+			],
+            "Position": []
+        },
+		{
+            "Name": "Dynamic Minefield on Green Mountain",
+            "Objects": [
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_Land_LandmineSign1",
+                "CJ_Land_LandmineSign2",
+                "CJ_Land_LandmineSign3",
+                "CJ_Land_LandmineSign4",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap"
+            ],
+            "Num_Min": 200,
+            "Num_Max": 750,
+            "PlacingType": "Area",
+            "Area": [
+				"3796.512207 6212.601563",
+				"3520.061279 6158.487793",
+				"3450.489746 5960.219238",
+				"3571.433838 5751.482422",
+				"3727.648926 5693.453125",
+				"3915.365234 5773.293457",
+				"4017.137451 5980.488770",
+				"3910.936768 6142.904297"
+            ],
+            "SafeRadius": 125.0,
+            "SafeZone": [
+				"3738.66 5995.85"
+			],
+            "Position": []
+        },
+		{
+            "Name": "Dynamic Minefield at the Koman Military Camp",
+            "Objects": [
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_Land_LandmineSign1",
+                "CJ_Land_LandmineSign2",
+                "CJ_Land_LandmineSign3",
+                "CJ_Land_LandmineSign4",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap"
+            ],
+            "Num_Min": 50,
+            "Num_Max": 150,
+            "PlacingType": "Area",
+            "Area": [
+				"1118.525269 7073.110352",
+				"1272.537476 7137.062500",
+				"1266.861206 7328.262207",
+				"1022.402710 7315.996582",
+				"1059.265747 7163.874023"
+            ],
+            "SafeRadius": 60.0,
+            "SafeZone": [
+				"1159.70 7240.13"
+			],
+            "Position": []
+        },
+		{
+            "Name": "Dynamic Minefield at the Pavlovo Military Base",
+            "Objects": [
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_Land_LandmineSign1",
+                "CJ_Land_LandmineSign2",
+                "CJ_Land_LandmineSign3",
+                "CJ_Land_LandmineSign4",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap"
+            ],
+            "Num_Min": 200,
+            "Num_Max": 600,
+            "PlacingType": "Area",
+            "Area": [
+				"1806.306641 3553.377441",
+				"2011.886841 3698.390137",
+				"2360.432129 3591.166992",
+				"2387.511475 3363.437988",
+				"2311.644775 3116.824219",
+				"1998.836182 3217.635010",
+				"1841.707397 3407.268311"
+            ],
+            "SafeRadius": 170.0,
+            "SafeZone": [
+				"2115.27 3378.99"
+			],
+            "Position": []
+        },
+		{
+            "Name": "Dynamic Minefield at the Staroye Military Camp",
+            "Objects": [
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_Land_LandmineSign1",
+                "CJ_Land_LandmineSign2",
+                "CJ_Land_LandmineSign3",
+                "CJ_Land_LandmineSign4",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap",
+                "CJ_ArmedLandMineTrap"
+            ],
+            "Num_Min": 50,
+            "Num_Max": 100,
+            "PlacingType": "Area",
+            "Area": [
+				"10508.880859 6071.911133",
+				"10483.207031 5932.965820",
+				"10443.712891 5861.276367",
+				"10327.207031 5892.332031",
+				"10331.327148 5970.110352",
+				"10445.681641 6084.681641"
+            ],
+            "SafeRadius": 50.0,
+            "SafeZone": [
+				"10435.39 5956.97"
+			],
+            "Position": []
+        },
+		{
+            "Name": "Random Claymores at the Kamensk Military Office",
+            "Objects": [
+                "CJ_ArmedClaymoreTrap"
+            ],
+            "Num_Min": 5,
+            "Num_Max": 20,
+            "PlacingType": "Position",
+            "Area": [],
+            "SafeRadius": 0.0,
+            "SafeZone": [],
+            "Position": [
+				"8027.891602 339.803558 14629.531250|-36.999962 0.000000 0.000000",
+				"8039.475098 339.803558 14651.332031|141.000626 0.000000 0.000000",
+				"8038.804199 340.532806 14646.276367|20.999987 0.000000 0.000000",
+				"8036.717285 340.052399 14650.835938|-89.999680 0.000000 0.000000",
+				"8037.905762 339.853546 14638.346680|135.999695 0.000000 0.000000",
+				"8036.217285 339.853546 14625.435547|-179.999893 0.000000 0.000000",
+				"8024.540527 339.803558 14623.009766|158.999969 0.000000 0.000000",
+				"8026.542480 339.803558 14614.206055|-24.999985 0.000000 0.000000",
+				"8027.327637 340.293152 14625.487305|125.999405 0.000000 0.000000",
+				"8035.009766 340.293152 14624.826172|-129.999466 0.000000 0.000000",
+				"8030.115723 340.276398 14621.227539|-115.999542 0.000000 0.000000",
+				"8028.920898 340.343140 14632.414063|156.999710 0.000000 0.000000",
+				"8037.006348 340.294800 14638.283203|-138.999374 0.000000 0.000000",
+				"8026.873047 340.319824 14641.077148|-151.999847 0.000000 0.000000",
+				"8037.035645 340.294739 14649.848633|-133.999359 0.000000 0.000000",
+				"8027.997559 344.491272 14636.622070|-109.999878 0.000000 0.000000",
+				"8030.997559 344.441345 14644.228516|-89.999985 0.000000 0.000000",
+				"8029.072266 344.452484 14632.176758|122.999435 0.000000 0.000000",
+				"8034.167969 344.452484 14624.733398|-102.999908 8.999997 0.000000",
+				"8028.094727 344.452545 14621.101563|85.999702 0.000000 0.000000",
+				"8028.920898 347.451813 14629.804688|43.999931 0.000000 0.000000"
+			]
+        },
+		{
+            "Name": "Random Claymores at the Tisy Military HQ",
+            "Objects": [
+                "CJ_ArmedClaymoreTrap"
+            ],
+            "Num_Min": 5,
+            "Num_Max": 15,
+            "PlacingType": "Position",
+            "Area": [],
+            "SafeRadius": 0.0,
+            "SafeZone": [],
+            "Position": [
+				"1682.499023 451.854065 14205.137695|115.999542 0.000000 0.000000",
+				"1685.146484 448.433289 14207.015625|-56.999859 8.999993 0.999999",
+				"1684.635010 448.433289 14210.960938|113.999550 0.000000 0.000000",
+				"1685.715454 451.801178 14187.728516|-159.999161 0.000000 0.000000",
+				"1690.901001 452.415131 14174.791992|12.999996 0.000000 0.000000",
+				"1697.290649 452.465118 14173.181641|101.999619 0.000000 0.000000",
+				"1701.209229 452.465118 14170.746094|140.999283 0.000000 0.000000",
+				"1698.615234 456.485138 14171.008789|-105.999596 0.000000 0.000000",
+				"1701.510010 456.470001 14171.154297|166.000916 0.000000 0.000000",
+				"1693.800537 451.778259 14196.626953|0.000000 0.000000 0.000000",
+				"1706.852783 451.773560 14166.959961|127.999435 0.000000 0.000000",
+				"1677.539673 452.595459 14213.057617|18.999981 0.000000 0.000000",
+				"1691.192627 452.595459 14221.048828|-86.999458 5.999999 0.000000",
+				"1688.264282 452.653809 14215.615234|66.999817 0.000000 0.000000",
+				"1685.531006 452.659119 14214.820313|-171.999939 0.000000 0.000000",
+				"1677.118530 452.645447 14220.282227|106.999474 0.000000 0.000000",
+				"1684.707275 456.661011 14209.030273|-132.999435 0.000000 0.000000",
+				"1678.983398 456.640015 14220.981445|-179.999893 6.999994 0.000000"
+			]
+        },
+		{
+            "Name": "Random Claymores at the NWAF northern Office",
+            "Objects": [
+                "CJ_ArmedClaymoreTrap"
+            ],
+            "Num_Min": 3,
+            "Num_Max": 10,
+            "PlacingType": "Position",
+            "Area": [],
+            "SafeRadius": 0.0,
+            "SafeZone": [],
+            "Position": [
+				"4034.517090 376.000610 11720.186523|-68.999802 0.000000 0.000000",
+				"4037.123047 376.000610 11728.875977|-37.999958 0.000000 0.000000",
+				"4022.915283 376.014374 11733.306641|38.999950 0.000000 0.000000",
+				"4048.092285 376.000610 11700.375000|-179.999893 0.000000 0.000000",
+				"4065.756836 376.056885 11709.179688|111.000000 0.000000 0.000000",
+				"4041.729980 376.672241 11713.414063|115.999435 0.000000 0.000000",
+				"4049.201416 376.622253 11712.415039|86.999207 0.000000 0.000000",
+				"4046.123779 372.738129 11704.013672|-148.999619 0.000000 0.000000",
+				"4045.841309 372.711029 11705.019531|-93.999664 0.000000 0.000000",
+				"4058.144775 380.742249 11710.682617|-119.999519 0.000000 0.000000"
+			]
+        },
+		{
+            "Name": "Random Claymores at the NWAF Airport Trafic Control",
+            "Objects": [
+                "CJ_ArmedClaymoreTrap"
+            ],
+            "Num_Min": 5,
+            "Num_Max": 20,
+            "PlacingType": "Position",
+            "Area": [],
+            "SafeRadius": 0.0,
+            "SafeZone": [],
+            "Position": [
+				"4619.314453 339.061615 10440.816406|-179.999985 0.000000 0.000000",
+				"4623.203613 339.668823 10438.751953|0.000000 0.000000 0.000000",           
+				"4625.046875 339.676483 10445.456055|27.999979 0.000000 0.000000",
+				"4627.843750 339.395569 10435.267578|-165.000839 0.000000 0.000000",
+				"4627.989258 339.470520 10432.098633|62.999836 0.000000 0.000000",
+				"4626.000977 339.470520 10430.368164|-78.999748 0.000000 0.000000",
+				"4622.076172 344.250000 10431.385742|58.999859 0.000000 0.000000",
+				"4629.291016 344.250000 10434.893555|-108.999550 0.000000 0.000000",
+				"4626.119629 348.799988 10431.346680|-159.999680 0.000000 0.000000",
+				"4628.980469 348.824188 10432.393555|150.999908 0.000000 0.000000",
+				"4630.526367 348.824188 10433.258789|73.999771 0.000000 0.000000",
+				"4626.016113 348.824188 10435.264648|65.999817 0.000000 0.000000",
+				"4632.457031 348.799988 10439.496094|-101.999619 0.000000 0.000000",
+				"4622.909668 353.560059 10430.498047|27.999979 0.000000 0.000000",
+				"4624.351074 353.560059 10430.406250|87.999695 0.000000 0.000000",
+				"4627.594238 353.670502 10435.326172|-49.999908 0.000000 0.000000",
+				"4631.750488 353.560028 10436.808594|-169.000763 0.000000 0.000000",
+				"4631.337891 358.920532 10436.893555|-179.999893 0.000000 0.000000",
+				"4637.262207 339.668823 10438.603516|-57.999866 0.000000 0.000000",
+				"4639.733887 339.645477 10441.025391|-59.999855 0.000000 0.000000",
+				"4652.296875 339.645477 10453.023438|-179.999893 0.000000 0.000000",
+				"4646.623535 339.645477 10444.796875|119.999725 0.000000 0.000000"
+			]
+        }
+    ]
+}

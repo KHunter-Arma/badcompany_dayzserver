@@ -35,6 +35,8 @@
         "SurfaceStoneMultiplier": 1.0,
         "SurfaceSandMultiplier": 1.5,
         "SurfaceWaterMultiplier": 2.0,
+        "SurfaceSnowMultiplier": 1.2,
+        "SurfaceOtherMultiplier": 1.0,
         "EpinephrineMultiplier": 0.33,
         "AMSEnergyPillsMultiplier": 0.5,
         "MorphineMultiplier": 3.0,
@@ -46,11 +48,7 @@
         "TremorLevelAtCritical": 1.0,
         "TremorLevelAtLow": 0.3,
         "CriticalThresholdPercent": 7.5,
-        "LowThresholdPercent": 33.0,
-        "SyberiaProjectAthleticsImpactFrom": 1.0,
-        "SyberiaProjectAthleticsImpactTo": 2.5,
-        "SyberiaProjectStrengthImpactFrom": 1.0,
-        "SyberiaProjectStrengthImpactTo": 2.0
+        "LowThresholdPercent": 33.0
     },
     "StaminaSleepOptions": {
         "IsActive": 1,
@@ -124,9 +122,7 @@
         },
         "ForcedWalkIfCharacterIsInBush": 1,
         "BushClasses": {},
-        "CumulativeSpeedReductionIsActive": 1,
-        "SyberiaProjectStrengthImpactFrom": 1.0,
-        "SyberiaProjectStrengthImpactTo": 2.0
+        "CumulativeSpeedReductionIsActive": 1
     },
     "StaminaStimulants": [
         {

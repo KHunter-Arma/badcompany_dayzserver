@@ -1,0 +1,11 @@
+{
+    "environmentTemperature": 25.0,
+    "minTemperature": 15.0,
+    "maxTemperature": 30.0,
+    "cloudsTempModifier": 0.0,
+    "buildingsTempModifier": 0.0,
+    "waterTempModifier": 0.0,
+    "heightTempModifier": 0.015,
+    "windCoef": 0.0,
+    "universalTempModifier": 0.0
+}
