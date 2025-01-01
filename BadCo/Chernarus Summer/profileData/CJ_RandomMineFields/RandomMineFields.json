@@ -18,12 +18,10 @@
                 "CJ_Land_LandmineSign3",
                 "CJ_Land_LandmineSign4",
                 "CJ_ArmedLandMineTrap",
-                "CJ_ArmedLandMineTrap",
-                "CJ_ArmedLandMineTrap",
                 "CJ_ArmedLandMineTrap"
             ],
-            "Num_Min": 50,
-            "Num_Max": 150,
+            "Num_Min": 25,
+            "Num_Max": 25,
             "PlacingType": "Area",
             "Area": [
 				"13696.622070 13723.837891",
@@ -49,12 +47,10 @@
                 "CJ_Land_LandmineSign3",
                 "CJ_Land_LandmineSign4",
                 "CJ_ArmedLandMineTrap",
-                "CJ_ArmedLandMineTrap",
-                "CJ_ArmedLandMineTrap",
                 "CJ_ArmedLandMineTrap"
             ],
-            "Num_Min": 150,
-            "Num_Max": 550,
+            "Num_Min": 75,
+            "Num_Max": 75,
             "PlacingType": "Area",
             "Area": [
                 "7787.814453 14420.188477",
@@ -84,12 +80,10 @@
                 "CJ_Land_LandmineSign3",
                 "CJ_Land_LandmineSign4",
                 "CJ_ArmedLandMineTrap",
-                "CJ_ArmedLandMineTrap",
-                "CJ_ArmedLandMineTrap",
                 "CJ_ArmedLandMineTrap"
             ],
-            "Num_Min": 500,
-            "Num_Max": 2500,
+            "Num_Min": 250,
+            "Num_Max": 250,
             "PlacingType": "Area",
             "Area": [
 				"2354.206787 14137.377930",
@@ -119,12 +113,10 @@
                 "CJ_Land_LandmineSign3",
                 "CJ_Land_LandmineSign4",
                 "CJ_ArmedLandMineTrap",
-                "CJ_ArmedLandMineTrap",
-                "CJ_ArmedLandMineTrap",
                 "CJ_ArmedLandMineTrap"
             ],
-            "Num_Min": 350,
-            "Num_Max": 1000,
+            "Num_Min": 175,
+            "Num_Max": 175,
             "PlacingType": "Area",
             "Area": [
 				"3911.535889 12045.186523",
@@ -155,12 +147,10 @@
                 "CJ_Land_LandmineSign3",
                 "CJ_Land_LandmineSign4",
                 "CJ_ArmedLandMineTrap",
-                "CJ_ArmedLandMineTrap",
-                "CJ_ArmedLandMineTrap",
                 "CJ_ArmedLandMineTrap"
             ],
-            "Num_Min": 350,
-            "Num_Max": 1000,
+            "Num_Min": 175,
+            "Num_Max": 175,
             "PlacingType": "Area",
             "Area": [
 				"5602.921875 9502.892578",
@@ -187,12 +177,10 @@
                 "CJ_Land_LandmineSign3",
                 "CJ_Land_LandmineSign4",
                 "CJ_ArmedLandMineTrap",
-                "CJ_ArmedLandMineTrap",
-                "CJ_ArmedLandMineTrap",
                 "CJ_ArmedLandMineTrap"
             ],
-            "Num_Min": 350,
-            "Num_Max": 1000,
+            "Num_Min": 175,
+            "Num_Max": 175,
             "PlacingType": "Area",
             "Area": [
 				"3647.51 10619.23",
@@ -219,12 +207,10 @@
                 "CJ_Land_LandmineSign3",
                 "CJ_Land_LandmineSign4",
                 "CJ_ArmedLandMineTrap",
-                "CJ_ArmedLandMineTrap",
-                "CJ_ArmedLandMineTrap",
                 "CJ_ArmedLandMineTrap"
             ],
-            "Num_Min": 150,
-            "Num_Max": 550,
+            "Num_Min": 75,
+            "Num_Max": 75,
             "PlacingType": "Area",
             "Area": [
 				"4725.305664 8071.026855",
@@ -250,12 +236,10 @@
                 "CJ_Land_LandmineSign3",
                 "CJ_Land_LandmineSign4",
                 "CJ_ArmedLandMineTrap",
-                "CJ_ArmedLandMineTrap",
-                "CJ_ArmedLandMineTrap",
                 "CJ_ArmedLandMineTrap"
             ],
-            "Num_Min": 200,
-            "Num_Max": 750,
+            "Num_Min": 100,
+            "Num_Max": 100,
             "PlacingType": "Area",
             "Area": [
 				"3796.512207 6212.601563",
@@ -285,12 +269,10 @@
                 "CJ_Land_LandmineSign3",
                 "CJ_Land_LandmineSign4",
                 "CJ_ArmedLandMineTrap",
-                "CJ_ArmedLandMineTrap",
-                "CJ_ArmedLandMineTrap",
                 "CJ_ArmedLandMineTrap"
             ],
-            "Num_Min": 50,
-            "Num_Max": 150,
+            "Num_Min": 25,
+            "Num_Max": 25,
             "PlacingType": "Area",
             "Area": [
 				"1118.525269 7073.110352",
@@ -317,12 +299,10 @@
                 "CJ_Land_LandmineSign3",
                 "CJ_Land_LandmineSign4",
                 "CJ_ArmedLandMineTrap",
-                "CJ_ArmedLandMineTrap",
-                "CJ_ArmedLandMineTrap",
                 "CJ_ArmedLandMineTrap"
             ],
-            "Num_Min": 200,
-            "Num_Max": 600,
+            "Num_Min": 100,
+            "Num_Max": 100,
             "PlacingType": "Area",
             "Area": [
 				"1806.306641 3553.377441",
@@ -351,12 +331,10 @@
                 "CJ_Land_LandmineSign3",
                 "CJ_Land_LandmineSign4",
                 "CJ_ArmedLandMineTrap",
-                "CJ_ArmedLandMineTrap",
-                "CJ_ArmedLandMineTrap",
                 "CJ_ArmedLandMineTrap"
             ],
-            "Num_Min": 50,
-            "Num_Max": 100,
+            "Num_Min": 25,
+            "Num_Max": 25,
             "PlacingType": "Area",
             "Area": [
 				"10508.880859 6071.911133",
@@ -378,7 +356,7 @@
                 "CJ_ArmedClaymoreTrap"
             ],
             "Num_Min": 5,
-            "Num_Max": 20,
+            "Num_Max": 5,
             "PlacingType": "Position",
             "Area": [],
             "SafeRadius": 0.0,
@@ -413,7 +391,7 @@
                 "CJ_ArmedClaymoreTrap"
             ],
             "Num_Min": 5,
-            "Num_Max": 15,
+            "Num_Max": 5,
             "PlacingType": "Position",
             "Area": [],
             "SafeRadius": 0.0,
@@ -445,7 +423,7 @@
                 "CJ_ArmedClaymoreTrap"
             ],
             "Num_Min": 3,
-            "Num_Max": 10,
+            "Num_Max": 3,
             "PlacingType": "Position",
             "Area": [],
             "SafeRadius": 0.0,
@@ -469,7 +447,7 @@
                 "CJ_ArmedClaymoreTrap"
             ],
             "Num_Min": 5,
-            "Num_Max": 20,
+            "Num_Max": 5,
             "PlacingType": "Position",
             "Area": [],
             "SafeRadius": 0.0,
