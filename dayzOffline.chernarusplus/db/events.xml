@@ -6,9 +6,9 @@
         <max>1</max>
         <lifetime>1800</lifetime>
 				<restock>0</restock>
-				<saferadius>50</saferadius>
+				<saferadius>100</saferadius>
 				<distanceradius>500</distanceradius>
-				<cleanupradius>300</cleanupradius>
+				<cleanupradius>500</cleanupradius>
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>mixed</limit>
@@ -42,7 +42,7 @@
         <restock>15</restock>
         <saferadius>60</saferadius>
         <distanceradius>150</distanceradius>
-        <cleanupradius>300</cleanupradius>
+        <cleanupradius>1500</cleanupradius>
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>mixed</limit>
@@ -115,7 +115,7 @@
 		<restock>0</restock>
 		<saferadius>60</saferadius>
 		<distanceradius>300</distanceradius>
-		<cleanupradius>200</cleanupradius>
+		<cleanupradius>400</cleanupradius>
 		<flags deletable="1" init_random="0" remove_damaged="0"/>
 		<position>fixed</position>
 		<limit>mixed</limit>
@@ -134,7 +134,7 @@
 		<restock>0</restock>
 		<saferadius>60</saferadius>
 		<distanceradius>100</distanceradius>
-		<cleanupradius>200</cleanupradius>
+		<cleanupradius>400</cleanupradius>
 		<flags deletable="1" init_random="0" remove_damaged="0"/>
 		<position>fixed</position>
 		<limit>mixed</limit>
@@ -169,7 +169,7 @@
 		<restock>0</restock>
 		<saferadius>30</saferadius>
 		<distanceradius>100</distanceradius>
-		<cleanupradius>200</cleanupradius>
+		<cleanupradius>400</cleanupradius>
 		<flags deletable="1" init_random="0" remove_damaged="0"/>
 		<position>fixed</position>
 		<limit>mixed</limit>
@@ -186,7 +186,7 @@
         <restock>0</restock>
         <saferadius>200</saferadius>
         <distanceradius>2000</distanceradius>
-        <cleanupradius>1000</cleanupradius>
+        <cleanupradius>2500</cleanupradius>
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>custom</limit>
@@ -202,8 +202,8 @@
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <saferadius>150</saferadius>
-        <distanceradius>300</distanceradius>
-        <cleanupradius>600</cleanupradius>
+        <distanceradius>800</distanceradius>
+        <cleanupradius>2000</cleanupradius>
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>mixed</limit>
@@ -224,8 +224,8 @@
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <saferadius>150</saferadius>
-        <distanceradius>400</distanceradius>
-        <cleanupradius>400</cleanupradius>
+        <distanceradius>1000</distanceradius>
+        <cleanupradius>2000</cleanupradius>
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>mixed</limit>
@@ -242,8 +242,8 @@
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <saferadius>100</saferadius>
-        <distanceradius>400</distanceradius>
-        <cleanupradius>400</cleanupradius>
+        <distanceradius>1000</distanceradius>
+        <cleanupradius>2000</cleanupradius>
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>mixed</limit>
@@ -262,8 +262,8 @@
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <saferadius>100</saferadius>
-        <distanceradius>200</distanceradius>
-        <cleanupradius>400</cleanupradius>
+        <distanceradius>800</distanceradius>
+        <cleanupradius>2000</cleanupradius>
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>mixed</limit>
@@ -279,8 +279,8 @@
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <saferadius>150</saferadius>
-        <distanceradius>200</distanceradius>
-        <cleanupradius>400</cleanupradius>
+        <distanceradius>1000</distanceradius>
+        <cleanupradius>2000</cleanupradius>
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>mixed</limit>
@@ -297,8 +297,8 @@
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <saferadius>100</saferadius>
-        <distanceradius>400</distanceradius>
-        <cleanupradius>400</cleanupradius>
+        <distanceradius>1000</distanceradius>
+        <cleanupradius>2000</cleanupradius>
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>mixed</limit>
@@ -315,8 +315,8 @@
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <saferadius>150</saferadius>
-        <distanceradius>500</distanceradius>
-        <cleanupradius>400</cleanupradius>
+        <distanceradius>1200</distanceradius>
+        <cleanupradius>2000</cleanupradius>
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>mixed</limit>
@@ -332,8 +332,8 @@
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
-        <distanceradius>1000</distanceradius>
-        <cleanupradius>1000</cleanupradius>
+        <distanceradius>2000</distanceradius>
+        <cleanupradius>2500</cleanupradius>
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>mixed</limit>
@@ -353,8 +353,8 @@
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <saferadius>150</saferadius>
-        <distanceradius>1000</distanceradius>
-        <cleanupradius>300</cleanupradius>
+        <distanceradius>1200</distanceradius>
+        <cleanupradius>2000</cleanupradius>
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>mixed</limit>
