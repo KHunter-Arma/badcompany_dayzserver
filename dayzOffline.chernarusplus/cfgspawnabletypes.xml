@@ -1092,56 +1092,56 @@
 		</cargo>
 	</type>
 	<type name="MiniDress_Pink">
-		<cargo chance="0.10">
+		<cargo chance="0.0">
 			<item name="Ammo_9x19" chance="0.20" />
 			<item name="Ammo_380" chance="0.20" />
 		</cargo>
 		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
 	</type>
 	<type name="MiniDress_PinkChecker">
-		<cargo chance="0.10">
+		<cargo chance="0.0">
 			<item name="Ammo_9x19" chance="0.20" />
 			<item name="Ammo_380" chance="0.20" />
 		</cargo>
 		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
 	</type>
 	<type name="MiniDress_RedChecker">
-		<cargo chance="0.10">
+		<cargo chance="0.0">
 			<item name="Ammo_9x19" chance="0.20" />
 			<item name="Ammo_380" chance="0.20" />
 		</cargo>
 		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
 	</type>
 	<type name="MiniDress_WhiteChecker">
-		<cargo chance="0.10">
+		<cargo chance="0.0">
 			<item name="Ammo_9x19" chance="0.20" />
 			<item name="Ammo_380" chance="0.20" />
 		</cargo>
 		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
 	</type>
 	<type name="MiniDress_GreenChecker">
-		<cargo chance="0.10">
+		<cargo chance="0.0">
 			<item name="Ammo_9x19" chance="0.20" />
 			<item name="Ammo_380" chance="0.20" />
 		</cargo>
 		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
 	</type>
 	<type name="MiniDress_BrownChecker">
-		<cargo chance="0.10">
+		<cargo chance="0.0">
 			<item name="Ammo_9x19" chance="0.20" />
 			<item name="Ammo_380" chance="0.20" />
 		</cargo>
 		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
 	</type>
 	<type name="MiniDress_BlueChecker">
-		<cargo chance="0.10">
+		<cargo chance="0.0">
 			<item name="Ammo_9x19" chance="0.20" />
 			<item name="Ammo_380" chance="0.20" />
 		</cargo>
 		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
 	</type>
 	<type name="MiniDress_BlueWithDots">
-		<cargo chance="0.10">
+		<cargo chance="0.0">
 			<item name="Ammo_9x19" chance="0.20" />
 			<item name="Ammo_380" chance="0.20" />
 		</cargo>
