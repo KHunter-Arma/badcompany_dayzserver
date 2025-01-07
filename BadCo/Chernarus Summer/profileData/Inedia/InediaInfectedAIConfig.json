@@ -534,7 +534,7 @@
             "all": 1
         },
         "AttackPlayersUnconsciousHitsLimit": {
-            "all": 2.0
+            "all": 7
         },
         "AttackAnimalsHandlerIsActive": {
             "all": 1
@@ -774,7 +774,7 @@
             "all": 1
         },
         "AttackCarPlayersDistanceMeters": {
-            "all": 2.0
+            "all": 2.5
         },
         "AttackCarElementsIsActive": {
             "wolves": 0,
@@ -785,7 +785,7 @@
         },
         "AttackCarElementsGlobalDamageMultiplier": {
             "all": 1.0,
-			"SurvivorBase": 1.0,
+						"SurvivorBase": 1.0,
             "highstr": 1.7,
             "mediumstr": 1.0,
             "lowstr": 0.6,
@@ -846,13 +846,13 @@
             "all": 0.2
         },
         "ReactBehindNoiseMultiplier": {
-            "all": 0.33
+            "all": 1.0
         },
         "ReactFireplaceVisual": {
             "all": 1.0
         },
         "ReactFireplaceDayVisual": {
-            "all": 0.5
+            "all": 0.75
         },
         "ReactFlashlightsVisual": {
             "all": 0.75
@@ -879,10 +879,10 @@
             "all": 1.0
         },
         "ReactSpotlightVisual": {
-            "all": 0.85
+            "all": 1.0
         },
         "ReactCarLightVisual": {
-            "all": 0.85
+            "all": 1.0
         },
         "ReactPowerGeneratorNoise": {
             "all": 1.0
@@ -918,40 +918,40 @@
             "all": 1.0
         },
         "ReactFootstepsJogDayNoise": {
-            "all": 0.33
+            "all": 1.0
         },
         "ReactFootstepsJogNightNoise": {
-            "all": 0.33
+            "all": 1.0
         },
         "ReactFootstepsCrouchSprintDayNoise": {
-            "all": 0.23
+            "all": 1.0
         },
         "ReactFootstepsCrouchSprintNightNoise": {
-            "all": 0.23
+            "all": 0.75
         },
         "ReactFootstepsSprintDayNoise": {
-            "all": 0.33
+            "all": 1.0
         },
         "ReactFootstepsSprintNightNoise": {
-            "all": 0.33
+            "all": 1.0
         },
         "ReactDoorsDayNoise": {
-            "all": 0.7
+            "all": 0.75
         },
         "ReactDoorsNightNoise": {
             "all": 1.0
         },
         "ReactPlayerFallDayNoise": {
-            "all": 0.33
+            "all": 1.0
         },
         "ReactPlayerFallNightNoise": {
-            "all": 0.33
+            "all": 0.75
         },
         "ReactBodyfallDayNoise": {
-            "all": 0.2
+            "all": 1.0
         },
         "ReactBodyfallNightNoise": {
-            "all": 0.3
+            "all": 0.75
         },
         "ReactBodyfallBackstabDayNoise": {
             "all": 0.0
@@ -960,31 +960,31 @@
             "all": 0.0
         },
         "ReactSymptomsDayNoise": {
-            "all": 0.7
+            "all": 0.8
         },
         "ReactSymptomsNightNoise": {
             "all": 1.0
         },
         "ReactVoiceWhisperDayNoise": {
-            "all": 0.7
+            "all": 0.75
         },
         "ReactVoiceWhisperNightNoise": {
             "all": 1.0
         },
         "ReactVoiceTalkDayNoise": {
-            "all": 0.7
+            "all": 1.0
         },
         "ReactVoiceTalkNightNoise": {
             "all": 1.0
         },
         "ReactVoiceShoutDayNoise": {
-            "all": 0.7
+            "all": 1.0
         },
         "ReactVoiceShoutNightNoise": {
             "all": 1.0
         },
         "ReactMiningLightDayNoise": {
-            "all": 0.7
+            "all": 0.75
         },
         "ReactMiningLightNightNoise": {
             "all": 1.0
@@ -996,13 +996,13 @@
             "all": 1.0
         },
         "ReactBuildingDayNoise": {
-            "all": 0.7
+            "all": 0.75
         },
         "ReactBuildingNightNoise": {
             "all": 1.0
         },
         "ReactSawPlanksDayNoise": {
-            "all": 0.7
+            "all": 0.75
         },
         "ReactSawPlanksNightNoise": {
             "all": 1.0
@@ -1747,11 +1747,11 @@
         "ShockIfAttackingWithPainedArms": 0,
         "DestroyedDoorNotificationType": 1,
         "NoiseMultiplierDay": 1.0,
-        "NoiseMultiplierNight": 0.7,
+        "NoiseMultiplierNight": 1.0,
         "NoiseMultiplierCrouchDay": 0.5,
-        "NoiseMultiplierCrouchNight": 0.3,
-        "NoiseMultiplierLadderDay": 0.20000000298023225,
-        "NoiseMultiplierLadderNight": 0.20000000298023225,
+        "NoiseMultiplierCrouchNight": 0.375,
+        "NoiseMultiplierLadderDay": 0.2,
+        "NoiseMultiplierLadderNight": 0.33,
         "CamoClothingVisibilityMultipliers": {
             "GhillieSuit_ColorBase": 0.56,
             "all": 1.0,
@@ -1779,19 +1779,20 @@
             }
         },
         "CollisionsSoundThreshold": {
-            "all": 30.0
+            "all": 30.0,
+            "Bicycle_Base": 10.0
         },
         "CollisionsSpeedReductionMultiplier": {
-            "all": 1.0
+            "all": 1.0,
+            "Bicycle_Base": 10.0
         },
         "CollisionsDamageSpeedThresholdKmH": {
-            "all": 10.0,
-            "Bicycle_Base": 5.0
+            "all": 10.0
         }
     },
     "LossInterestToIrritantAfterSeconds": 120.0,
-    "LightInHouseMultiplier": 0.33,
-    "SoundInHouseMultiplier": 0.5,
+    "LightInHouseMultiplier": 0.5,
+    "SoundInHouseMultiplier": 0.33,
     "BloodParticlesLimit": 1000.0,
     "BloodParticleDurationSeconds": 7200.0,
     "SaveConfigAfterInit": 0
