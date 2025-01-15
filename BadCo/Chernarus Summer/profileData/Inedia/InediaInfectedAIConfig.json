@@ -1,70 +1,81 @@
 {
     "Zombies": {
         "Groups": {
-            "police": [
-                "ZmbF_PoliceWomanNormal_Base",
-                "ZmbM_PolicemanFat_Base",
-                "ZmbM_PolicemanSpecForce_Base"
-            ],
             "highstr": [
-				"ZmbF_NurseFat_Base",
-				"ZmbM_MotobikerFat_Base",
-                "military",
-				"prisoners",
-                "police"
+								"ZmbF_NurseFat_Base",
+								"ZmbM_MotobikerFat_Base",
+								"military",
+								"prisoners",
+								"police"
             ],
-			"mediumstr": [
+						"mediumstr": [
                 "ZmbF_ParamedicNormal_Base",
                 "ZmbM_ParamedicNormal_Base",
-				"ZmbM_DoctorFat_Base",
-				"ZmbF_PoliceWomanNormal_Base",
-				"ZmbM_FarmerFat_Base",
-                "ZmbM_FarmerFat_LT_Base",
-				"ZmbM_CitizenBFat_Base",
-				"ZmbF_SkaterYoung_Base",
-                "ZmbM_SkaterYoung_Base",
-                "ZmbM_SkaterYoung_LT_Base",
-				"priests",
-				"firefighters",
-				"hunters",
+								"ZmbM_DoctorFat_Base",
+								"ZmbF_PoliceWomanNormal_Base",
+								"ZmbM_FarmerFat_Base",
+								"ZmbM_FarmerFat_LT_Base",
+								"ZmbM_CitizenBFat_Base",
+								"ZmbF_SkaterYoung_Base",
+								"ZmbM_SkaterYoung_Base",
+								"ZmbM_SkaterYoung_LT_Base",
+								"priests",
+								"firefighters",
+								"hunters",
                 "industrial",
                 "fishermen"
             ],
-			"lowstr": [
+						"lowstr": [
                 "city",
-                "villagers"
+                "villagers",
+								"medics",
+								"kids"
             ],
             "highdef": [
                 "military",
                 "police"
             ],
-			"mediumdef": [
-				"hunters",
-				"ZmbF_NurseFat_Base",
-				"ZmbM_DoctorFat_Base",
-				"ZmbM_MotobikerFat_Base",
-				"ZmbM_FarmerFat_Base",
-                "ZmbM_FarmerFat_LT_Base",
-				"ZmbF_Runner_Base",
-                "ZmbM_Jacket_Base",
-                "ZmbM_Jacket_LT_Base",
-                "ZmbM__Runner_Base",
-				"ZmbF_HikerSkinny_Base",
-				"ZmbM_HikerSkinny_Base",
-				"ZmbM_ClerkFat_Base",
-                "ZmbM_ClerkFat_LT_Base",
-                "ZmbF_ClerkFat_Base",
-				"firefighters",
-				"fishermen",
-                "industrial",
-                "prisoners"
+						"mediumdef": [
+							"hunters",
+							"ZmbF_NurseFat_Base",
+							"ZmbM_DoctorFat_Base",
+							"ZmbM_MotobikerFat_Base",
+							"ZmbM_FarmerFat_Base",
+							"ZmbM_FarmerFat_LT_Base",
+							"ZmbF_Runner_Base",
+							"ZmbM_Jacket_Base",
+							"ZmbM_Jacket_LT_Base",
+							"ZmbM__Runner_Base",
+							"ZmbF_HikerSkinny_Base",
+							"ZmbM_HikerSkinny_Base",
+							"ZmbM_ClerkFat_Base",
+							"ZmbM_ClerkFat_LT_Base",
+							"ZmbF_ClerkFat_Base",
+							"firefighters",
+							"fishermen",
+							"industrial",
+							"prisoners"
             ],
-			"lowdef": [
-				"priests",
+						"lowdef": [
+								"priests",
                 "city",
                 "medics",
-                "villagers"
+                "villagers",
+								"kids"
             ],
+						"kids": [
+								"ZmbM_kid",
+								"ZmbM_kid2",
+								"ZmbM_kid3",
+								"ZmbF_kid",
+								"ZmbF_kid2",
+								"ZmbF_kid3"
+						],
+						"police": [
+                "ZmbF_PoliceWomanNormal_Base",
+                "ZmbM_PolicemanFat_Base",
+                "ZmbM_PolicemanSpecForce_Base"
+            ],            
             "priests": [
                 "ZmbM_priestPopSkinny_Base"
             ],            
@@ -123,8 +134,8 @@
                 "ZmbM_CommercialPilotOld_Base",
                 "ZmbM_CommercialPilotOld_LT_Base",
                 "ZmbM_JournalistSkinny_Base",
-				"ZmbM_MotobikerFat_Base",
-				"ZmbM_Gamedev_Base"
+								"ZmbM_MotobikerFat_Base",
+								"ZmbM_Gamedev_Base"
             ],
             "firefighters": [
                 "ZmbM_FirefighterNormal_Base"
@@ -590,34 +601,41 @@
             "all": 1
         },
         "SpeedMinimumInCalmMode": {
-            "all": 0.0
+            "all": 0.0,
+						"kids": 1.0
         },
         "SpeedLimitInCalmMode": {
-            "all": 1.0
+            "all": 1.0,
+						"kids": 3.0
         },
         "SpeedMultiplierInCalmMode": {
             "all": 1.0
         },
         "SpeedMinimumInSearchMode": {
-            "all": 0.0
+            "all": 0.0,
+						"kids": 1.0
         },
         "SpeedLimitInSearchMode": {
-            "all": 2.0
+            "all": 2.0,
+						"kids": 3.0
         },
         "SpeedMultiplierInSearchMode": {
             "all": 1.0
         },
         "SpeedMinimumInChaseMode": {
-            "all": 0.0
+            "all": 0.0,
+						"kids": 1.0
         },
         "SpeedLimitInChaseMode": {
             "all": 3.0
         },
         "SpeedMultiplierInChaseMode": {
-            "all": 0.7
+            "all": 0.7,
+            "kids": 1.0
         },
         "SpeedNoLimitsFromDistanceMeters": {
-            "all": 7.0
+            "all": 7.0,
+						"kids": 0.0
         },
         "SmellsHandlerIsActive": {
             "all": 0
@@ -635,16 +653,19 @@
             "all": 1
         },
         "UpJumpHeightMax": {
-            "all": 1.6000000476837159
+            "all": 1.6,
+						"kids": 4.0
         },
         "UpJumpImpulseDamageChancePercent": {
-            "all": 50.0
+            "all": 100.0
         },
         "UpJumpChancePercent": {
-            "all": 40.0
+            "all": 40.0,
+						"kids": 100.0
         },
         "UpJumpCooldownSeconds": {
-            "all": 10.0
+            "all": 10.0,
+						"kids": 4.0
         },
         "DownJumpHandlerIsActive": {
             "all": 1
@@ -659,16 +680,20 @@
             "all": 1
         },
         "FallHandlerLegBreakHeightMin": {
-            "all": 6.0
+            "all": 6.0,
+						"kids": 12.0
         },
         "FallHandlerLegBreakHeightMax": {
-            "all": 15.0
+            "all": 15.0,
+						"kids": 25.0
         },
         "FallHandlerDeathHeightMin": {
-            "all": 13.0
+            "all": 13.0,
+						"kids": 30.0
         },
         "FallHandlerDeathHeightMax": {
-            "all": 20.0
+            "all": 20.0,
+						"kids": 35.0
         },
         "InjuryHandlerIsActive": {
             "all": 1
@@ -1101,11 +1126,11 @@
             "all": 1
         },
         "DamageToPlayerBleedingChancePercent": {
-            "all": 80.0,
-            "SurvivorBase": 5.0,
-            "highstr": 12.0,
-            "mediumstr": 6.0,
-            "lowstr": 3.0
+            "all": 100.0,
+            "SurvivorBase": 25.0,
+            "highstr": 33.0,
+            "mediumstr": 25.0,
+            "lowstr": 20.0
         },
         "DamageToPlayerInBlockHealthMultiplier": {
             "all": 1.0,
@@ -1133,7 +1158,7 @@
             "all": 0.0
         },
         "DamageToPlayerInBlockBleedingChancePercent": {
-            "all": 80.0,
+            "all": 100.0,
             "SurvivorBase": 0.0,
             "highstr": 0.0,
             "mediumstr": 0.0,
@@ -1299,6 +1324,12 @@
         "DamageToZombieHealthPoints": {
             "all": -1.0,
             "ZombieBase": 100.0,
+						"ZmbM_kid": 65.0,
+						"ZmbM_kid2": 65.0,
+						"ZmbM_kid3": 65.0,
+						"ZmbF_kid": 65.0,
+						"ZmbF_kid2": 65.0,
+						"ZmbF_kid3": 65.0,
             "SurvivorBase": 100.0,
             "bears": 1000.0,
             "wolves": 200.0
@@ -1387,7 +1418,11 @@
             "all": 1
         },
         "MeleeAttacksDodgeChance": {
-            "all": 50.0
+            "all": 50.0,
+						"SurvivorBase": 75.0,
+            "highstr": 70.0,
+            "mediumstr": 50.0,
+            "lowstr": 20.0
         },
         "MeleeAttacksDodgeCooldownSeconds": {
             "all": 5.0
@@ -1691,7 +1726,7 @@
         "PainSystemIsActive": 1,
         "ShowPainBadges": 1,
         "PainHealingRatePerSecondPercent": 0.012,
-        "HealthDrainWithOverPainedLimbPerSecondPercent": 0.01,
+        "HealthDrainWithOverPainedLimbPerSecondPercent": 0.012,
         "ShowPainBlur": 1,
         "LimbsBreakSystemIsActive": 1,
         "LimbsBreakPainThresholdPercent": 50.0,
@@ -1715,7 +1750,7 @@
         "ArmsLowerWhenOverPainedArmsReceivingHits": 1,
         "ArmsPainShockDamageActions": {
             "ActionUnrestrainSelf": 1.0,
-            "all": 2.0,
+            "all": 1.0,
             "ActionPushCar": 8.0,
             "ActionMineRock": 4.0,
             "ActionMineTree": 4.0,
@@ -1729,13 +1764,13 @@
             "ActionConsumeSingle": 0.0
         },
         "ArmsPainUnrestrainItems": {
-			"all": 2.0,
-			"BarbedWireLocked": 6.0,
-			"MetalWireLocked": 3.0,
-			"DuctTapeLocked": 1.0,
-			"RopeLocked": 1.5,
-			"HandcuffsLocked": 2.0
-		},
+					"all": 2.0,
+					"BarbedWireLocked": 6.0,
+					"MetalWireLocked": 3.0,
+					"DuctTapeLocked": 1.0,
+					"RopeLocked": 1.5,
+					"HandcuffsLocked": 2.0
+				},
         "AuditoryHallucinationsWithPainedHead": 1,
         "VomitWithPainedHead": 1,
         "TinnitusWhenHeadReceivingHits": 1,
@@ -1743,8 +1778,8 @@
         "SoundAttenuationWhenHeadReceivingHits": 1,
         "MovementCoordinationImpairmentWhenHeadReceivingHits": 1,
         "PainArmsWhenHitWithoutGloves": 1,
-        "ShockIfRunsWithPainedLegs": 0,
-        "ShockIfAttackingWithPainedArms": 0,
+        "ShockIfRunsWithPainedLegs": 1,
+        "ShockIfAttackingWithPainedArms": 1,
         "DestroyedDoorNotificationType": 1,
         "NoiseMultiplierDay": 1.0,
         "NoiseMultiplierNight": 1.0,

@@ -6,7 +6,7 @@ class CfgSyberia {
        sleepingIncPerUnconsionBoostValue = 35;
        sleepingIncPerUnconsionBoostTime = 60;
        sleepingIncPerSleepingLvl1Sec = 80;
-       sleepingIncPerSleepingLvl2Sec = 160;
+       sleepingIncPerSleepingLvl2Sec = 120;
        sleepingHealPerSec01 = 0.0002;
        sleepingHealInfluenzaChance = 0.03;
     };
@@ -35,7 +35,7 @@ class CfgSyberia {
        bleedingKnifehitZombieChance = 0.0015;
        bleedingKnifehitRemoveBandagedTimeSec = -1;
        bleedingVisceraHealthlosePerSecond = 0.03;
-       bleedingHematomaHealthlosePerSecond = 0.001;
+       bleedingHematomaHealthlosePerSecond = 0.00125;
        bleedingZombieHitChance = 0;
        hematomaPlayerhandsHitChance = 0;
        hematomaZombieHitChance = 0.05;
@@ -48,7 +48,7 @@ class CfgSyberia {
        concussionRegenTimeSec = 7200;
        concussionZombieHitChance = 0.02;
        hematopoiesisEffectBloodPerSec = 1;
-       mindstateHealPerSec = 0.01;
+       mindstateHealPerSec = 0.003;
        mindstateEmptyDeadtimeSec = 135;
        influenzaIncubatePeriodsSec[] = { 1800, 9000, 10800 };
        influenzaDeathTime[] = { 0, 0, 5400 };
