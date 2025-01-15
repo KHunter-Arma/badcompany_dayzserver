@@ -300,7 +300,9 @@
     "BBPCraftStepLadder"
   ],
   "m_disabledDefaultRecipes": [
-    "CraftBush_WaterCollectorKit"
+    "CraftBush_WaterCollectorKit",
+    "CraftMakeshiftsheltermung",
+    "CraftMakeshiftshelter2mung"
   ],
   "m_customRecipes": [
     {
@@ -364,6 +366,132 @@
       ],
       "m_ItemsToCreate": [
         "Bush_WaterCollectorKit"
+      ]
+    },
+    {
+      "m_Name": "Makeshift Tent Kit",
+      "m_IsInstaRecipe": 0,
+      "m_AnimationLength": 60.0,
+      "m_Ingredients": [
+        [
+          "WoodenStick"
+        ],
+        [
+          "WoodenStick"
+        ]
+      ],
+      "m_MinQuantityIngredient": [
+        5.0,
+        5.0
+      ],
+      "m_MaxQuantityIngredient": [
+        -1.0,
+        -1.0
+      ],
+      "m_MinDamageIngredient": [
+        -1,
+        -1
+      ],
+      "m_MaxDamageIngredient": [
+        1,
+        1
+      ],
+      "m_IngredientAddHealth": [
+        0.0,
+        0.0
+      ],
+      "m_IngredientAddQuantity": [
+        0.0,
+        0.0
+      ],
+      "m_IngredientSetHealth": [
+        -1.0,
+        -1.0
+      ],
+      "m_IngredientDestroy": [
+        1,
+        1
+      ],
+      "m_ResultSetFullQuantity": [
+        0
+      ],
+      "m_ResultSetQuantity": [
+        -1.0
+      ],
+      "m_ResultSetHealth": [
+        -1.0
+      ],
+      "m_ResultToInventory": [
+        0
+      ],
+      "m_ResultInheritsHealth": [
+        -2
+      ],
+      "m_ItemsToCreate": [
+        "makeshifttent_mung"
+      ]
+    },
+    {
+      "m_Name": "Makeshift Tent 2 Kit",
+      "m_IsInstaRecipe": 0,
+      "m_AnimationLength": 60.0,
+      "m_Ingredients": [
+        [
+          "WoodenStick"
+        ],
+        [
+          "WoodenStick"
+        ]
+      ],
+      "m_MinQuantityIngredient": [
+        5.0,
+        5.0
+      ],
+      "m_MaxQuantityIngredient": [
+        -1.0,
+        -1.0
+      ],
+      "m_MinDamageIngredient": [
+        -1,
+        -1
+      ],
+      "m_MaxDamageIngredient": [
+        1,
+        1
+      ],
+      "m_IngredientAddHealth": [
+        0.0,
+        0.0
+      ],
+      "m_IngredientAddQuantity": [
+        0.0,
+        0.0
+      ],
+      "m_IngredientSetHealth": [
+        -1.0,
+        -1.0
+      ],
+      "m_IngredientDestroy": [
+        1,
+        1
+      ],
+      "m_ResultSetFullQuantity": [
+        0
+      ],
+      "m_ResultSetQuantity": [
+        -1.0
+      ],
+      "m_ResultSetHealth": [
+        -1.0
+      ],
+      "m_ResultToInventory": [
+        0
+      ],
+      "m_ResultInheritsHealth": [
+        -2
+      ],
+      "m_ItemsToCreate": [
+        "makeshifttent2_mung"
       ]
     }
   ]
