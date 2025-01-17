@@ -825,7 +825,16 @@
         "AttackCarElementsMultiplierByCarClassId": {
             "all": {
                 "all": 1.0,
-                "Bicycle_Base": 3.0
+                "Bicycle_Base": 3.0,
+								"Izh_56_RUS": 2.0,
+								"Izh_56K_RUS": 2.0,
+								"URAL_M62": 2.0,
+								"Harley_Davidson_RUS": 2.0,
+								"Dnepr_MT_11": 2.0,
+								"DadyBikeRF": 2.0,
+								"moped_80": 2.5,
+								"jawa_350_638": 2.5,
+								"vino_RF": 2.0
             }
         },
         "AttackCarWindowDamagePercent": {
@@ -1819,7 +1828,16 @@
         },
         "CollisionsSpeedReductionMultiplier": {
             "all": 1.0,
-            "Bicycle_Base": 10.0
+            "Bicycle_Base": 10.0,
+            "Izh_56_RUS": 10.0,
+            "Izh_56K_RUS": 10.0,
+            "URAL_M62": 10.0,
+            "Harley_Davidson_RUS": 10.0,
+            "Dnepr_MT_11": 10.0,
+            "DadyBikeRF": 10.0,
+            "moped_80": 10.0,
+            "jawa_350_638": 10.0,
+            "vino_RF": 10.0
         },
         "CollisionsDamageSpeedThresholdKmH": {
             "all": 10.0
