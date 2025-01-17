@@ -68,7 +68,7 @@ class CfgSyberia {
     class ZombieSystem {
        zombieOpenDoorEnable = 0;
        zombieBloodHandsChanceOnLooting = 0.5;
-       zombieAttackPlayersInUnconscious = 0;
+       zombieAttackPlayersInUnconscious = 1;
        zombieDetectPlayerVisibilityMultiplier = 1;
     };
     class AnimalsSystem {
