@@ -32285,12 +32285,21 @@
     </type>
 	
 	<!-- imets -->	
+	
 	<type name="Bush_MetalIngot">
         <nominal>0</nominal>
         <lifetime>115200</lifetime>
         <restock>43200</restock>
         <min>0</min>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>300</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Village"/>
+		<usage name="Military"/>
     </type>
 	<type name="BushPlant_BottleOil">
         <nominal>0</nominal>
