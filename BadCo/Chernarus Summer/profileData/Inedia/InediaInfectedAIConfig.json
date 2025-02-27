@@ -276,6 +276,28 @@
 					"AccuracySpread": 0.1
                 }
             },
+						"GarbageIfPlayerInWater": {
+                "ItemClasses": [
+                    "WoodenStick",
+                    "SmallStone"
+                ],
+                "Parameters": {
+                    "ThrowConditionAllowThrowingForCrawlers": 0,
+                    "ThrowConditionZombieTargetVerticalDistanceMin": 0.5,
+                    "ThrowConditionGroundTargetDistanceMin": 0.5,
+										"TargetBreakChanceMultiplier": 0.1,
+										"TargetDeepWoundChanceMultiplier": 0,
+										"TargetArmsPainDisarmMultiplier": 0.4,
+                    "TargetStunChancePercent": 30.0,
+                    "TargetShockDamage": 10.0,
+                    "TargetHealthDamage": 1.0,
+                    "TargetBleedingChancePercent": 10.0,
+                    "ThrowConditionCooldownSeconds": 8.0,
+                    "DestroyProjectileAfterSeconds": 0,
+                    "DeleteProjectileAfterSeconds": -1,
+                    "ThrowConditionTargetInWater": 1.0
+                }
+            },
 			"MilitaryProjectile": {
                 "ItemClasses": [
                     "Binoculars",
@@ -382,8 +404,6 @@
                 ],
                 "Parameters": {
 					"ThrowConditionAllowThrowingForCrawlers": 0,
-                    "ThrowConditionZombieTargetVerticalDistanceMin": 0.5,
-                    "ThrowConditionGroundTargetDistanceMin": 0.5,
 										"TargetBreakChanceMultiplier": 0.1,
 					"TargetDeepWoundChanceMultiplier": 0,
 					"TargetArmsPainDisarmMultiplier": 0.4,
@@ -1203,6 +1223,12 @@
             "mediumstr": 0.0,
             "lowstr": 0.0
         },
+				"FastAttackToPlayerChancePercent": {
+            "all": 0.0,
+            "highstr": 60.0,
+            "mediumstr": 30.0,
+            "lowstr": 5.0
+        },
         "DiseasesToPlayerHandlerIsActive": {
             "all": 0
         },
@@ -1644,6 +1670,7 @@
         },
         "ThrowingProjectilesHandlerProjectilesList": {
             "police": [
+								"GarbageIfPlayerInWater",
                 "GarbageIfPlayerOnObstacle",
                 "PoliceProjectile",
                 "PoliceKnife",
@@ -1651,36 +1678,46 @@
             ],
             "all": [],
             "priests": [
+								"GarbageIfPlayerInWater",
                 "GarbageIfPlayerOnObstacle"
             ],
             "industrial": [
+								"GarbageIfPlayerInWater",
                 "GarbageIfPlayerOnObstacle"
             ],
             "villagers": [
+								"GarbageIfPlayerInWater",
                 "GarbageIfPlayerOnObstacle"
             ],
             "city": [
+								"GarbageIfPlayerInWater",
                 "GarbageIfPlayerOnObstacle"
             ],
             "firefighters": [
+								"GarbageIfPlayerInWater",
                 "GarbageIfPlayerOnObstacle"
             ],
             "medics": [
+								"GarbageIfPlayerInWater",
                 "GarbageIfPlayerOnObstacle"
             ],
             "fishermen": [
+								"GarbageIfPlayerInWater",
                 "GarbageIfPlayerOnObstacle"
             ],
             "hunters": [
+								"GarbageIfPlayerInWater",
                 "GarbageIfPlayerOnObstacle"
             ],
             "military": [
+								"GarbageIfPlayerInWater",
                 "GarbageIfPlayerOnObstacle",
                 "MilitaryProjectile",
                 "MilitaryKnife",
 				"HEGrenade"
             ],
             "prisoners": [
+								"GarbageIfPlayerInWater",
                 "GarbageIfPlayerOnObstacle",
                 "GarbageIfPlayerNonObstacle"
             ]
@@ -1846,6 +1883,7 @@
     "LossInterestToIrritantAfterSeconds": 120.0,
     "LightInHouseMultiplier": 0.5,
     "SoundInHouseMultiplier": 0.33,
+		"SuppressorShotCooldownSeconds": 4.0,
     "BloodParticlesLimit": 1000.0,
     "BloodParticleDurationSeconds": 7200.0,
     "SaveConfigAfterInit": 0
