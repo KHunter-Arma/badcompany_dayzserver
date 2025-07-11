@@ -1,7 +1,7 @@
 {
     "dp_configVersion": 200,
     "dp_removeAfterHarvest": 1,
-    "coca_growtime": 1440.0,
+    "coca_growtime": 5760.0,
     "coca_cropcount": 2,
     "cocaSeed_count": 9,
     "cocaineHueIntensity": 90.0,

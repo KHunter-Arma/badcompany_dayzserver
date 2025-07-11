@@ -37,7 +37,7 @@
 <ObjectArray>	geb_GrubWorm
 <ObjectArray>	Nail
 <ObjectArray>	SyringeEmpty
-<ObjectArray>	SyringeFull
+<ObjectArray>	GlassBottle
 <ObjectArray>	UnknownFoodCan_OpenedRotten
 <ObjectArray>	TunaCan_OpenedRotten
 <ObjectArray>	SpaghettiCan_OpenedRotten
@@ -52,11 +52,11 @@
 <ObjectArray>	Bone
 <ObjectArray>	PumpkinSeeds
 <ObjectArray>	Pajka_OpenedRotten
-<ObjectArray>	PepperSeeds
+<ObjectArray>	Bottle_Milk
 <ObjectArray>	WaterBottle
 <ObjectArray>	Paper
-<ObjectArray>	Hook
-<ObjectArray>	ZucchiniSeeds
+<ObjectArray>	Bottle_Cola
+<ObjectArray>	Bottle_Pepsi
 <ObjectArray>	SantasBeard
 <ObjectArray>	Flag_Chernarus
 <ObjectArray>	GiftWrapPaper

@@ -12,21 +12,21 @@
 		"disablePersonalLight": true,
 		"StaminaData":
 		{
-			"sprintStaminaModifierErc": 1.0,
+			"sprintStaminaModifierErc": 0.3,
 			"sprintStaminaModifierCro": 1.0,
 			"staminaWeightLimitThreshold": 6000.0,
 			"staminaMax": 100.0,
 			"staminaKgToStaminaPercentPenalty": 1.75,
 			"staminaMinCap": 5.0,
-			"sprintSwimmingStaminaModifier": 1.0,
+			"sprintSwimmingStaminaModifier": 0.5,
 			"sprintLadderStaminaModifier": 1.0,
-			"meleeStaminaModifier": 1.0,
+			"meleeStaminaModifier": 0.3,
 			"obstacleTraversalStaminaModifier": 1.0,
 			"holdBreathStaminaModifier": 1.0
 		},
 		"ShockHandlingData":
 		{
-			"shockRefillSpeedConscious": 5.0,
+			"shockRefillSpeedConscious": 0.5,
 			"shockRefillSpeedUnconscious": 1.0,
 			"allowRefillSpeedModifier": true
 		},
@@ -48,10 +48,10 @@
 	},
 	"WorldsData":
 	{
-		"lightingConfig": 1,
+		"lightingConfig": 0,
 		"objectSpawnersArr": [],
-		"environmentMinTemps": [-4.0, -4.0, -2.0, 2.0, 6.0, 15.0, 15.0, 15.0, 12.0, 8.0, 4.0, -2.0],
-		"environmentMaxTemps": [10.0, 10.0, 12.0, 14.0, 18.0, 30.0, 30.0, 30.0, 20.0, 17.0, 15.0, 12.0],
+		"environmentMinTemps": [-4, -4, -2, 2, 6, 15, 15, 15, 12, 8, 4, -2],
+		"environmentMaxTemps": [10, 10, 12, 14, 18, 30, 30, 30, 20, 17, 15, 12],
 		"wetnessWeightModifiers": [1.0, 1.0, 1.33, 1.66, 2.0]
 	},
 	"BaseBuildingData":

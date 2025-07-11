@@ -7,27 +7,19 @@ void main()
 
 	//DATE RESET AFTER ECONOMY INIT-------------------------
 	int year, month, day, hour, minute;
-	int reset_month = 6, reset_day = 1;
+	int reset_month = 6, reset_day = 21;
 	GetGame().GetWorld().GetDate(year, month, day, hour, minute);
-
-	if ((month == reset_month) && (day < reset_day))
-	{
-		GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
-	}
-	else
-	{
-		if ((month == reset_month + 1) && (day > reset_day))
-		{
-			GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
-		}
-		else
-		{
-			if ((month < reset_month) || (month > reset_month + 1))
-			{
-				GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
-			}
-		}
-	}
+	GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
+	
+	//test
+	GetGame().GetMission().GetWorldData().m_TemperaturePerHeightReductionModifier = 0.015;
+	GetGame().GetMission().GetWorldData().m_WaterContactTemperatureModifier = 0.0000001;
+	GetGame().GetMission().GetWorldData().m_CloudsTemperatureEffectModifier = 0.0000001;
+	GetGame().GetMission().GetWorldData().m_TemperatureInsideBuildingsModifier = 0.0000001;	
+	GetGame().GetWeather().SetDynVolFogHeightBias(1, 0);
+	GetGame().GetWeather().SetDynVolFogDistanceDensity(0, 0);
+	GetGame().GetWeather().SetDynVolFogHeightDensity(0, 0);
+	
 }
 
 class CustomMission: MissionServer

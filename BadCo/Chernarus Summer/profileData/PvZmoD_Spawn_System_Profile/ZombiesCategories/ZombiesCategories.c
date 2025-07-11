@@ -602,16 +602,12 @@ ref autoptr TStringArray Zombie_Type_Riffy_Hight = {
 
 
 ref autoptr TStringArray Zombie_Type_SchoolStudents = {
-	"ZmbF_CitizenBSkinny",
-
-	"ZmbF_SkaterYoung_Brown",
-	"ZmbF_SkaterYoung_Striped",
-	"ZmbF_SkaterYoung_Violet",
-
-	"ZmbM_SkaterYoung_Blue",
-	"ZmbM_SkaterYoung_Brown",
-	"ZmbM_SkaterYoung_Green",
-	"ZmbM_SkaterYoung_Grey",
+	"ZmbM_kid",
+	"ZmbM_kid2",
+	"ZmbM_kid3",
+	"ZmbF_kid",
+	"ZmbF_kid2",
+	"ZmbF_kid3"
 };
 ref autoptr TStringArray Zombie_Type_SchoolTeacher = {
 	"ZmbF_MilkMaidOld_Beige",

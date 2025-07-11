@@ -9,9 +9,6 @@
     </type>
 	
 	<type name="Features_Activation">
-        <Disable_All_Features	 							Day = "0"	Night = "0"/>	<!-- [0 or 1]  --> 
-        <Zombies_Health_Activated 							Day = "0"	Night = "0"/>	<!-- [0 or 1]  -->
-        <Zombies_Resistance_Activated 						Day = "0"	Night = "0"/>	<!-- [0 or 1]  -->
         <Zombies_Speed_Activated							Day = "0"	Night = "0"/>	<!-- [0 or 1]  -->
 		<Zombies_Speed_Adjust_Activated						Day = "0"	Night = "0"/>	<!-- [0 or 1]  -->
         <Zombies_CrawlControl_Activated						Day = "0"	Night = "0"/>	<!-- [0 or 1]  -->

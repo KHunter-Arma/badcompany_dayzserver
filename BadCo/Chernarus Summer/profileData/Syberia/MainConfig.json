@@ -7,108 +7,131 @@
   "m_skillModifiers": [
     {
       "m_id": 0,
-      "m_mod": 1.0,
-      "m_decreaseOnDeath": 0.3
+      "m_mod": 10.0,
+      "m_decreaseOnDeath": 1.5
     },
     {
       "m_id": 1,
-      "m_mod": 1.0,
-      "m_decreaseOnDeath": 0.3
+      "m_mod": 10.0,
+      "m_decreaseOnDeath": 1.5
     },
     {
       "m_id": 2,
-      "m_mod": 1.0,
-      "m_decreaseOnDeath": 0.3
+      "m_mod": 10.0,
+      "m_decreaseOnDeath": 1.5
     },
     {
       "m_id": 3,
-      "m_mod": 1.0,
-      "m_decreaseOnDeath": 0.3
+      "m_mod": 10.0,
+      "m_decreaseOnDeath": 1.5
     },
     {
       "m_id": 4,
-      "m_mod": 1.0,
-      "m_decreaseOnDeath": 0.3
+      "m_mod": 10.0,
+      "m_decreaseOnDeath": 1.5
     },
     {
       "m_id": 5,
-      "m_mod": 1.0,
-      "m_decreaseOnDeath": 0.3
+      "m_mod": 10.0,
+      "m_decreaseOnDeath": 1.5
     },
     {
       "m_id": 6,
-      "m_mod": 1.0,
-      "m_decreaseOnDeath": 0.3
+      "m_mod": 10.0,
+      "m_decreaseOnDeath": 1.5
     },
     {
       "m_id": 7,
-      "m_mod": 1.0,
-      "m_decreaseOnDeath": 0.3
+      "m_mod": 10.0,
+      "m_decreaseOnDeath": 1.5
     },
     {
       "m_id": 8,
-      "m_mod": 1.0,
-      "m_decreaseOnDeath": 0.3
+      "m_mod": 10.0,
+      "m_decreaseOnDeath": 1.5
     },
     {
       "m_id": 9,
-      "m_mod": 1.0,
-      "m_decreaseOnDeath": 0.3
+      "m_mod": 10.0,
+      "m_decreaseOnDeath": 1.5
     },
     {
       "m_id": 10,
-      "m_mod": 1.0,
-      "m_decreaseOnDeath": 0.3
+      "m_mod": 10.0,
+      "m_decreaseOnDeath": 1.5
     },
     {
       "m_id": 11,
-      "m_mod": 1.0,
-      "m_decreaseOnDeath": 0.3
+      "m_mod": 10.0,
+      "m_decreaseOnDeath": 1.5
     },
     {
       "m_id": 12,
-      "m_mod": 1.0,
-      "m_decreaseOnDeath": 0.3
+      "m_mod": 10.0,
+      "m_decreaseOnDeath": 1.5
     },
     {
       "m_id": 13,
-      "m_mod": 1.0,
-      "m_decreaseOnDeath": 0.3
+      "m_mod": 10.0,
+      "m_decreaseOnDeath": 1.5
     },
     {
       "m_id": 14,
-      "m_mod": 1.0,
-      "m_decreaseOnDeath": 0.3
+      "m_mod": 10.0,
+      "m_decreaseOnDeath": 1.5
     },
     {
       "m_id": 15,
-      "m_mod": 1.0,
-      "m_decreaseOnDeath": 0.3
+      "m_mod": 10.0,
+      "m_decreaseOnDeath": 1.5
     },
     {
       "m_id": 16,
-      "m_mod": 1.0,
-      "m_decreaseOnDeath": 0.3
+      "m_mod": 10.0,
+      "m_decreaseOnDeath": 1.5
     },
     {
       "m_id": 17,
-      "m_mod": 1.0,
-      "m_decreaseOnDeath": 0.3
+      "m_mod": 10.0,
+      "m_decreaseOnDeath": 1.5
     }
   ],
   "m_startMedicKit": [
-    "BandageDressing",
-    "AmpouleAlcohol",
-    "TabletsAnalgin"
+    "SurgicalMask; H0.8",
+    "SurgicalGloves_White; H0.8",
+    "TrackSuitJacket_Blue; H0.8",
+    "TrackSuitPants_Blue; H0.8",
+    "HipPack_Medical; H0.8",
+    "Sneakers_White; H0.8",
+    "BandageDressing; H0.8",
+    "IodineTincture; H0.5",
+    "TabletsAnalgin; H0.3",
+    "TabletsEnterofuril; H0.3",
+    "TabletsTrihopol; H0.3",
+    "SewingKit; H0.4"
   ],
   "m_startStealthKit": [
-    "GhillieBushrag_Mossy",
-    "MKII",
-    "AmmoBox_22_50Rnd"
+    "TrackSuitJacket_Black; H0.8",
+    "TrackSuitPants_Black; H0.8",
+    "Balaclava3Holes_Black; H0.8",
+    "WoolGlovesFingerless_Black; H0.8",
+    "CivilianBelt; H0.8",
+    "HikingBootsLow_Black; H0.8",
+    "CombatKnife; H0.8",
+    "Whetstone; H0.4",
+    "SmallStone; H0.9"
   ],
   "m_startSurvivorKit": [
-    "Matchbox",
-    "Canteen",
-    "Crackers"
+    "LeatherJacket_Natural; H0.8",
+    "Jeans_Brown; H0.8",
+    "WinterCoif_Green; H0.8",
+    "LeatherGloves_Natural; H0.8",
+    "LeatherBelt_Natural; H0.8",
+    "HikingBoots_Brown; H0.8",
+    "StoneKnife; H0.4",
+    "Matchbox; H0.4",
+    "thermos_mung; H0.5",
+    "Crackers; H0.6",
+    "Crackers; H0.6"
   ]
 }
