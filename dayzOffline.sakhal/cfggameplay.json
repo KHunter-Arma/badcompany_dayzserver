@@ -1,5 +1,5 @@
 {
-	"version": 122,
+	"version": 123,
 	"GeneralData":
 	{
 		"disableBaseDamage": false,
@@ -44,6 +44,11 @@
 			"staminaDepletionSpeed": 10.0,
 			"healthDepletionSpeed": 10.0,
 			"shockDepletionSpeed": 10.0
+		},
+		"WeaponObstructionData":
+		{
+			"staticMode": 1,
+			"dynamicMode": 1
 		}
 	},
 	"WorldsData":
@@ -69,6 +74,7 @@
 			"disableHeightPlacementCheck": false,
 			"disableIsUnderwaterCheck": false,
 			"disableIsInTerrainCheck": false,
+			"disableColdAreaPlacementCheck": false,
 			"disallowedTypesInUnderground": ["FenceKit","TerritoryFlagKit","WatchtowerKit"]
 		},
 		"ConstructionData":
@@ -95,9 +101,13 @@
 	},
 	"MapData":
 	{
-		"ignoreMapOwnership": true,
+		"ignoreMapOwnership": false,
 		"ignoreNavItemsOwnership": false,
-		"displayPlayerPosition": true,
+		"displayPlayerPosition": false,
 		"displayNavInfo": true
+	},
+	"VehicleData":
+	{
+		"boatDecayMultiplier": 1
 	}
 }
