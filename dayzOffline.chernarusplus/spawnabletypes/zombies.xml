@@ -8,19 +8,19 @@
 	<type name="ZmbM_NBC_Grey">
 		<cargo preset="ContaminatedCargo" />
 		<cargo chance="0.1">
-			<item name="TabletsB190" chance="1.0" />
+			<item name="TerjePillsB190" chance="1.0" />
 		</cargo>
 		<cargo chance="0.02">
-			<item name="InjectorZivirol" chance="1.0" />
+			<item name="TerjeInjectorZivirol" chance="1.0" />
 		</cargo>
 	</type>
 	<type name="ZmbM_NBC_Yellow">
 		<cargo preset="ContaminatedCargo" />
 		<cargo chance="0.1">
-			<item name="TabletsB190" chance="1.0" />
+			<item name="TerjePillsB190" chance="1.0" />
 		</cargo>
 		<cargo chance="0.02">
-			<item name="InjectorZivirol" chance="1.0" />
+			<item name="TerjeInjectorZivirol" chance="1.0" />
 		</cargo>
 	</type>
 	<!--ARMY-->
