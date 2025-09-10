@@ -1,0 +1,2 @@
+// Add the SteamIDs of players to this file (one per line) for whom you would like them to have absolute immunity against effects of this type.
+
