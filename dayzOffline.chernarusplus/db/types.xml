@@ -42442,7 +42442,7 @@
 	</type>
 	<type name="ZIL133_flatbed_wheel_destroyed">
 		<nominal>0</nominal>
-		<lifetime>300</lifetime>
+		<lifetime>115200</lifetime>
 		<restock>43200</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
