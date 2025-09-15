@@ -35,9 +35,6 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<default name="save_events_startup" value="true"/>
 		<default name="save_types_startup" value="true"/>
 	</defaults>
-	<ce folder="dzr_notes">
-		<file name="pens_and_notes.xml" type="types" />
-	</ce>
 	<ce folder="spawnabletypes">
 		<file name="mags.xml" type="spawnabletypes" />
 		<file name="vehicles.xml" type="spawnabletypes" />
