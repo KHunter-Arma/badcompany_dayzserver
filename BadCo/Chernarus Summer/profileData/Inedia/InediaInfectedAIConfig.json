@@ -283,8 +283,6 @@
                 ],
                 "Parameters": {
                     "ThrowConditionAllowThrowingForCrawlers": 0,
-                    "ThrowConditionZombieTargetVerticalDistanceMin": 0.5,
-                    "ThrowConditionGroundTargetDistanceMin": 0.5,
 										"TargetBreakChanceMultiplier": 0.1,
 										"TargetDeepWoundChanceMultiplier": 0,
 										"TargetArmsPainDisarmMultiplier": 0.4,
@@ -403,17 +401,19 @@
                     "SmallStone"
                 ],
                 "Parameters": {
-					"ThrowConditionAllowThrowingForCrawlers": 0,
-										"TargetBreakChanceMultiplier": 0.1,
-					"TargetDeepWoundChanceMultiplier": 0,
-					"TargetArmsPainDisarmMultiplier": 0.4,
-                    "TargetStunChancePercent": 30.0,
-                    "TargetShockDamage": 10.0,
-                    "TargetHealthDamage": 1.0,
-                    "TargetBleedingChancePercent": 10.0,
-                    "ThrowConditionCooldownSeconds": 8.0,
-                    "DestroyProjectileAfterSeconds": 0,
-                    "DeleteProjectileAfterSeconds": -1
+                  "ThrowConditionZombieTargetVerticalDistanceMin": 0.5,
+                  "ThrowConditionGroundTargetDistanceMin": 0.5,
+                  "ThrowConditionAllowThrowingForCrawlers": 0,
+                  "TargetBreakChanceMultiplier": 0.1,
+                  "TargetDeepWoundChanceMultiplier": 0,
+                  "TargetArmsPainDisarmMultiplier": 0.4,
+                  "TargetStunChancePercent": 30.0,
+                  "TargetShockDamage": 10.0,
+                  "TargetHealthDamage": 1.0,
+                  "TargetBleedingChancePercent": 10.0,
+                  "ThrowConditionCooldownSeconds": 8.0,
+                  "DestroyProjectileAfterSeconds": 0,
+                  "DeleteProjectileAfterSeconds": -1
                 }
             },
             "IndustrialProjectile": {
