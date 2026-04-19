@@ -50,7 +50,7 @@
 			<item name="SteakKnife" chance="0.1" />
 			<item name="HuntingKnife" chance="0.08" />
 			<item name="PurificationTablets" chance="0.05" />
-			<item name="TabletsCharcoal" chance="0.05" />
+			<item name="CharcoalTablets" chance="0.05" />
 	</cargo>
 	<cargo chance="0.2" name="toolsVillage">
 			<item name="DuctTape" chance="0.07" />
@@ -68,23 +68,23 @@
 			<item name="Matchbox" chance="0.56" />
 			<item name="PetrolLighter" chance="0.56" />
 			<item name="Flashlight" chance="0.07" />
-			<item name="TabletsAnalgin" chance="0.05" />
+			<item name="TerjePillsAnalgin" chance="0.05" />
 			<item name="Pen_Blue" chance="0.14" />
 			<item name="Paper" chance="0.28" />
 	</cargo>
 	<cargo chance="0.33" name="toolsMedic">
 			<item name="SalineBag" chance="0.05" />
 			<item name="BandageDressing" chance="0.3" />
-			<item name="Stethoscope" chance="0.1" />
-			<item name="BandageHemostatic" chance="0.15" />
+			<item name="TerjeStethoscope" chance="0.1" />
+			<item name="TerjeBandageHemostatic" chance="0.15" />
 			<item name="BloodBagEmpty" chance="0.1" />
 			<item name="BloodTestKit" chance="0.05" />
 			<item name="StartKitIV" chance="0.05" />
 			<item name="PurificationTablets" chance="0.1" />
-			<item name="TabletsCharcoal" chance="0.1" />
-			<item name="TabletsParacetamol" chance="0.1" />
+			<item name="CharcoalTablets" chance="0.1" />
+			<item name="TerjePillsParacetamol" chance="0.1" />
 			<item name="VitaminBottle" chance="0.05" />
-			<item name="TabletsAmpicylin" chance="0.1" />
+			<item name="TerjePillsPiperacylin" chance="0.1" />
 			<item name="Thermometer" chance="0.05" />
 			<item name="Matchbox" chance="0.3" />
 			<item name="PetrolLighter" chance="0.3" />
@@ -103,7 +103,7 @@
 			<item name="HandcuffKeys" chance="0.1" />
 			<item name="MakarovIJ70" chance="0.025" />
 			<item name="Mag_IJ70_8Rnd" chance="0.05" />
-			<item name="BandageHemostatic" chance="0.1" />
+			<item name="TerjeBandageHemostatic" chance="0.1" />
 	</cargo>
 	<cargo chance="0.2" name="toolsHunter">
 			<item name="Paper" chance="0.33" />
@@ -117,8 +117,8 @@
 			<item name="CanOpener" chance="0.05" />
 			<item name="BandageDressing" chance="0.1" />
 			<item name="PurificationTablets" chance="0.10" />
-			<item name="TabletsCharcoal" chance="0.10" />
-			<item name="TabletsParacetamol" chance="0.10" />
+			<item name="CharcoalTablets" chance="0.10" />
+			<item name="TerjePillsParacetamol" chance="0.10" />
 			<item name="VitaminBottle" chance="0.10" />
 	</cargo>
 	<cargo chance="0.25" name="toolsIndustrial">
@@ -200,8 +200,8 @@
 			<item name="CanOpener" chance="0.05" />
 			<item name="BandageDressing" chance="0.1" />
 			<item name="PurificationTablets" chance="0.10" />
-			<item name="TabletsCharcoal" chance="0.10" />
-			<item name="TabletsParacetamol" chance="0.10" />
+			<item name="CharcoalTablets" chance="0.10" />
+			<item name="TerjePillsParacetamol" chance="0.10" />
 			<item name="VitaminBottle" chance="0.10" />
 	</cargo>
 	<cargo chance="0.2" name="mixArmy">
@@ -220,7 +220,7 @@
 			<item name="Matchbox" chance="0.4" />
 			<item name="PetrolLighter" chance="0.4" />
 			<item name="CombatKnife" chance="0.05" />
-			<item name="BandageHemostatic" chance="0.1" />
+			<item name="TerjeBandageHemostatic" chance="0.1" />
 	</cargo>
 	<cargo chance="0.04" name="grenades">
 			<item name="RDG2SmokeGrenade_White" chance="0.25" />
@@ -504,7 +504,7 @@
 			<item name="Matchbox" chance="0.56" />
 			<item name="PetrolLighter" chance="0.56" />
 			<item name="Flashlight" chance="0.07" />
-			<item name="TabletsAnalgin" chance="0.05" />
+			<item name="TerjePillsAnalgin" chance="0.05" />
 			<item name="Pen_Blue" chance="0.14" />
 			<item name="Paper" chance="0.28" />
 	</cargo>

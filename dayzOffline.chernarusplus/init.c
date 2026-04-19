@@ -12,13 +12,13 @@ void main()
 	GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
 	
 	//test
-	GetGame().GetMission().GetWorldData().m_TemperaturePerHeightReductionModifier = 0.015;
+/* 	GetGame().GetMission().GetWorldData().m_TemperaturePerHeightReductionModifier = 0.015;
 	GetGame().GetMission().GetWorldData().m_WaterContactTemperatureModifier = 0.0000001;
 	GetGame().GetMission().GetWorldData().m_CloudsTemperatureEffectModifier = 0.0000001;
 	GetGame().GetMission().GetWorldData().m_TemperatureInsideBuildingsModifier = 0.0000001;	
 	GetGame().GetWeather().SetDynVolFogHeightBias(1, 0);
 	GetGame().GetWeather().SetDynVolFogDistanceDensity(0, 0);
-	GetGame().GetWeather().SetDynVolFogHeightDensity(0, 0);
+	GetGame().GetWeather().SetDynVolFogHeightDensity(0, 0); */
 	
 }
 

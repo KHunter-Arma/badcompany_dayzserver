@@ -9,3 +9,5 @@
     <building init="1" load="1" respawn="0" save="1"/>
     <player init="1" load="1" respawn="1" save="1"/>
 </economy>
+
+<!-- These seem to be global flags that you have no reason to touch. For example, disabling init on animals prevents animal spawn events from working. -->

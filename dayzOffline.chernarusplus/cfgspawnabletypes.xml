@@ -252,10 +252,10 @@
 			<item name="IodineTincture" />
 		</cargo>
 		<cargo chance="0.4">
-			<item name="TabletsAnalgin" />
+			<item name="TerjePillsAnalgin" />
 		</cargo>
 		<cargo chance="0.2">
-			<item name="TabletsTetracycline" />
+			<item name="TetracyclineAntibiotics" />
 		</cargo>
 		<cargo chance="0.2">
 			<item name="VitaminBottle" />
@@ -308,13 +308,13 @@
 	</type>
 	<type name="DuffelBagSmall_Medical">
 		<cargo chance="0.8">
-			<item name="BandageHemostatic" />
+			<item name="TerjeBandageHemostatic" />
 		</cargo>
 		<cargo chance="0.3">
-			<item name="BandageHemostatic" />
+			<item name="TerjeBandageHemostatic" />
 		</cargo>
 		<cargo chance="0.1">
-			<item name="BandageHemostatic" />
+			<item name="TerjeBandageHemostatic" />
 		</cargo>
 		<cargo chance="0.3">
 			<item name="StartKitIV" />
@@ -323,25 +323,25 @@
 			<item name="SalineBag" />
 		</cargo>
 		<cargo chance="0.2">
-			<item name="SurgicalKit" />
+			<item name="TerjeSurgicalKit" />
 		</cargo>
 		<cargo chance="0.5">
-			<item name="SyringeEmpty" />
+			<item name="TerjeSyringeNew" />
 		</cargo>
 		<cargo chance="0.6">
-			<item name="TabletsAnalgin" />
+			<item name="TerjePillsAnalgin" />
 		</cargo>
 		<cargo chance="0.4">
-			<item name="TabletsTetracycline" />
+			<item name="TetracyclineAntibiotics" />
 		</cargo>
 		<cargo chance="0.01">
-			<item name="InjectorRadioprotector" />
+			<item name="TerjeAntiradInjector" />
 		</cargo>
 		<cargo chance="0.1">
-			<item name="InjectorEpipen" />
+			<item name="TerjeAmpouleAdrenalin" />
 		</cargo>
 		<cargo chance="0.7">
-			<item name="AmpouleAlcohol" />
+			<item name="TerjeAmpouleAlcohol" />
 		</cargo>		
 		<cargo preset="foodArmy" />
 		<cargo preset="mixArmy" />
@@ -354,7 +354,7 @@
 			<item name="BandageDressing" />
 		</cargo>
 		<cargo chance="0.4">
-			<item name="BandageDressing" />
+			<item name="TerjePlaster" />
 		</cargo>
 		<cargo chance="0.2">
 			<item name="BandageDressing" />
