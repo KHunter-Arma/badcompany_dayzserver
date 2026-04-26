@@ -1,0 +1,14 @@
+{
+    "MinutesToGrow": 5760,
+    "CropCount": 2,
+    "SeedsPerPackage": 9,
+    "CocaineHueIntensity": 70.0,
+    "CocaineRadBlurXPower": 1,
+    "CocaineRadBlurYPower": 1,
+    "CocaineEffectSeconds": 1200,
+    "AllowCocaineEnergyBuff": 1,
+    "AllowUnlimitedStamina": 1,
+    "EnableGasp": 1,
+    "EnableHeavyBreathing": 1,
+    "BreathingIntensity": 0.5
+}

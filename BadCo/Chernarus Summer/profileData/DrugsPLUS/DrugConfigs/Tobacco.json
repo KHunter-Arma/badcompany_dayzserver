@@ -1,0 +1,10 @@
+{
+    "MinutesToGrow": 5760,
+    "CropCount": 2,
+    "SeedsPerPackage": 9,
+    "EnableCoughing": 1,
+    "CoughChance": 40,
+    "EnableLightheadedness": 1,
+    "LightheadednessIntensity": 0.30000001192092898,
+    "LightheadednessSeconds": 300
+}

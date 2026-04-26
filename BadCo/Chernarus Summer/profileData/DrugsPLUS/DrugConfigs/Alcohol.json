@@ -1,0 +1,14 @@
+{
+    "HueIntensity": 55.0,
+    "RadBlurXPower": 3,
+    "RadBlurYPower": 3,
+    "EffectSeconds": 900,
+    "EnableStumbling": 1,
+    "EnableHiccups": 1,
+    "HiccupIntervalMinSeconds": 30,
+    "HiccupIntervalMaxSeconds": 300,
+    "EnableVomiting": 1,
+    "VomitThreshold": 1.5,
+    "EnableExhaustion": 1,
+    "ExhaustionIntensity": 0.30000001192092898
+}

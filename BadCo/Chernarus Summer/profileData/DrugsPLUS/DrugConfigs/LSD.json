@@ -1,0 +1,15 @@
+{
+    "EffectSeconds": 3600,
+    "RadBlurRandomMax": 3,
+    "ChromaRandomMax": 8,
+    "HueShiftRandomMax": 200,
+    "EnableLaughter": 1,
+    "LaughterIntervalMinSeconds": 120,
+    "LaughterIntervalMaxSeconds": 300,
+    "EnableHandTremors": 1,
+    "EnableHallucinations": 1,
+    "AudioHallucinationIntervalMinSeconds": 30,
+    "AudioHallucinationIntervalMaxSeconds": 300,
+    "ParticleHallucinationIntervalMinSeconds": 30,
+    "ParticleHallucinationIntervalMaxSeconds": 240
+}
