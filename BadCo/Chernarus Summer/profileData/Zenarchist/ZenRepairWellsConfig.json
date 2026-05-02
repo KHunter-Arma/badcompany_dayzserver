@@ -13,8 +13,8 @@
                 2215.927490234375
             ],
             "Invincible": 0,
-            "Repaired": 1,
-            "BreakTime": 1729190384
+            "Repaired": 0,
+            "BreakTime": 0
         },
         {
             "Location": [
@@ -23,8 +23,8 @@
                 3226.46484375
             ],
             "Invincible": 0,
-            "Repaired": 1,
-            "BreakTime": 1729201236
+            "Repaired": 0,
+            "BreakTime": 0
         },
         {
             "Location": [
@@ -33,8 +33,8 @@
                 13297.7509765625
             ],
             "Invincible": 0,
-            "Repaired": 1,
-            "BreakTime": 1729282354
+            "Repaired": 0,
+            "BreakTime": 0
         },
         {
             "Location": [
@@ -43,8 +43,8 @@
                 4815.9130859375
             ],
             "Invincible": 0,
-            "Repaired": 1,
-            "BreakTime": 1729291839
+            "Repaired": 0,
+            "BreakTime": 0
         },
         {
             "Location": [
@@ -53,8 +53,8 @@
                 14039.103515625
             ],
             "Invincible": 0,
-            "Repaired": 1,
-            "BreakTime": 1729299813
+            "Repaired": 0,
+            "BreakTime": 0
         },
         {
             "Location": [
@@ -63,8 +63,8 @@
                 3895.712890625
             ],
             "Invincible": 0,
-            "Repaired": 1,
-            "BreakTime": 1729351412
+            "Repaired": 0,
+            "BreakTime": 0
         },
         {
             "Location": [
@@ -73,8 +73,8 @@
                 14577.7333984375
             ],
             "Invincible": 0,
-            "Repaired": 1,
-            "BreakTime": 1729353553
+            "Repaired": 0,
+            "BreakTime": 0
         },
         {
             "Location": [
@@ -83,8 +83,58 @@
                 12866.1630859375
             ],
             "Invincible": 0,
-            "Repaired": 1,
-            "BreakTime": 1729457116
+            "Repaired": 0,
+            "BreakTime": 0
+        },
+        {
+            "Location": [
+                5407.03955078125,
+                330.9647216796875,
+                8566.7998046875
+            ],
+            "Invincible": 0,
+            "Repaired": 0,
+            "BreakTime": 0
+        },
+        {
+            "Location": [
+                8429.0302734375,
+                360.8638000488281,
+                6675.1796875
+            ],
+            "Invincible": 0,
+            "Repaired": 0,
+            "BreakTime": 0
+        },
+        {
+            "Location": [
+                9661.3798828125,
+                209.75738525390626,
+                6561.9599609375
+            ],
+            "Invincible": 0,
+            "Repaired": 0,
+            "BreakTime": 0
+        },
+        {
+            "Location": [
+                6095.24658203125,
+                301.4255676269531,
+                7738.65185546875
+            ],
+            "Invincible": 0,
+            "Repaired": 0,
+            "BreakTime": 0
+        },
+        {
+            "Location": [
+                2215.072509765625,
+                265.6520690917969,
+                11098.59375
+            ],
+            "Invincible": 0,
+            "Repaired": 0,
+            "BreakTime": 0
         }
     ]
 }

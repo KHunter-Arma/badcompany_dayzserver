@@ -1,0 +1,108 @@
+{
+    "ConfigVersion": "1.29.1",
+    "DumpAllObjects": 0,
+    "SpawnMapGroupPosXML": 0,
+    "SpawnObjects": 1,
+    "SpawnHooks": [
+        {
+            "TargetObjectType": "_woodreserve",
+            "SpawnObjectType": "Zen_WoodReserve",
+            "SpawnObjectScale": 1.0,
+            "OffsetPosition": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "OffsetOrientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "ChanceOfSpawn": 1.0
+        },
+        {
+            "TargetObjectType": "_woodpile_forest",
+            "SpawnObjectType": "Zen_WoodReserve",
+            "SpawnObjectScale": 1.0,
+            "OffsetPosition": [
+                -0.20000000298023225,
+                0.20000000298023225,
+                -0.30000001192092898
+            ],
+            "OffsetOrientation": [
+                90.0,
+                0.0,
+                90.0
+            ],
+            "ChanceOfSpawn": 1.0
+        },
+        {
+            "TargetObjectType": "_woodpile1",
+            "SpawnObjectType": "Zen_WoodReserve",
+            "SpawnObjectScale": 1.0,
+            "OffsetPosition": [
+                0.0,
+                -0.5,
+                0.0
+            ],
+            "OffsetOrientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "ChanceOfSpawn": 1.0
+        },
+        {
+            "TargetObjectType": "_woodpile2",
+            "SpawnObjectType": "Zen_WoodReserve",
+            "SpawnObjectScale": 1.0,
+            "OffsetPosition": [
+                0.0,
+                -0.5,
+                0.0
+            ],
+            "OffsetOrientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "ChanceOfSpawn": 1.0
+        }
+    ],
+    "DebugOn": 0,
+    "NoWoodLeftMessage": "It seems the wood left in this pile is wet and rotten, I can't use this...",
+    "WoodTypes": [
+        {
+            "TypeName": "_woodreserve",
+            "MinWood": 6,
+            "MaxWood": 18,
+            "ChanceOfBleed": 0.2,
+            "DamageGloves": 3.5,
+            "DamageTool": 3.5
+        },
+        {
+            "TypeName": "_woodpile_forest",
+            "MinWood": 6,
+            "MaxWood": 18,
+            "ChanceOfBleed": 0.2,
+            "DamageGloves": 3.5,
+            "DamageTool": 3.5
+        },
+        {
+            "TypeName": "_woodpile1",
+            "MinWood": 6,
+            "MaxWood": 18,
+            "ChanceOfBleed": 0.2,
+            "DamageGloves": 3.5,
+            "DamageTool": 3.5
+        },
+        {
+            "TypeName": "_woodpile2",
+            "MinWood": 6,
+            "MaxWood": 18,
+            "ChanceOfBleed": 0.2,
+            "DamageGloves": 3.5,
+            "DamageTool": 3.5
+        }
+    ]
+}
