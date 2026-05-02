@@ -16817,11 +16817,7 @@
         <cost>100</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
         <usage name="Coast"/>
-        <usage name="Firefighter"/>
-        <usage name="Lunapark"/>
     </type>
     <type name="RopeBelt">
         <nominal>0</nominal>
@@ -26903,1113 +26899,1096 @@
     </type>
 	
 	<!-- GEBFISH mod -->
-    <type name="geb_Smallmouthbass">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_SmallmouthbassFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Sunfish">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_SunfishFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Walleye">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_WalleyeFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-   	<type name="geb_BrownTrout">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_BrownTroutFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_BrookTrout">
-		<nominal>01</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_BrookTroutFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>  
-	<type name="geb_LakeTrout">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_LakeTroutFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>   
-	<type name="geb_CutthroatTrout">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_CutthroatTroutFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Crayfish">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_CrayfishFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Northernpike">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_NorthernpikeFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Largemouthbass">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_LargemouthbassFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Whitebass">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_WhitebassFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Blackbass">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_BlackbassFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Trout">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_TroutFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Perch">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_PerchFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Catfish">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_CatfishFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Minnow">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_MinnowFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Bluegill">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_BluegillFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Sauger">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_SaugerFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Bowfin">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_BowfinFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Mussel">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_MusselFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Blackdevilsnail">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<!-- saltwater catches and fillets -->
-	<type name="geb_Slimysculpin">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-        <min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_SlimysculpinFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Angelfish">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_AngelfishFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Asianseabass">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_AsianseabassFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Bluemarlin">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_BluemarlinFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Bonita">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_BonitaFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Cherrysalmon">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_CherrysalmonFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Flatheadmullet">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_FlatheadmulletFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Leopardshark">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_LeopardsharkFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Pacificcod">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_PacificcodFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Redheadcichlid">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_RedheadcichlidFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Roughneckrock">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_RoughneckrockFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Severum">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_SeverumFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Shrimp">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_ShrimpFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Bluetang">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_BluetangFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Hairtailfish">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_HairtailfishFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Humpheadwrasse">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_HumpheadwrasseFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Siamesetigerfish">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_SiamesetigerfishFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Mahimahi">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_MahimahiFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Sailfish">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_SailfishFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Starfish">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Kingcrab">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_KingcrabLegs">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_KingcrabFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>		
-	<type name="geb_Jellyfish">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_JellyfishFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Lobster">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_LobsterTail">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_LobsterFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>	
-	<type name="geb_BlueLobster">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_BlueLobsterTail">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_BlueLobsterFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>	
-	<type name="geb_Greatwhiteshark">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_GreatwhitesharkFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_Angelshark">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_AngelsharkFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>	
-	<type name="geb_Yellowfintuna">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>
-	<type name="geb_YellowfintunaFilletMeat">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>10</quantmin>
-		<quantmax>100</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="food"/>
-	</type>	     
-	
-	<!--- fishing line -->
-	<type name="geb_BigGameFishingLine">
-        <nominal>0</nominal>
-        <lifetime>115200</lifetime>
-        <restock>43200</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-        <category name="tools"/>
-		<usage name="Coast"/>
-	</type>
-	<type name="geb_SaltwaterFishingLine">
-        <nominal>0</nominal>
-        <lifetime>115200</lifetime>
-        <restock>43200</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-        <category name="tools"/>
-		<usage name="Coast"/>
-	</type>
-	<type name="geb_FlyFishingLine">
-        <nominal>0</nominal>
-        <lifetime>115200</lifetime>
-        <restock>43200</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-        <category name="tools"/>
-		<usage name="Coast"/>
-	</type>
-	
+	<type name="geb_SockEyeSalmon">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_SockEyeSalmonFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_ChinookSalmon">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_ChinookSalmonFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_SmallMouthBass">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_SmallMouthBassFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_SunFish">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_SunFishFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_WallEye">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_WallEyeFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_BrownTrout">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_BrownTroutFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_BrookTrout">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_BrookTroutFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_LakeTrout">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_LakeTroutFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_CutThroatTrout">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_CutThroatTroutFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_EuropeanCrayFish">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_SignalCrayFish">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_NorthernPike">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_NorthernPikeFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_LargeMouthBass">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_LargeMouthBassFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_WhiteBass">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_WhiteBassFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_BlackBass">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_BlackBassFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_RainbowTrout">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_RainbowTroutFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_YellowPerch">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_YellowPerchFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_FlatHeadCatFish">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_FlatHeadCatFishFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_FatHeadMinnow">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_FatHeadMinnowFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_BlueGill">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_BlueGillFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_Sauger">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_SaugerFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_BowFin">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_BowFinFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_Mussel">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_BlackDevilSnail">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_SlimySculpin">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_SlimySculpinFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_AngelFish">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_AngelFishFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_AsianSeaBass">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_AsianSeaBassFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_AtlanticBlueMarlin">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_AtlanticBlueMarlinFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_Bonita">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_BonitaFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_CherrySalmon">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_CherrySalmonFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_FlatHeadmullet">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_FlatHeadMulletFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_LeopardShark">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_LeopardSharkFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_PacificCod">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_PacificCodFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_RedHeadCichlid">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_RedHeadCichlidFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_RoughNeckRock">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_RoughNeckRockFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_Severum">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_SeverumFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_BlueTang">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_BlueTangFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_LargeHeadHairTailFish">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_LargeHeadHairTailFishFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_HumpHeadWrasse">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_HumpHeadWrasseFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_SiameseTigerFish">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_SiameseTigerFishFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_MahiMahi">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_MahiMahiFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_AtlanticSailFish">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_AtlanticSailFishFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_StarFish">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_KingCrab">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_KingCrabLegs">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_SnowCrab">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_SnowCrabLegs">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_BlueJellyFish">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_BlueJellyFishFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_AmericanLobster">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_AmericanLobsterTail">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_AmericanLobsterClaw">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_EuropeanLobster">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_EuropeanLobsterTail">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_EuropeanLobsterClaw">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_GreatWhiteShark">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_GreatWhiteSharkFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_AngelShark">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_AngelSharkFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_YellowFinTuna">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+		<type name="geb_YellowFinTunaFilletMeat">
+						<nominal>0</nominal>
+						<lifetime>115200</lifetime>
+						<restock>0</restock>
+						<min>0</min>
+						<quantmin>10</quantmin>
+						<quantmax>100</quantmax>
+						<cost>100</cost>
+						<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+						<category name="food"/>
+		</type>
+    
 	<!-- fishing rods -->
 	<type name="geb_RedFishingRod">
         <nominal>10</nominal>
@@ -28022,7 +28001,6 @@
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
-        <usage name="Hunting"/>
         <usage name="Village"/>
 	</type>
 	<type name="geb_BlueFishingRod">
@@ -28036,7 +28014,6 @@
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
-        <usage name="Hunting"/>
         <usage name="Village"/>
 	</type>
 	<type name="geb_GreenFishingRod">
@@ -28050,7 +28027,6 @@
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
-        <usage name="Hunting"/>
         <usage name="Village"/>
 	</type>
 	<type name="geb_PurpleFishingRod">
@@ -28064,175 +28040,9 @@
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
-        <usage name="Hunting"/>
         <usage name="Village"/>
 	</type>
 	
-    <!-- hooks and bobbers -->
-	<type name="geb_MetalHookBobber1">
-        <nominal>10</nominal>
-        <lifetime>115200</lifetime>
-        <restock>43200</restock>
-        <min>5</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Coast"/>
-	</type>
-	<type name="geb_MetalHookBobber2">
-        <nominal>10</nominal>
-        <lifetime>115200</lifetime>
-        <restock>43200</restock>
-        <min>5</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Coast"/>
-	</type>
-	<type name="geb_MetalHookBobber3">
-        <nominal>10</nominal>
-        <lifetime>115200</lifetime>
-        <restock>43200</restock>
-        <min>5</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Coast"/>
-	</type>
-	<type name="geb_MetalHookBobber4">
-        <nominal>10</nominal>
-        <lifetime>115200</lifetime>
-        <restock>43200</restock>
-        <min>5</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Coast"/>
-	</type>	
-	<type name="geb_MetalHook">
-        <nominal>50</nominal>
-        <lifetime>115200</lifetime>
-        <restock>43200</restock>
-        <min>40</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Coast"/>
-        <usage name="Hunting"/>
-        <usage name="Village"/>
-	</type>	
-	
-	<!-- baited hooks and bobbers -->
-	<type name="geb_MetalRubberWormBait">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="tools"/>
-	</type>
-	<type name="geb_MetalGrubWormBait">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="tools"/>
-	</type>	
-	<type name="geb_MetalGrassHopperBait">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="tools"/>
-	</type>
-	<type name="geb_MetalFieldCricketBait">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="tools"/>
-	</type>		
-	<type name="geb_MetalWormBait">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="tools"/>
-	</type>	
-	<type name="geb_BoneRubberWormBait">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="tools"/>
-	</type>			
-	<type name="geb_BoneGrubWormBait">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="tools"/>
-	</type>		
-	<type name="geb_BoneGrassHopperBait">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="tools"/>
-	</type>
-	<type name="geb_BoneFieldCricketBait">
-		<nominal>0</nominal>
-		<lifetime>115200</lifetime>
-		<restock>43200</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
-		<category name="tools"/>
-	</type>
-
     <!-- fishing knives -->
 	<type name="geb_BlueFishKnife">
         <nominal>5</nominal>
@@ -28241,7 +28051,7 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>31</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
@@ -28254,7 +28064,7 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>31</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
@@ -28267,7 +28077,7 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>31</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
@@ -28280,7 +28090,7 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>31</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
@@ -28293,7 +28103,7 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>31</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
@@ -28306,7 +28116,7 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>31</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
@@ -28314,56 +28124,52 @@
 	</type>
 
 	<!-- old tackle boxes -->
-	<type name="geb_OldRedTackleBox">
+	<type name="geb_OldRedTackle">
         <nominal>5</nominal>
         <lifetime>115200</lifetime>
         <restock>43200</restock>
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>31</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <usage name="Coast"/>
         <usage name="Village"/>
 	</type>
-	<type name="geb_OldPurpleTackleBox">
+	<type name="geb_OldPurpleTackle">
         <nominal>5</nominal>
         <lifetime>115200</lifetime>
         <restock>43200</restock>
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>31</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <usage name="Coast"/>
         <usage name="Village"/>
 	</type>
-	<type name="geb_OldGreenTackleBox">
+	<type name="geb_OldGreenTackle">
         <nominal>5</nominal>
         <lifetime>115200</lifetime>
         <restock>43200</restock>
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>31</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <usage name="Coast"/>
         <usage name="Village"/>
 	</type>
-	<type name="geb_OldBlueTackleBox">
+	<type name="geb_OldBlueTackle">
         <nominal>0</nominal>
         <lifetime>115200</lifetime>
         <restock>43200</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>31</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <usage name="Coast"/>
         <usage name="Village"/>
 	</type>
 	
@@ -28375,11 +28181,10 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>51</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
-        <usage name="Village"/>
 	</type>
 	<type name="geb_RedTackle">
         <nominal>5</nominal>
@@ -28388,11 +28193,10 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>51</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
-        <usage name="Village"/>
 	</type>
 	<type name="geb_PurpleTackle">
         <nominal>5</nominal>
@@ -28401,11 +28205,10 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>51</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
-        <usage name="Village"/>
 	</type>
 	<type name="geb_PinkTackle">
         <nominal>5</nominal>
@@ -28414,11 +28217,10 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>51</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
-        <usage name="Village"/>
 	</type>
 	<type name="geb_OrangeTackle">
         <nominal>5</nominal>
@@ -28427,11 +28229,10 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>51</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
-        <usage name="Village"/>
 	</type>
 	<type name="geb_LimeTackle">
         <nominal>5</nominal>
@@ -28440,11 +28241,10 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>51</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
-        <usage name="Village"/>
 	</type>
 	<type name="geb_LightBlueTackle">
         <nominal>5</nominal>
@@ -28453,11 +28253,10 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>51</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
-        <usage name="Village"/>
 	</type>
 	<type name="geb_GreenTackle">
         <nominal>5</nominal>
@@ -28466,11 +28265,10 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>51</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
-        <usage name="Village"/>
 	</type>
 	<type name="geb_BrownTackle">
         <nominal>5</nominal>
@@ -28479,11 +28277,10 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>51</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
-        <usage name="Village"/>
 	</type>
 	<type name="geb_CamoTackle">
         <nominal>5</nominal>
@@ -28492,11 +28289,10 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>51</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <usage name="Coast"/>
-        <usage name="Village"/>
+        <usage name="Hunting"/>
 	</type>
 	<type name="geb_BlueTackle">
         <nominal>5</nominal>
@@ -28505,11 +28301,10 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>51</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
-        <usage name="Village"/>
 	</type>	
 	
 	<!-- bait and tackle -->
@@ -28520,7 +28315,7 @@
         <min>25</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>51</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
@@ -28556,7 +28351,7 @@
         <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>71</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
@@ -28568,7 +28363,7 @@
         <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>71</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
@@ -28580,7 +28375,7 @@
         <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>51</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
@@ -28609,7 +28404,6 @@
         <cost>100</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <usage name="Coast"/>
         <usage name="Farm"/>
         <usage name="Hunting"/>
         <usage name="Village"/>
@@ -28624,7 +28418,6 @@
         <cost>100</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <usage name="Coast"/>
         <usage name="Farm"/>
 	</type>	   
 	
@@ -28636,7 +28429,7 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>71</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
@@ -28648,7 +28441,7 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>71</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
@@ -28660,7 +28453,7 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>71</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
@@ -28672,7 +28465,7 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>71</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
@@ -28684,7 +28477,7 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>71</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
@@ -28696,7 +28489,7 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>71</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
@@ -28708,7 +28501,7 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>71</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
@@ -28720,7 +28513,7 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>71</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
@@ -28733,7 +28526,7 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>11</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
@@ -28745,7 +28538,7 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>11</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
@@ -28757,7 +28550,7 @@
         <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>11</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
@@ -28769,7 +28562,7 @@
         <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>11</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Coast"/>
@@ -28782,7 +28575,7 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>71</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Coast"/>
@@ -28795,7 +28588,7 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>71</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Coast"/>
@@ -28808,7 +28601,7 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>71</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Coast"/>
@@ -28821,7 +28614,7 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>71</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Coast"/>
@@ -28834,7 +28627,7 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>71</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Coast"/>
@@ -28847,7 +28640,7 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>71</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Coast"/>
@@ -28860,27 +28653,42 @@
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
+        <cost>71</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Coast"/>
         <usage name="Village"/>
 	</type>
 	<type name="geb_PurpleFishShirt">
-        <nominal>5</nominal>
-        <lifetime>115200</lifetime>
-        <restock>43200</restock>
-        <min>3</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Coast"/>
-        <usage name="Village"/>
-	</type> <!-- gebfish end-->
+		<nominal>5</nominal>
+		<lifetime>115200</lifetime>
+		<restock>43200</restock>
+		<min>3</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>71</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Coast"/>
+		<usage name="Village"/>
+	</type>
    
-   <!-- RAG IMMERSIVE -->
+ <type name="geb_FishingRodRepairKit">
+		<nominal>35</nominal>
+		<lifetime>115200</lifetime>
+		<restock>43200</restock>
+		<min>25</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+		<category name="tools"/>
+		<usage name="Coast"/>
+		<usage name="Village"/>
+		<usage name="Hunting"/>
+	</type>
+			
+			<!-- RAG IMMERSIVE -->
 	<type name="rag_car_jack">
         <nominal>70</nominal>
         <lifetime>115200</lifetime>

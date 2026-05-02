@@ -1,10 +1,10 @@
 {
-    "ConfigVersion": "0.1",
+    "ConfigVersion": "3.3",
     "GeneralSettings": {
         "DebugInfo": "Turns debug mode on to print extra logs to the script.log file",
         "DebugLogs": 0,
-        "FishQualityInfo": "Sets the base value for the fish quanity bar",
-        "FishQuality": 1.0
+        "FishQualityInfo": "Sets the base value for the fish quantity bar",
+        "FishQuality": 0.8
     },
     "PredatorSettings": {
         "PredatorSpawnEnabledInfo": "Turns on(1) and off(0) the predators feature of the mod. When on, it will enable the random spawning of predators when catching/cutting up the fish.",
@@ -71,10 +71,10 @@
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 3,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 2,
+        "MeatMax": 2,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 22
     },
     "Carp": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
@@ -82,10 +82,10 @@
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 3,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 2,
+        "MeatMax": 2,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 23
     },
     "Sardines": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
@@ -93,7 +93,7 @@
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 4,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 25
     },
     "Bitterlings": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
@@ -101,7 +101,7 @@
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 4,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 20
     },
     "WalleyePollock": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
@@ -109,10 +109,10 @@
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 3,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 2,
+        "MeatMax": 2,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 24
+        "CatchProbability": 19
     },
     "SteelheadTrout": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
@@ -120,10 +120,10 @@
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 3,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 2,
+        "MeatMax": 2,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 12
+        "CatchProbability": 17
     },
     "Shrimp": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
@@ -131,7 +131,7 @@
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 4,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 1
+        "CatchProbability": 15
     },
     "NorthernPike": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
@@ -139,54 +139,54 @@
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 1,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 8,
+        "MeatMax": 8,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 14
     },
-    "LargemouthBass": {
+    "LargeMouthBass": {
+        "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
+        "Environment": 1,
+        "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
+        "CatchMethod": 1,
+        "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
+        "MeatMin": 3,
+        "MeatMax": 3,
+        "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
+        "CatchProbability": 19
+    },
+    "SmallMouthBass": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 1,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 3,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 2,
+        "MeatMax": 2,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 18
     },
-    "SmallmouthBass": {
+    "WallEye": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 1,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 3,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 2,
+        "MeatMax": 2,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 18
     },
-    "Walleye": {
+    "SunFish": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 1,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 3,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 1,
+        "MeatMax": 1,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
-    },
-    "Sunfish": {
-        "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
-        "Environment": 1,
-        "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
-        "CatchMethod": 3,
-        "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
-        "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 20
     },
     "WhiteBass": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
@@ -194,10 +194,10 @@
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 3,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 2,
+        "MeatMax": 2,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 18
     },
     "BlackBass": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
@@ -205,21 +205,21 @@
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 3,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 2,
+        "MeatMax": 2,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 20
     },
     "RainbowTrout": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 1,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
-        "CatchMethod": 3,
+        "CatchMethod": 1,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 3,
+        "MeatMax": 3,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 17
     },
     "BrownTrout": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
@@ -227,10 +227,10 @@
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 3,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 3,
+        "MeatMax": 3,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 19
     },
     "BrookTrout": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
@@ -238,10 +238,10 @@
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 3,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 3,
+        "MeatMax": 3,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 17
     },
     "LakeTrout": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
@@ -249,65 +249,65 @@
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 3,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 3,
+        "MeatMax": 3,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 19
     },
-    "CutthroatTrout": {
+    "CutThroatTrout": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 1,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 3,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 3,
+        "MeatMax": 3,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 17
     },
-    "Perch": {
+    "YellowPerch": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 1,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 3,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 3,
+        "MeatMax": 3,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 18
     },
-    "Catfish": {
+    "FlatHeadCatFish": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 1,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
-        "CatchMethod": 3,
+        "CatchMethod": 1,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 10,
+        "MeatMax": 10,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 10
     },
-    "Minnow": {
+    "FatHeadMinnow": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 1,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 5,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 1,
+        "MeatMax": 1,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 20
     },
-    "Bluegill": {
+    "BlueGill": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 1,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
-        "CatchMethod": 3,
+        "CatchMethod": 1,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 1,
+        "MeatMax": 1,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 20
     },
     "Sauger": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
@@ -315,85 +315,96 @@
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 3,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 3,
+        "MeatMax": 3,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 19
     },
-    "Bowfin": {
+    "BowFin": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 1,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 3,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 3,
+        "MeatMax": 3,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 17
     },
     "SlimySculpin": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 1,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
-        "CatchMethod": 3,
+        "CatchMethod": 1,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 1,
+        "MeatMax": 1,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 20
     },
     "Severum": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 1,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
-        "CatchMethod": 3,
+        "CatchMethod": 1,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 8,
+        "MeatMax": 8,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 10
     },
-    "Crayfish": {
+    "SignalCrayFish": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 1,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
-        "CatchMethod": 4,
+        "CatchMethod": 6,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 1,
+        "MeatMax": 1,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
         "CatchProbability": 15
     },
-    "Mahimahi": {
+    "EuropeanCrayFish": {
+        "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
+        "Environment": 1,
+        "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
+        "CatchMethod": 6,
+        "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
+        "MeatMin": 1,
+        "MeatMax": 1,
+        "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
+        "CatchProbability": 15
+    },
+    "MahiMahi": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 2,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 1,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 14,
+        "MeatMax": 14,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 7
     },
-    "Sailfish": {
+    "AtlanticSailFish": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 2,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 1,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 12,
+        "MeatMax": 12,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 7
     },
-    "Angelfish": {
+    "AngelFish": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 2,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 1,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 3,
+        "MeatMax": 3,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
         "CatchProbability": 15
     },
@@ -401,23 +412,23 @@
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 2,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
-        "CatchMethod": 3,
+        "CatchMethod": 1,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 5,
+        "MeatMax": 5,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
         "CatchProbability": 15
     },
-    "BlueMarlin": {
+    "AtlanticBlueMarlin": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 2,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 1,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 14,
+        "MeatMax": 14,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 7
     },
     "Bonita": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
@@ -425,10 +436,10 @@
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 3,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 2,
+        "MeatMax": 2,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 18
     },
     "CherrySalmon": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
@@ -436,8 +447,8 @@
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 3,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 2,
+        "MeatMax": 2,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
         "CatchProbability": 15
     },
@@ -445,34 +456,34 @@
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 2,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
-        "CatchMethod": 3,
+        "CatchMethod": 1,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 8,
+        "MeatMax": 8,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
         "CatchProbability": 15
     },
-    "SockeyeSalmon": {
+    "SockEyeSalmon": {
+        "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
+        "Environment": 2,
+        "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
+        "CatchMethod": 1,
+        "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
+        "MeatMin": 8,
+        "MeatMax": 8,
+        "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
+        "CatchProbability": 15
+    },
+    "FlatHeadMullet": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 2,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 3,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 2,
+        "MeatMax": 2,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
-    },
-    "FlatheadMullet": {
-        "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
-        "Environment": 2,
-        "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
-        "CatchMethod": 3,
-        "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
-        "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 18
     },
     "LeopardShark": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
@@ -480,41 +491,41 @@
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 1,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 20,
+        "MeatMax": 20,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 3
     },
     "PacificCod": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 2,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
-        "CatchMethod": 3,
+        "CatchMethod": 1,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 3,
+        "MeatMax": 3,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 18
     },
-    "RedheadCichlid": {
+    "RedHeadCichlid": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 2,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
-        "CatchMethod": 3,
+        "CatchMethod": 1,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 5,
+        "MeatMax": 5,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
         "CatchProbability": 15
     },
-    "RoughneckRock": {
+    "RoughNeckRock": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 2,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
-        "CatchMethod": 3,
+        "CatchMethod": 1,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 1,
+        "MeatMax": 2,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
         "CatchProbability": 15
     },
@@ -522,43 +533,43 @@
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 2,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
-        "CatchMethod": 3,
+        "CatchMethod": 1,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 5,
+        "MeatMax": 5,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 10
     },
-    "HairtailFish": {
+    "LargeHeadHairTailFish": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 2,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 3,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 5,
+        "MeatMax": 5,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
         "CatchProbability": 15
     },
-    "HumpheadWrasse": {
+    "HumpHeadWrasse": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 2,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
-        "CatchMethod": 3,
+        "CatchMethod": 1,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 9,
+        "MeatMax": 9,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 12
     },
-    "SiameseTigerfish": {
+    "SiameseTigerFish": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 2,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
-        "CatchMethod": 3,
+        "CatchMethod": 1,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 6,
+        "MeatMax": 6,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
         "CatchProbability": 15
     },
@@ -568,10 +579,10 @@
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 1,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 50,
+        "MeatMax": 50,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 1
     },
     "AngelShark": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
@@ -579,19 +590,19 @@
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 1,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 10,
+        "MeatMax": 10,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 6
     },
-    "YellowfinTuna": {
+    "YellowFinTuna": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 2,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 1,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 2,
+        "MeatMax": 2,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
         "CatchProbability": 15
     },
@@ -599,10 +610,10 @@
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 2,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
-        "CatchMethod": 4,
+        "CatchMethod": 6,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "BoneMin": 1,
+        "BoneMax": 1,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
         "CatchProbability": 15
     },
@@ -612,8 +623,8 @@
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 4,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "BoneMin": 2,
+        "BoneMax": 2,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
         "CatchProbability": 15
     },
@@ -623,89 +634,139 @@
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
         "CatchMethod": 4,
         "BoneInfo": "BoneMin and BoneMax determine the minimum and maximum Bone pieces for the prepare action. DayZ has a hard limit of 10 bones max.",
-        "BoneMin": 1.0,
-        "BoneMax": 1.0,
+        "BoneMin": 1,
+        "BoneMax": 1,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
         "CatchProbability": 15
     },
-    "Starfish": {
+    "StarFish": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 2,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
-        "CatchMethod": 4,
+        "CatchMethod": 2,
         "BoneInfo": "BoneMin and BoneMax determine the minimum and maximum Bone pieces for the prepare action. DayZ has a hard limit of 10 bones max.",
-        "BoneMin": 1.0,
-        "BoneMax": 1.0,
+        "BoneMin": 2,
+        "BoneMax": 2,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 10
     },
     "KingCrab": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 2,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
-        "CatchMethod": 4,
+        "CatchMethod": 2,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 8,
+        "MeatMax": 8,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 10
     },
-    "Jellyfish": {
+    "SnowCrab": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 2,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
-        "CatchMethod": 4,
+        "CatchMethod": 2,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 10,
+        "MeatMax": 10,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 8
     },
-    "Lobster": {
+    "BlueJellyFish": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 2,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
-        "CatchMethod": 4,
+        "CatchMethod": 3,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 2,
+        "MeatMax": 2,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
         "CatchProbability": 15
     },
-    "BlueLobster": {
+    "AmericanLobster": {
         "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
         "Environment": 2,
         "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
-        "CatchMethod": 4,
+        "CatchMethod": 2,
         "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
-        "MeatMin": 1.0,
-        "MeatMax": 2.0,
+        "MeatMin": 2,
+        "MeatMax": 2,
         "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
-        "CatchProbability": 15
+        "CatchProbability": 17
     },
-    "Junk": {
-        "JunkInfo": "Any item can be added here except for liquid containers.",
-        "Classnames": [
-            "CookZ_EmptyCan",
-            "CookZ_EmptyCan",
-            "CookZ_EmptyCan",
-            "CookZ_EmptyBox",
-            "CP_CigarettePack_Empty",
-            "CP_CigarettePack_Empty",
-            "CP_CigarettePack_Empty",
-            "Netting",
-            "GiftWrapPaper",
-            "BurlapStrip",
-            "Rag"
-        ]
+    "EuropeanLobster": {
+        "EnvironmentInfo": "1 - pond, 2 - sea, 3 - both",
+        "Environment": 2,
+        "CatchMethodInfo": "1 - rod, 2 - largetrap, 3 - rod and largetrap, 4 - smalltrap, 5 - rod and smalltrap, 6 - largetrap and smalltrap, 7 - rod, largetrap and smalltrap",
+        "CatchMethod": 2,
+        "MeatInfo": "MeatMin and MeatMax determine the minimum and maximum meat pieces for the fillet action. DayZ has a hard limit of 10 fillets max.",
+        "MeatMin": 2,
+        "MeatMax": 2,
+        "CatchProbInfo": "0-25; 0 means no chance to catch fish, 25 means high chance",
+        "CatchProbability": 17
     },
-    "ContainerJunk": {
-        "JunkInfo": "Add liquid containers here so they are empty when caught.",
-        "Classnames": [
-            "Bottle_Cola",
-            "Bottle_Pepsi",
-            "GlassBottle",
-            "WaterBottle"
-        ]
-    }
+    "Junk": [
+        {
+            "ClassnameInfo": "Any classname for a junk item that's not a liquid container.",
+            "Classname": "CookZ_EmptyCan",
+            "CatchProbInfo": "Catch probability for this junk item. Typically a scale of 0-25, with 0 being no chance.",
+            "CatchProbability": 2
+        },
+        {
+            "ClassnameInfo": "Any classname for a junk item that's not a liquid container.",
+            "Classname": "CP_CigarettePack_Empty",
+            "CatchProbInfo": "Catch probability for this junk item. Typically a scale of 0-25, with 0 being no chance.",
+            "CatchProbability": 5
+        },
+        {
+            "ClassnameInfo": "Any classname for a junk item that's not a liquid container.",
+            "Classname": "Netting",
+            "CatchProbInfo": "Catch probability for this junk item. Typically a scale of 0-25, with 0 being no chance.",
+            "CatchProbability": 5
+        },
+        {
+            "ClassnameInfo": "Any classname for a junk item that's not a liquid container.",
+            "Classname": "GiftWrapPaper",
+            "CatchProbInfo": "Catch probability for this junk item. Typically a scale of 0-25, with 0 being no chance.",
+            "CatchProbability": 5
+        },
+        {
+            "ClassnameInfo": "Any classname for a junk item that's not a liquid container.",
+            "Classname": "BurlapStrip",
+            "CatchProbInfo": "Catch probability for this junk item. Typically a scale of 0-25, with 0 being no chance.",
+            "CatchProbability": 2
+        },
+        {
+            "ClassnameInfo": "Any classname for a junk item that's not a liquid container.",
+            "Classname": "Rag",
+            "CatchProbInfo": "Catch probability for this junk item. Typically a scale of 0-25, with 0 being no chance.",
+            "CatchProbability": 5
+        }
+    ],
+    "ContainerJunk": [
+        {
+            "ClassnameInfo": "Any classname for a junk item that's a liquid container.",
+            "Classname": "Bottle_Cola",
+            "CatchProbInfo": "Catch probability for this junk item. Typically a scale of 0-25, with 0 being no chance.",
+            "CatchProbability": 5
+        },
+								{
+            "ClassnameInfo": "Any classname for a junk item that's a liquid container.",
+            "Classname": "Bottle_Pepsi",
+            "CatchProbInfo": "Catch probability for this junk item. Typically a scale of 0-25, with 0 being no chance.",
+            "CatchProbability": 5
+        },
+								{
+            "ClassnameInfo": "Any classname for a junk item that's a liquid container.",
+            "Classname": "GlassBottle",
+            "CatchProbInfo": "Catch probability for this junk item. Typically a scale of 0-25, with 0 being no chance.",
+            "CatchProbability": 2
+        },
+								{
+            "ClassnameInfo": "Any classname for a junk item that's a liquid container.",
+            "Classname": "WaterBottle",
+            "CatchProbInfo": "Catch probability for this junk item. Typically a scale of 0-25, with 0 being no chance.",
+            "CatchProbability": 5
+        }
+    ]
 }
