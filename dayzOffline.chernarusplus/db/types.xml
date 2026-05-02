@@ -31255,10 +31255,10 @@
         <usage name="Town"/>
     </type>
 	<type name="vinegar_mung">
-        <nominal>60</nominal>
+        <nominal>0</nominal>
         <lifetime>115200</lifetime>
         <restock>43200</restock>
-        <min>40</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -31268,10 +31268,10 @@
         <usage name="Village"/>
     </type>
 	<type name="ketchup_mung">
-        <nominal>40</nominal>
+        <nominal>0</nominal>
         <lifetime>115200</lifetime>
         <restock>43200</restock>
-        <min>30</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
