@@ -1628,10 +1628,10 @@
             "all": 1
         },
         "VisionRangeMultiplierDay": {
-            "all": 1.0
+            "all": 1.5
         },
         "VisionRangeMultiplierNight": {
-            "all": 0.3
+            "all": 0.15
         },
         "SizeHandlerIsActive": {
             "all": 0
