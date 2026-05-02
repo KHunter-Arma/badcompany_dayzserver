@@ -11997,10 +11997,10 @@
         <value name="Tier4"/>
     </type>
     <type name="LugWrench">
-        <nominal>100</nominal>
+        <nominal>160</nominal>
         <lifetime>115200</lifetime>
         <restock>43200</restock>
-        <min>60</min>
+        <min>120</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>71</cost>
@@ -28903,19 +28903,21 @@
         <cost>71</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
+								<tag name="shelves"/>
         <usage name="Industrial"/>
     </type>
 	<!-- IMPORTANT Make sure to remove "EngineOil" from cfgIgnoreList.xml !!! -->
 	<type name="EngineOil">
-        <nominal>135</nominal>
+        <nominal>210</nominal>
         <lifetime>115200</lifetime>
         <restock>43200</restock>
-        <min>60</min>
+        <min>120</min>
         <quantmin>40</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
+								<tag name="shelves"/>
         <usage name="Industrial"/>
     </type>
 	
