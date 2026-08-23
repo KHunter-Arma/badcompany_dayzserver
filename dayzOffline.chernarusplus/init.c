@@ -46,41 +46,11 @@ class CustomMission: MissionServer
 
 	override void StartingEquipSetup(PlayerBase player, bool clothesChosen)
 	{
-		EntityAI itemClothing;
-		EntityAI itemEnt;
-		ItemBase itemBs;
-		float rand;
 
-		itemClothing = player.FindAttachmentBySlotName( "Body" );
-		if ( itemClothing )
-		{
-			SetRandomHealth( itemClothing );
-			
-			itemEnt = itemClothing.GetInventory().CreateInInventory( "BandageDressing" );
-			player.SetQuickBarEntityShortcut(itemEnt, 2);
-			
-			string chemlightArray[] = { "Chemlight_White", "Chemlight_Yellow", "Chemlight_Green", "Chemlight_Red" };
-			int rndIndex = Math.RandomInt( 0, 4 );
-			itemEnt = itemClothing.GetInventory().CreateInInventory( chemlightArray[rndIndex] );
-			SetRandomHealth( itemEnt );
-			player.SetQuickBarEntityShortcut(itemEnt, 1);
-
-			rand = Math.RandomFloatInclusive( 0.0, 1.0 );
-			if ( rand < 0.35 )
-				itemEnt = player.GetInventory().CreateInInventory( "Apple" );
-			else if ( rand > 0.65 )
-				itemEnt = player.GetInventory().CreateInInventory( "Pear" );
-			else
-				itemEnt = player.GetInventory().CreateInInventory( "Plum" );
-			player.SetQuickBarEntityShortcut(itemEnt, 3);
-			SetRandomHealth( itemEnt );
-		}
+		player.RemoveAllItems();
+		player.GetStatEnergy().Set(7500);
+		player.GetStatWater().Set(7500);
 		
-		itemClothing = player.FindAttachmentBySlotName( "Legs" );
-		if ( itemClothing )
-			SetRandomHealth( itemClothing );
-		
-		itemClothing = player.FindAttachmentBySlotName( "Feet" );
 	}
 };
 
